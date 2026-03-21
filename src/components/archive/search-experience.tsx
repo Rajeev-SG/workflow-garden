@@ -44,14 +44,30 @@ const importPagefind = new Function(
 ) as (modulePath: string) => Promise<PagefindModule>
 
 function compactMeta(
-  meta: Record<string, string | undefined> | undefined,
+  meta: Record<string, unknown> | undefined,
 ): Record<string, string> | undefined {
   if (!meta) {
     return undefined
   }
 
   return Object.fromEntries(
-    Object.entries(meta).filter((entry): entry is [string, string] => Boolean(entry[1])),
+    Object.entries(meta)
+      .map(([key, value]) => {
+        if (typeof value === "string") {
+          return [key, value] as const
+        }
+
+        if (typeof value === "number") {
+          return [key, String(value)] as const
+        }
+
+        if (Array.isArray(value)) {
+          return [key, value.join(", ")] as const
+        }
+
+        return null
+      })
+      .filter((entry): entry is readonly [string, string] => Boolean(entry?.[1])),
   )
 }
 

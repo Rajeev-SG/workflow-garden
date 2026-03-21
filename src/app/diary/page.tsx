@@ -43,6 +43,9 @@ export default function DiaryPage() {
               <p className="mt-5 max-w-4xl text-base leading-8 text-muted-foreground">
                 {day.summary}
               </p>
+              <p className="mt-3 max-w-4xl text-sm leading-7 text-foreground/80">
+                {day.spotlight}
+              </p>
             </Link>
           ))}
         </div>

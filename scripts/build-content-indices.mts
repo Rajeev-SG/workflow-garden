@@ -107,12 +107,20 @@ function toSearchDocuments() {
       url: `/diary/${day.date}`,
       kind: "diary",
       description: entry.summary,
-      content: `${entry.summary} ${entry.whyItMatters} ${entry.repoLabel} ${entry.highlights.join(" ")}`,
-      tags: entry.categories,
+      content: [
+        entry.summary,
+        entry.narrative,
+        entry.whyItMatters,
+        entry.exploreNext,
+        entry.searchText,
+      ].join(" "),
+      tags: [...entry.categories, ...entry.relatedSlugs],
       meta: {
         date: day.date,
         repoName: entry.repoName,
         repoLabel: entry.repoLabel,
+        relatedSlugs: entry.relatedSlugs,
+        signalScore: entry.signalScore,
       },
     })),
   )
@@ -168,7 +176,7 @@ function toContentIndex() {
     diary: activityFeed.days.map((day) => ({
       slug: day.date,
       title: day.label,
-      description: day.summary,
+      description: `${day.summary} ${day.spotlight}`,
       href: `/diary/${day.date}`,
     })),
   }

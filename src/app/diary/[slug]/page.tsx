@@ -3,11 +3,13 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { PageHero } from "@/components/archive/page-hero"
+import { RelatedLinks } from "@/components/archive/related-links"
 import { SiteFrame } from "@/components/archive/site-frame"
 import {
   getDiaryDayBySlug,
   getDiaryDays,
   getProjectByRepoName,
+  relatedContentFor,
 } from "@/lib/content"
 
 export const dynamicParams = false
@@ -82,9 +84,28 @@ export default async function DiaryDayPage({
                 ) : null}
               </div>
                 <p className="mt-5 text-base leading-8 text-foreground">{entry.summary}</p>
+                <p className="mt-5 text-base leading-8 text-muted-foreground">
+                  {entry.narrative}
+                </p>
                 <p className="mt-5 border-l-2 border-[color:rgb(45_8_0_/_18%)] pl-4 text-sm leading-7 text-muted-foreground italic">
                   {entry.whyItMatters}
                 </p>
+                <div className="mt-6 grid gap-6 md:grid-cols-[1fr_0.9fr]">
+                  <div className="archive-surface-low p-5">
+                    <p className="archive-kicker text-primary/38">What changed</p>
+                    <ul className="mt-4 space-y-3 text-sm leading-7 text-foreground">
+                      {entry.notableChanges.map((change) => (
+                        <li key={change}>{change}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="archive-surface-low p-5">
+                    <p className="archive-kicker text-primary/38">Explore next</p>
+                    <p className="mt-4 text-sm leading-7 text-muted-foreground">
+                      {entry.exploreNext}
+                    </p>
+                  </div>
+                </div>
                 <div className="mt-6 flex flex-wrap gap-2">
                   {entry.categories.map((category) => (
                     <span key={category} className="bg-white/72 px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.18em] text-primary/72">
@@ -92,6 +113,14 @@ export default async function DiaryDayPage({
                     </span>
                   ))}
                 </div>
+                {entry.relatedSlugs.length > 0 ? (
+                  <div className="mt-8">
+                    <RelatedLinks
+                      title="Related archive paths"
+                      items={relatedContentFor(entry.relatedSlugs)}
+                    />
+                  </div>
+                ) : null}
               </article>
             )
           })}

@@ -1,24 +1,24 @@
 # Design Proof
 
-Art direction: the approved Stitch "Intellectual Archive" direction, translated into repo-native React components with ink-on-parchment surfaces, tight paper-like geometry, and editorial hierarchy.
+Art direction: the approved Stitch "Intellectual Archive" direction, translated into repo-native React components with ink-on-parchment surfaces, editorial hierarchy, and route-level consistency across articles, projects, diary entries, and search.
 
-Target URL: `http://localhost:3001`
+Target URL: `https://workflow-garden.vercel.app`
 
-## Visible delta
+Visible delta:
 
-Workflow Garden now behaves like a real archive instead of a single-route explainer. The homepage routes visitors into dedicated article, project, diary, and search pages while staying visually aligned with the approved archive system. New route templates inherit the same typography, parchment surfaces, and editorial spacing instead of drifting into generic docs chrome.
+The diary archive now reads like a curated public-facing record instead of a changelog dump. The homepage and diary surfaces present stronger narrative summaries, clearer "why it matters" framing, and intentional links into related projects, articles, and concepts so visitors can keep exploring the archive.
 
-## Screenshot verdict
+Screenshot verdict:
 
 - Normal desktop composition: pass
 - Wide desktop composition: pass
 - Mobile sequencing: pass
+- Diary detail template: pass
 - Article template: pass
 - Project template: pass
 - Search template: pass
-- Diary detail template: pass
 
-## Evidence
+Evidence:
 
 - Normal desktop overview: [desktop-normal.png](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/desktop-normal.png)
 - Wide desktop overview: [desktop-wide.png](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/desktop-wide.png)
@@ -28,9 +28,9 @@ Workflow Garden now behaves like a real archive instead of a single-route explai
 - Project page: [project.png](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/project.png)
 - Search page: [search.png](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/search.png)
 
-## Notes
+Notes:
 
-- The visual language still matches the approved Stitch direction through tokens and composition, not copied HTML.
-- The homepage keeps the existing archive hero, but the surrounding information architecture now feels more intentional because visitors can route into deeper destinations immediately.
-- The search page stays utility-forward without losing the same family resemblance as the editorial pages.
-- The article and project templates read like extensions of the homepage rather than a separate design system.
+- The diary overview now promotes a richer spotlight summary instead of a flat activity label.
+- Diary detail pages surface narrative framing, notable changes, related links, and "explore next" cues without breaking the archive visual language.
+- Related-content routes still feel like part of one system, which keeps the internal-linking graph legible on both desktop and mobile.
+

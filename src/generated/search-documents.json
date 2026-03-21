@@ -292,11 +292,11 @@
   },
   {
     "id": "diary:workflow-garden-2026-03-21",
-    "title": "Workflow Garden focused on proof that people can actually inspect",
+    "title": "Workflow Garden turned recent work into proof people can inspect",
     "url": "/diary/2026-03-21",
     "kind": "diary",
-    "description": "Workflow Garden moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Workflow Garden moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Workflow Garden the environment contract gitignore infisical",
+    "description": "Interface updates, educational content, and validation checks stood out, especially Build the project content hub and Fix tools tabs overlap proof gap.",
+    "content": "Interface updates, educational content, and validation checks stood out, especially Build the project content hub and Fix tools tabs overlap proof gap. Workflow Garden spent the day building out its content hub, closing a proof gap where tool tabs overlapped, and fixing a mobile hero overflow regression. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Interface updates, educational content, and validation checks stood out, especially Build the project content hub and Fix tools tabs overlap proof gap. Workflow Garden spent the day building out its content hub, closing a proof gap where tool tabs overlapped, and fixing a mobile hero overflow regression. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden the environment contract pull request template gitignore infisical Build the project content hub Fix tools tabs overlap proof gap Fix mobile hero overflow proof regression Build the project MVP Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters",
     "tags": [
       "interface",
       "content",
@@ -305,176 +305,408 @@
       "automation",
       "docs",
       "testing",
-      "config"
+      "config",
+      "styling",
+      "workflow-garden",
+      "what-agent-skills-are",
+      "proof-vs-acceptance",
+      "one-issue-one-branch-one-pr"
     ],
     "meta": {
       "date": "2026-03-21",
       "repoName": "workflow-garden",
-      "repoLabel": "Workflow Garden"
+      "repoLabel": "Workflow Garden",
+      "relatedSlugs": [
+        "workflow-garden",
+        "what-agent-skills-are",
+        "proof-vs-acceptance",
+        "one-issue-one-branch-one-pr"
+      ],
+      "signalScore": 56
     }
   },
   {
     "id": "diary:proof-pack-2026-03-21",
-    "title": "Proof Pack shaped a clearer visitor-facing experience",
+    "title": "Proof Pack turned recent work into proof people can inspect",
     "url": "/diary/2026-03-21",
     "kind": "diary",
-    "description": "Proof Pack moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Proof Pack moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Proof Pack the environment contract gitignore infisical",
+    "description": "Interface and proof work led the way, with clear movement on adding proof screenshots to the readme and fixing wide-screen composition.",
+    "content": "Interface and proof work led the way, with clear movement on adding proof screenshots to the readme and fixing wide-screen composition. Proof Pack added screenshots to its readme so readers can see the work in action, fixed how the project looks on wide screens, and rebuilt the landing composition with a stricter design gate. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Proof Pack next to see the public context around this work. Interface and proof work led the way, with clear movement on adding proof screenshots to the readme and fixing wide-screen composition. Proof Pack added screenshots to its readme so readers can see the work in action, fixed how the project looks on wide screens, and rebuilt the landing composition with a stricter design gate. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Proof Pack next to see the public context around this work. Proof Pack the environment contract pull request template gitignore infisical add proof screenshots to the project readme fix wide-screen composition in the project rebuild the landing composition and harden the design gate Add deployed proof artifacts and live URL Proof Pack What proof means: design-proof vs acceptance-proof What agent skills are polish",
     "tags": [
       "interface",
       "content",
+      "proof",
       "workflow",
       "docs",
       "testing",
-      "config"
+      "config",
+      "styling",
+      "proof-pack",
+      "proof-vs-acceptance",
+      "what-agent-skills-are",
+      "polish-explained"
     ],
     "meta": {
       "date": "2026-03-21",
       "repoName": "proof-pack",
-      "repoLabel": "Proof Pack"
+      "repoLabel": "Proof Pack",
+      "relatedSlugs": [
+        "proof-pack",
+        "proof-vs-acceptance",
+        "what-agent-skills-are",
+        "polish-explained"
+      ],
+      "signalScore": 54
     }
   },
   {
     "id": "diary:choice-compass-2026-03-21",
-    "title": "Choice Compass shaped a clearer visitor-facing experience",
+    "title": "Choice Compass turned recent work into proof people can inspect",
     "url": "/diary/2026-03-21",
     "kind": "diary",
-    "description": "Choice Compass moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Choice Compass moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Choice Compass the environment contract gitignore the repo workflow guide",
+    "description": "Educational content and validation checks were the main themes, highlighted by adding a design gate for mobile task order and refreshing live proof after a redeploy.",
+    "content": "Educational content and validation checks were the main themes, highlighted by adding a design gate for mobile task order and refreshing live proof after a redeploy. Choice Compass added an explicit design gate for how tasks order on mobile, refreshed its live proof after redeploying, and polished the mobile flow while documenting the PR workflow. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Choice Compass next to see the public context around this work. Educational content and validation checks were the main themes, highlighted by adding a design gate for mobile task order and refreshing live proof after a redeploy. Choice Compass added an explicit design gate for how tasks order on mobile, refreshed its live proof after redeploying, and polished the mobile flow while documenting the PR workflow. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Choice Compass next to see the public context around this work. Choice Compass the environment contract pull request template gitignore the repo workflow guide add explicit design gate for mobile task order refresh live proof after redeploy polish mobile flow and add PR workflow Add acceptance proof and ship-loop notes Choice Compass How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters acceptance-proof",
     "tags": [
       "interface",
       "content",
+      "proof",
       "workflow",
       "docs",
       "testing",
-      "config"
+      "config",
+      "styling",
+      "choice-compass",
+      "prd-workflow-explained",
+      "one-issue-one-branch-one-pr",
+      "proof-vs-acceptance"
     ],
     "meta": {
       "date": "2026-03-21",
       "repoName": "choice-compass",
-      "repoLabel": "Choice Compass"
-    }
-  },
-  {
-    "id": "diary:symphony-workspaces-2026-03-20",
-    "title": "Symphony Workspaces turned repeated work into a more dependable system",
-    "url": "/diary/2026-03-20",
-    "kind": "diary",
-    "description": "Symphony Workspaces moved through educational content, automation, and testing with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Symphony Workspaces moved through educational content, automation, and testing with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It reduces repeat work and makes the diary feel curated instead of manually stitched together. Symphony Workspaces the environment contract gitignore the repo workflow guide",
-    "tags": [
-      "content",
-      "automation",
-      "testing",
-      "config"
-    ],
-    "meta": {
-      "date": "2026-03-20",
-      "repoName": "symphony-workspaces",
-      "repoLabel": "Symphony Workspaces"
-    }
-  },
-  {
-    "id": "diary:tools-2026-03-20",
-    "title": "Tools shaped a clearer visitor-facing experience",
-    "url": "/diary/2026-03-20",
-    "kind": "diary",
-    "description": "Tools moved through interface work, educational content, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Tools moved through interface work, educational content, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Tools the plain-language README the repo Claude guidance gitignore",
-    "tags": [
-      "interface",
-      "content",
-      "automation",
-      "docs",
-      "testing",
-      "config"
-    ],
-    "meta": {
-      "date": "2026-03-20",
-      "repoName": "tools",
-      "repoLabel": "Tools"
+      "repoLabel": "Choice Compass",
+      "relatedSlugs": [
+        "choice-compass",
+        "prd-workflow-explained",
+        "one-issue-one-branch-one-pr",
+        "proof-vs-acceptance"
+      ],
+      "signalScore": 54
     }
   },
   {
     "id": "diary:property-search-2026-03-20",
-    "title": "Property Search translated workflow steps into something teachable",
+    "title": "Property Search made the workflow easier to learn",
     "url": "/diary/2026-03-20",
     "kind": "diary",
-    "description": "Property Search moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Property Search moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves. Property Search the environment contract gitignore the repo workflow guide",
+    "description": "Educational content, workflow setup, and automation drove the day, especially : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
+    "content": "Educational content, workflow setup, and automation drove the day, especially : cover crawl smoke registry fallback and : harden crawl smoke source pinning. Property Search covered a crawl smoke registry fallback, hardened how the smoke source gets pinned, finished selecting a crawl smoke source, and noted an intent to rerun an openreview step. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Educational content, workflow setup, and automation drove the day, especially : cover crawl smoke registry fallback and : harden crawl smoke source pinning. Property Search covered a crawl smoke registry fallback, hardened how the smoke source gets pinned, finished selecting a crawl smoke source, and noted an intent to rerun an openreview step. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Property Search the environment contract pull request template ci codeql : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills",
     "tags": [
       "content",
       "workflow",
       "automation",
       "docs",
       "testing",
-      "config"
+      "config",
+      "property-search",
+      "prd-workflow-explained",
+      "one-issue-one-branch-one-pr",
+      "what-agent-skills-are"
     ],
     "meta": {
       "date": "2026-03-20",
       "repoName": "property-search",
-      "repoLabel": "Property Search"
+      "repoLabel": "Property Search",
+      "relatedSlugs": [
+        "property-search",
+        "prd-workflow-explained",
+        "one-issue-one-branch-one-pr",
+        "what-agent-skills-are"
+      ],
+      "signalScore": 45
     }
   },
   {
-    "id": "diary:tools-2026-03-19",
-    "title": "Tools translated workflow steps into something teachable",
+    "id": "diary:tools-2026-03-20",
+    "title": "Tools made the public surface easier to follow",
+    "url": "/diary/2026-03-20",
+    "kind": "diary",
+    "description": "Interface clarity and educational content stood out, with visible updates to the plain-language README and CLAUDE.",
+    "content": "Interface clarity and educational content stood out, with visible updates to the plain-language README and CLAUDE. Tools spent the day rewriting its README in plain language, updating the CLAUDE file, and adjusting its gitignore. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore agent skills next to see the public context around this work. Interface clarity and educational content stood out, with visible updates to the plain-language README and CLAUDE. Tools spent the day rewriting its README in plain language, updating the CLAUDE file, and adjusting its gitignore. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore agent skills next to see the public context around this work. Tools the plain-language README CLAUDE gitignore the repo workflow guide the plain-language README CLAUDE gitignore the repo workflow guide agent skills",
+    "tags": [
+      "interface",
+      "content",
+      "automation",
+      "docs",
+      "testing",
+      "config",
+      "styling",
+      "what-agent-skills-are"
+    ],
+    "meta": {
+      "date": "2026-03-20",
+      "repoName": "tools",
+      "repoLabel": "Tools",
+      "relatedSlugs": [
+        "what-agent-skills-are"
+      ],
+      "signalScore": 35
+    }
+  },
+  {
+    "id": "diary:symphony-workspaces-2026-03-20",
+    "title": "Symphony Workspaces made the archive less manual to maintain",
+    "url": "/diary/2026-03-20",
+    "kind": "diary",
+    "description": "Educational content, automation, and testing were the main themes, with clear work on the environment contract and gitignore.",
+    "content": "Educational content, automation, and testing were the main themes, with clear work on the environment contract and gitignore. Symphony Workspaces updated its environment contract, adjusted gitignore, refreshed the repo workflow guide, and revised its ARCHITECTURE doc. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Educational content, automation, and testing were the main themes, with clear work on the environment contract and gitignore. Symphony Workspaces updated its environment contract, adjusted gitignore, refreshed the repo workflow guide, and revised its ARCHITECTURE doc. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Symphony Workspaces the environment contract gitignore the repo workflow guide ARCHITECTURE the environment contract gitignore the repo workflow guide ARCHITECTURE agent skills",
+    "tags": [
+      "content",
+      "automation",
+      "testing",
+      "config",
+      "what-agent-skills-are"
+    ],
+    "meta": {
+      "date": "2026-03-20",
+      "repoName": "symphony-workspaces",
+      "repoLabel": "Symphony Workspaces",
+      "relatedSlugs": [
+        "what-agent-skills-are"
+      ],
+      "signalScore": 26
+    }
+  },
+  {
+    "id": "diary:property-search-2026-03-19",
+    "title": "Property Search made the workflow easier to learn",
     "url": "/diary/2026-03-19",
     "kind": "diary",
-    "description": "Tools moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Tools moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves. Tools the repo workflow guide cli tools the support docs",
+    "description": "Educational content, workflow setup, and automation led the way, particularly Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
+    "content": "Educational content, workflow setup, and automation led the way, particularly Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures. Property Search aligned its CI pnpm version with the packageManager field, added an initial project scaffold with docs and fixtures, and updated config.toml alongside the environment contract. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Educational content, workflow setup, and automation led the way, particularly Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures. Property Search aligned its CI pnpm version with the packageManager field, added an initial project scaffold with docs and fixtures, and updated config.toml alongside the environment contract. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Property Search config.toml the environment contract ci gitignore Align CI pnpm version with packageManager Add initial project scaffold, docs, and fixtures config.toml the environment contract Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills",
     "tags": [
       "content",
       "workflow",
       "automation",
       "docs",
-      "config"
+      "testing",
+      "config",
+      "property-search",
+      "prd-workflow-explained",
+      "one-issue-one-branch-one-pr",
+      "what-agent-skills-are"
     ],
     "meta": {
       "date": "2026-03-19",
-      "repoName": "tools",
-      "repoLabel": "Tools"
-    }
-  },
-  {
-    "id": "diary:get-rtm-flats-2026-03-19",
-    "title": "Get Rtm Flats focused on proof that people can actually inspect",
-    "url": "/diary/2026-03-19",
-    "kind": "diary",
-    "description": "Get Rtm Flats moved through educational content, proof and validation, and workflow setup with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Get Rtm Flats moved through educational content, proof and validation, and workflow setup with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Get Rtm Flats the environment contract the repo workflow guide the plain-language README",
-    "tags": [
-      "content",
-      "proof",
-      "workflow",
-      "docs",
-      "config"
-    ],
-    "meta": {
-      "date": "2026-03-19",
-      "repoName": "get-rtm-flats",
-      "repoLabel": "Get Rtm Flats"
+      "repoName": "property-search",
+      "repoLabel": "Property Search",
+      "relatedSlugs": [
+        "property-search",
+        "prd-workflow-explained",
+        "one-issue-one-branch-one-pr",
+        "what-agent-skills-are"
+      ],
+      "signalScore": 39
     }
   },
   {
     "id": "diary:auto-audit-harness-2026-03-19",
-    "title": "Auto Audit Harness focused on proof that people can actually inspect",
+    "title": "Auto Audit Harness turned recent work into proof people can inspect",
     "url": "/diary/2026-03-19",
     "kind": "diary",
-    "description": "Auto Audit Harness moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-    "content": "Auto Audit Harness moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Auto Audit Harness ARCHITECTURE QUALITY SCORE the plain-language README",
+    "description": "Interface work, educational content, and validation checks were the focus, with visible movement on ARCHITECTURE and QUALITY SCORE.",
+    "content": "Interface work, educational content, and validation checks were the focus, with visible movement on ARCHITECTURE and QUALITY SCORE. Auto Audit Harness updated its ARCHITECTURE doc, added a QUALITY SCORE reference, rewrote its README in plain language, and documented RELIABILITY expectations. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Interface work, educational content, and validation checks were the focus, with visible movement on ARCHITECTURE and QUALITY SCORE. Auto Audit Harness updated its ARCHITECTURE doc, added a QUALITY SCORE reference, rewrote its README in plain language, and documented RELIABILITY expectations. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow",
     "tags": [
       "interface",
       "content",
       "proof",
       "docs",
       "testing",
-      "config"
+      "config",
+      "styling",
+      "audit-explained",
+      "proof-vs-acceptance",
+      "proof"
     ],
     "meta": {
       "date": "2026-03-19",
       "repoName": "auto-audit-harness",
-      "repoLabel": "Auto Audit Harness"
+      "repoLabel": "Auto Audit Harness",
+      "relatedSlugs": [
+        "audit-explained",
+        "proof-vs-acceptance",
+        "proof"
+      ],
+      "signalScore": 35
+    }
+  },
+  {
+    "id": "diary:tools-2026-03-19",
+    "title": "Tools made the public surface easier to follow",
+    "url": "/diary/2026-03-19",
+    "kind": "diary",
+    "description": "Educational content, workflow setup, and automation stood out, especially the repo workflow guide and cli tools.",
+    "content": "Educational content, workflow setup, and automation stood out, especially the repo workflow guide and cli tools. Tools refreshed its repo workflow guide, documented CLI tools, updated the operator docs, and revised its automation scripts. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Educational content, workflow setup, and automation stood out, especially the repo workflow guide and cli tools. Tools refreshed its repo workflow guide, documented CLI tools, updated the operator docs, and revised its automation scripts. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Tools the repo workflow guide cli tools the operator docs the automation scripts the repo workflow guide cli tools the operator docs the automation scripts Why one issue, one branch, and one PR matters What an issue branch is What agent skills are",
+    "tags": [
+      "content",
+      "workflow",
+      "automation",
+      "docs",
+      "config",
+      "styling",
+      "one-issue-one-branch-one-pr",
+      "issue-branch",
+      "what-agent-skills-are"
+    ],
+    "meta": {
+      "date": "2026-03-19",
+      "repoName": "tools",
+      "repoLabel": "Tools",
+      "relatedSlugs": [
+        "one-issue-one-branch-one-pr",
+        "issue-branch",
+        "what-agent-skills-are"
+      ],
+      "signalScore": 33
+    }
+  },
+  {
+    "id": "diary:auto-audit-harness-2026-03-18",
+    "title": "Auto Audit Harness turned recent work into proof people can inspect",
+    "url": "/diary/2026-03-18",
+    "kind": "diary",
+    "description": "Interface updates, educational material, and validation checks led the day, with visible work on the environment contract and gitignore.",
+    "content": "Interface updates, educational material, and validation checks led the day, with visible work on the environment contract and gitignore. Auto Audit Harness updated its environment contract, adjusted gitignore, refreshed the repo workflow guide, and added a SECURITY doc. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Interface updates, educational material, and validation checks led the day, with visible work on the environment contract and gitignore. Auto Audit Harness updated its environment contract, adjusted gitignore, refreshed the repo workflow guide, and added a SECURITY doc. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness the environment contract gitignore the repo workflow guide SECURITY the environment contract gitignore the repo workflow guide SECURITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow Why one issue, one branch, and one PR matters",
+    "tags": [
+      "interface",
+      "content",
+      "proof",
+      "workflow",
+      "automation",
+      "docs",
+      "testing",
+      "config",
+      "styling",
+      "audit-explained",
+      "proof-vs-acceptance",
+      "proof",
+      "one-issue-one-branch-one-pr"
+    ],
+    "meta": {
+      "date": "2026-03-18",
+      "repoName": "auto-audit-harness",
+      "repoLabel": "Auto Audit Harness",
+      "relatedSlugs": [
+        "audit-explained",
+        "proof-vs-acceptance",
+        "proof",
+        "one-issue-one-branch-one-pr"
+      ],
+      "signalScore": 39
+    }
+  },
+  {
+    "id": "diary:rtm-hunt-2026-03-18",
+    "title": "Rtm Hunt made the workflow easier to learn",
+    "url": "/diary/2026-03-18",
+    "kind": "diary",
+    "description": "Educational content, workflow setup, and automation were the main themes, highlighted by the environment contract and Makefile.",
+    "content": "Educational content, workflow setup, and automation were the main themes, highlighted by the environment contract and Makefile. Rtm Hunt updated its environment contract, added a Makefile, rewrote its README in plain language, and worked on London-specific data. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Educational content, workflow setup, and automation were the main themes, highlighted by the environment contract and Makefile. Rtm Hunt updated its environment contract, added a Makefile, rewrote its README in plain language, and worked on London-specific data. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Rtm Hunt the environment contract Makefile the plain-language README london the environment contract Makefile the plain-language README london Why one issue, one branch, and one PR matters What an issue branch is What agent skills are",
+    "tags": [
+      "content",
+      "workflow",
+      "automation",
+      "docs",
+      "config",
+      "one-issue-one-branch-one-pr",
+      "issue-branch",
+      "what-agent-skills-are"
+    ],
+    "meta": {
+      "date": "2026-03-18",
+      "repoName": "rtm-hunt",
+      "repoLabel": "Rtm Hunt",
+      "relatedSlugs": [
+        "one-issue-one-branch-one-pr",
+        "issue-branch",
+        "what-agent-skills-are"
+      ],
+      "signalScore": 31
+    }
+  },
+  {
+    "id": "diary:get-estate-agent-urls-uk-2026-03-18",
+    "title": "Get Estate Agent Urls Uk made the workflow easier to learn",
+    "url": "/diary/2026-03-18",
+    "kind": "diary",
+    "description": "Educational content, automation, and plain-language docs stood out, with clear updates to the plain-language README and dev log.",
+    "content": "Educational content, automation, and plain-language docs stood out, with clear updates to the plain-language README and dev log. Get Estate Agent Urls Uk rewrote its README in plain language, updated its dev log, and shipped a new Croydon live dataset with an accompanying manifest. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore What agent skills are next to see the public context around this work. Educational content, automation, and plain-language docs stood out, with clear updates to the plain-language README and dev log. Get Estate Agent Urls Uk rewrote its README in plain language, updated its dev log, and shipped a new Croydon live dataset with an accompanying manifest. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore What agent skills are next to see the public context around this work. Get Estate Agent Urls Uk the plain-language README dev log croydon live v2 croydon live v2.csv.manifest the plain-language README dev log croydon live v2 croydon live v2.csv.manifest What agent skills are",
+    "tags": [
+      "content",
+      "automation",
+      "docs",
+      "testing",
+      "config",
+      "what-agent-skills-are"
+    ],
+    "meta": {
+      "date": "2026-03-18",
+      "repoName": "get-estate-agent-urls-uk",
+      "repoLabel": "Get Estate Agent Urls Uk",
+      "relatedSlugs": [
+        "what-agent-skills-are"
+      ],
+      "signalScore": 31
+    }
+  },
+  {
+    "id": "diary:get-estate-agent-urls-uk-2026-03-17",
+    "title": "Get Estate Agent Urls Uk turned recent work into proof people can inspect",
+    "url": "/diary/2026-03-17",
+    "kind": "diary",
+    "description": "Educational content, validation, and testing drove the day, especially the repo command surface and prompt.",
+    "content": "Educational content, validation, and testing drove the day, especially the repo command surface and prompt. Get Estate Agent Urls Uk documented its command surface, refined the prompt it uses, added deduplication logic, and built an area inspection step. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Educational content, validation, and testing drove the day, especially the repo command surface and prompt. Get Estate Agent Urls Uk documented its command surface, refined the prompt it uses, added deduplication logic, and built an area inspection step. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Get Estate Agent Urls Uk the repo command surface prompt dedupe inspect area the repo command surface prompt dedupe inspect area What proof means: design-proof vs acceptance-proof What proof means in this workflow",
+    "tags": [
+      "content",
+      "proof",
+      "testing",
+      "config",
+      "proof-vs-acceptance",
+      "proof"
+    ],
+    "meta": {
+      "date": "2026-03-17",
+      "repoName": "get-estate-agent-urls-uk",
+      "repoLabel": "Get Estate Agent Urls Uk",
+      "relatedSlugs": [
+        "proof-vs-acceptance",
+        "proof"
+      ],
+      "signalScore": 26
+    }
+  },
+  {
+    "id": "diary:get-rtm-flats-2026-03-17",
+    "title": "Get Rtm Flats turned recent work into proof people can inspect",
+    "url": "/diary/2026-03-17",
+    "kind": "diary",
+    "description": "Educational content, validation, and configuration were the focus, with visible work on gitignore and logging.",
+    "content": "Educational content, validation, and configuration were the focus, with visible work on gitignore and logging. Get Rtm Flats adjusted its gitignore, improved logging, worked on London-specific data, and documented its working beliefs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Educational content, validation, and configuration were the focus, with visible work on gitignore and logging. Get Rtm Flats adjusted its gitignore, improved logging, worked on London-specific data, and documented its working beliefs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Get Rtm Flats gitignore logging london beliefs gitignore logging london beliefs What proof means: design-proof vs acceptance-proof What proof means in this workflow",
+    "tags": [
+      "content",
+      "proof",
+      "config",
+      "proof-vs-acceptance",
+      "proof"
+    ],
+    "meta": {
+      "date": "2026-03-17",
+      "repoName": "get-rtm-flats",
+      "repoLabel": "Get Rtm Flats",
+      "relatedSlugs": [
+        "proof-vs-acceptance",
+        "proof"
+      ],
+      "signalScore": 19
     }
   }
 ]

@@ -10,6 +10,7 @@ export interface DiaryDay {
   date: string
   label: string
   summary: string
+  spotlight: string
   slug: string
   entries: (typeof activityFeed.days)[number]["entries"]
 }
@@ -138,10 +139,16 @@ export function diaryEntriesForProject(projectSlug: string) {
     return []
   }
 
+  return diaryEntriesForSlug(project.slug).filter(
+    (entry) => entry.repoName === project.repoName,
+  )
+}
+
+export function diaryEntriesForSlug(slug: string) {
   return getDiaryDays()
     .flatMap((day) =>
       day.entries
-        .filter((entry) => entry.repoName === project.repoName)
+        .filter((entry) => entry.relatedSlugs.includes(slug))
         .map((entry) => ({
           ...entry,
           daySlug: day.slug,

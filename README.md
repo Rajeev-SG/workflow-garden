@@ -41,7 +41,7 @@ Current visual direction: the approved Stitch `B` archive treatment, extended in
 
 ```bash
 pnpm install
-pnpm content:build
+pnpm content:source
 pnpm activity:refresh
 pnpm dev
 ```
@@ -65,10 +65,11 @@ Proof outputs live in:
 
 The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the repo generates a committed dataset before proof and deploy.
 
-- `pnpm activity:refresh` scans `/Users/rajeev/Code`
-- `pnpm content:build` regenerates typed content indices and the Pagefind index
-- low-signal churn is ignored
-- meaningful repo-day activity is translated into curated diary entries
+- `pnpm activity:refresh` runs the full diary pipeline
+- recent repo activity is gathered from git history first and file mtimes second
+- unchanged fingerprints skip the expensive rewrite step cleanly
+- a deterministic base archive is enriched with related project/article/concept links
+- OpenRouter can rewrite the public-facing diary copy when operator auth is available
 - the app renders the generated JSON statically on Vercel
 
 ## Source of truth
@@ -76,6 +77,7 @@ The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the r
 - Product workflow: [AGENTS.md](./AGENTS.md)
 - Approved visual spec: [.stitch/DESIGN.md](./.stitch/DESIGN.md)
 - Current plan: [plans/workflow-garden-mvp.md](./plans/workflow-garden-mvp.md)
+- Diary operator guide: [docs/ops/diary-pipeline.md](./docs/ops/diary-pipeline.md)
 - Secrets contract: [docs/ops/secrets.md](./docs/ops/secrets.md)
 - Vendor auth checks: [docs/ops/vendor-auth.md](./docs/ops/vendor-auth.md)
 - Proof summaries: [output/acceptance/design-proof.md](./output/acceptance/design-proof.md), [output/acceptance/acceptance-proof.md](./output/acceptance/acceptance-proof.md)
