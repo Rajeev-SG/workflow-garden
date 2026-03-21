@@ -1,0 +1,241 @@
+{
+  "generatedAt": "2026-03-21T18:19:15.784Z",
+  "scanRoot": "/Users/rajeev/Code",
+  "meaningfulActivityDetected": true,
+  "headline": "8 projects moved forward with a visible mix of educational content.",
+  "subhead": "The diary surfaced 9 curated updates after scanning the last 7 days of local repo activity and translating the strongest signals into plain-language progress notes.",
+  "stats": {
+    "activeRepoCount": 8,
+    "changedFileCount": 4352,
+    "curatedEntryCount": 9,
+    "topTheme": "educational content",
+    "daysScanned": 7
+  },
+  "days": [
+    {
+      "date": "2026-03-21",
+      "label": "Today",
+      "summary": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in interface work, educational content, and workflow setup.",
+      "entries": [
+        {
+          "id": "workflow-garden-2026-03-21",
+          "kind": "showcase",
+          "title": "Workflow Garden shaped a clearer visitor-facing experience",
+          "summary": "Workflow Garden moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It turns internal workflow ideas into a surface that someone can understand at a glance.",
+          "repoName": "workflow-garden",
+          "repoLabel": "Workflow Garden",
+          "changedFileCount": 40,
+          "categories": [
+            "interface",
+            "content",
+            "workflow",
+            "automation",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "gitignore",
+            "infisical"
+          ]
+        },
+        {
+          "id": "proof-pack-2026-03-21",
+          "kind": "showcase",
+          "title": "Proof Pack shaped a clearer visitor-facing experience",
+          "summary": "Proof Pack moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It turns internal workflow ideas into a surface that someone can understand at a glance.",
+          "repoName": "proof-pack",
+          "repoLabel": "Proof Pack",
+          "changedFileCount": 36,
+          "categories": [
+            "interface",
+            "content",
+            "workflow",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "gitignore",
+            "infisical"
+          ]
+        },
+        {
+          "id": "choice-compass-2026-03-21",
+          "kind": "showcase",
+          "title": "Choice Compass shaped a clearer visitor-facing experience",
+          "summary": "Choice Compass moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It turns internal workflow ideas into a surface that someone can understand at a glance.",
+          "repoName": "choice-compass",
+          "repoLabel": "Choice Compass",
+          "changedFileCount": 27,
+          "categories": [
+            "interface",
+            "content",
+            "workflow",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "gitignore",
+            "the repo workflow guide"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "label": "Fri 20 Mar",
+      "summary": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in educational content, automation, and testing.",
+      "entries": [
+        {
+          "id": "symphony-workspaces-2026-03-20",
+          "kind": "article",
+          "title": "Symphony Workspaces turned repeated work into a more dependable system",
+          "summary": "Symphony Workspaces moved through educational content, automation, and testing with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It reduces repeat work and makes the diary feel curated instead of manually stitched together.",
+          "repoName": "symphony-workspaces",
+          "repoLabel": "Symphony Workspaces",
+          "changedFileCount": 1653,
+          "categories": [
+            "content",
+            "automation",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "gitignore",
+            "the repo workflow guide"
+          ]
+        },
+        {
+          "id": "tools-2026-03-20",
+          "kind": "showcase",
+          "title": "Tools shaped a clearer visitor-facing experience",
+          "summary": "Tools moved through interface work, educational content, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It turns internal workflow ideas into a surface that someone can understand at a glance.",
+          "repoName": "tools",
+          "repoLabel": "Tools",
+          "changedFileCount": 307,
+          "categories": [
+            "interface",
+            "content",
+            "automation",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the plain-language README",
+            "the repo Claude guidance",
+            "gitignore"
+          ]
+        },
+        {
+          "id": "property-search-2026-03-20",
+          "kind": "tutorial",
+          "title": "Property Search translated workflow steps into something teachable",
+          "summary": "Property Search moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves.",
+          "repoName": "property-search",
+          "repoLabel": "Property Search",
+          "changedFileCount": 104,
+          "categories": [
+            "content",
+            "workflow",
+            "automation",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "gitignore",
+            "the repo workflow guide"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "label": "Thu 19 Mar",
+      "summary": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in educational content, workflow setup, and automation.",
+      "entries": [
+        {
+          "id": "tools-2026-03-19",
+          "kind": "tutorial",
+          "title": "Tools translated workflow steps into something teachable",
+          "summary": "Tools moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves.",
+          "repoName": "tools",
+          "repoLabel": "Tools",
+          "changedFileCount": 1347,
+          "categories": [
+            "content",
+            "workflow",
+            "automation",
+            "docs",
+            "config"
+          ],
+          "highlights": [
+            "the repo workflow guide",
+            "cli tools",
+            "the support docs"
+          ]
+        },
+        {
+          "id": "get-rtm-flats-2026-03-19",
+          "kind": "explainer",
+          "title": "Get Rtm Flats focused on proof that people can actually inspect",
+          "summary": "Get Rtm Flats moved through educational content, proof and validation, and workflow setup with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works.",
+          "repoName": "get-rtm-flats",
+          "repoLabel": "Get Rtm Flats",
+          "changedFileCount": 768,
+          "categories": [
+            "content",
+            "proof",
+            "workflow",
+            "docs",
+            "config"
+          ],
+          "highlights": [
+            "the environment contract",
+            "the repo workflow guide",
+            "the plain-language README"
+          ]
+        },
+        {
+          "id": "auto-audit-harness-2026-03-19",
+          "kind": "explainer",
+          "title": "Auto Audit Harness focused on proof that people can actually inspect",
+          "summary": "Auto Audit Harness moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works.",
+          "repoName": "auto-audit-harness",
+          "repoLabel": "Auto Audit Harness",
+          "changedFileCount": 70,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "highlights": [
+            "ARCHITECTURE",
+            "QUALITY SCORE",
+            "the plain-language README"
+          ]
+        }
+      ]
+    }
+  ]
+}
