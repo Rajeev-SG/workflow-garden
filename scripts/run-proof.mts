@@ -16,6 +16,8 @@ const sessions = {
   mobile: "wgm",
   interactive: "wgi",
   diary: "wgdi",
+  toolsNarrow: "wgtn",
+  toolsTablet: "wgtt",
 } as const
 
 function runCli(cwd: string, args: string[]) {
@@ -123,6 +125,39 @@ async function captureDiaryState() {
   }
 }
 
+async function captureToolsSection(
+  label: string,
+  session: string,
+  width: number,
+  height: number,
+) {
+  const cwd = path.join(playwrightRoot, label)
+  await mkdir(path.join(cwd, ".playwright-cli"), { recursive: true })
+
+  runCli(cwd, ["--session", session, "open", baseUrl])
+  runCli(cwd, ["--session", session, "resize", String(width), String(height)])
+  runCli(cwd, [
+    "--session",
+    session,
+    "run-code",
+    `async (page) => { await page.locator('text=Major tools and when to use them').scrollIntoViewIfNeeded(); await page.waitForTimeout(250); await page.screenshot({ path: '.playwright-cli/${label}.png', scale: 'css', type: 'png' }); }`,
+  ])
+  runCli(cwd, ["--session", session, "console", "info"])
+
+  const latestConsole = await latestMatchingFile(
+    path.join(cwd, ".playwright-cli"),
+    "console-",
+    ".log",
+  )
+
+  return {
+    screenshot: path.join(cwd, ".playwright-cli", `${label}.png`),
+    console: latestConsole
+      ? path.join(cwd, ".playwright-cli", latestConsole)
+      : null,
+  }
+}
+
 async function main() {
   await mkdir(acceptanceRoot, { recursive: true })
 
@@ -141,6 +176,18 @@ async function main() {
   const mobile = await captureViewport("mobile", sessions.mobile, 390, 1200)
   const quickStart = await captureInteractiveState()
   const diary = await captureDiaryState()
+  const toolsNarrow = await captureToolsSection(
+    "tools-narrow",
+    sessions.toolsNarrow,
+    402,
+    876,
+  )
+  const toolsTablet = await captureToolsSection(
+    "tools-tablet",
+    sessions.toolsTablet,
+    838,
+    876,
+  )
 
   const manifest = {
     baseUrl,
@@ -151,6 +198,8 @@ async function main() {
       mobile,
       quickStart,
       diary,
+      toolsNarrow,
+      toolsTablet,
     },
   }
 

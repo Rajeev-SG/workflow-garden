@@ -19,6 +19,7 @@ Observed behavior:
 - the original screenshot verdict was invalid because the shipped mobile hero still had a real overflow bug
 - the corrected live rerun now shows the hero fitting a `390px` viewport with stacked CTAs and no horizontal overflow
 - the fresh screenshot set now passes the composition gate on the deployed URL
+- the proof set now also includes targeted tools-section captures at `402px` and `838px` so wrapped tab rows are checked directly
 
 Pass/fail decision: pass
 
@@ -30,6 +31,8 @@ Evidence:
 - Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T18-33-31-401Z.log)
 - Interactive sheet screenshot: [quick-start-sheet.png](/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/quick-start-sheet.png)
 - Diary screenshot: [daily-diary.png](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/daily-diary.png)
+- Tools narrow screenshot: [tools-narrow.png](/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/tools-narrow.png)
+- Tools tablet screenshot: [tools-tablet.png](/Users/rajeev/Code/workflow-garden/output/playwright/tools-tablet/.playwright-cli/tools-tablet.png)
 
 Residual risk:
 
