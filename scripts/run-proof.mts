@@ -14,10 +14,10 @@ const sessions = {
   desktopNormal: "wgd",
   desktopWide: "wgw",
   mobile: "wgm",
-  interactive: "wgi",
   diary: "wgdi",
-  toolsNarrow: "wgtn",
-  toolsTablet: "wgtt",
+  article: "wga",
+  project: "wgp",
+  search: "wgs",
 } as const
 
 function runCli(cwd: string, args: string[]) {
@@ -69,85 +69,32 @@ async function captureViewport(
   }
 }
 
-async function captureInteractiveState() {
-  const cwd = path.join(playwrightRoot, "interactive")
-  const artifactDir = path.join(cwd, ".playwright-cli")
-  const screenshotName = `quick-start-sheet-${Date.now()}.png`
-  await mkdir(artifactDir, { recursive: true })
-
-  runCli(cwd, ["--session", sessions.interactive, "open", baseUrl])
-  runCli(cwd, ["--session", sessions.interactive, "resize", "1440", "1400"])
-  runCli(cwd, [
-    "--session",
-    sessions.interactive,
-    "run-code",
-    `async (page) => { await page.getByRole('button', { name: /Try the guided setup/i }).click(); const sheet = page.locator('[data-slot="sheet-content"]'); await sheet.waitFor({ state: 'visible' }); const finalCommand = sheet.locator('li').filter({ hasText: 'acceptance-proof' }); await finalCommand.scrollIntoViewIfNeeded(); await page.waitForTimeout(250); const visibility = await finalCommand.isVisible(); if (!visibility) { throw new Error('Quick-start sheet did not scroll far enough to reveal the final setup step.'); } await page.screenshot({ path: '.playwright-cli/${screenshotName}', scale: 'css', type: 'png' }); }`,
-  ])
-  runCli(cwd, ["--session", sessions.interactive, "console", "info"])
-
-  const latestConsole = await latestMatchingFile(
-    artifactDir,
-    "console-",
-    ".log",
-  )
-  const latestScreenshot = await latestMatchingFile(
-    artifactDir,
-    "quick-start-sheet-",
-    ".png",
-  )
-
-  return {
-    screenshot: latestScreenshot ? path.join(cwd, ".playwright-cli", latestScreenshot) : null,
-    console: latestConsole
-      ? path.join(cwd, ".playwright-cli", latestConsole)
-      : null,
-  }
-}
-
-async function captureDiaryState() {
-  const cwd = path.join(playwrightRoot, "diary")
-  await mkdir(path.join(cwd, ".playwright-cli"), { recursive: true })
-
-  runCli(cwd, ["--session", sessions.diary, "open", baseUrl])
-  runCli(cwd, ["--session", sessions.diary, "resize", "1440", "1400"])
-  runCli(cwd, [
-    "--session",
-    sessions.diary,
-    "run-code",
-    "async (page) => { await page.locator('#daily-diary').scrollIntoViewIfNeeded(); await page.waitForTimeout(250); await page.screenshot({ path: '.playwright-cli/daily-diary.png', scale: 'css', type: 'png' }); }",
-  ])
-  runCli(cwd, ["--session", sessions.diary, "console", "info"])
-
-  const latestConsole = await latestMatchingFile(
-    path.join(cwd, ".playwright-cli"),
-    "console-",
-    ".log",
-  )
-
-  return {
-    screenshot: path.join(cwd, ".playwright-cli", "daily-diary.png"),
-    console: latestConsole
-      ? path.join(cwd, ".playwright-cli", latestConsole)
-      : null,
-  }
-}
-
-async function captureToolsSection(
-  label: string,
-  session: string,
-  width: number,
-  height: number,
-) {
+async function captureRouteState({
+  label,
+  session,
+  route,
+  width,
+  height,
+  code,
+}: {
+  label: string
+  session: string
+  route: string
+  width: number
+  height: number
+  code?: string
+}) {
   const cwd = path.join(playwrightRoot, label)
   await mkdir(path.join(cwd, ".playwright-cli"), { recursive: true })
 
-  runCli(cwd, ["--session", session, "open", baseUrl])
+  runCli(cwd, ["--session", session, "open", `${baseUrl}${route}`])
   runCli(cwd, ["--session", session, "resize", String(width), String(height)])
   runCli(cwd, [
     "--session",
     session,
     "run-code",
-    `async (page) => { await page.locator('text=Major tools and when to use them').scrollIntoViewIfNeeded(); await page.waitForTimeout(250); await page.screenshot({ path: '.playwright-cli/${label}.png', scale: 'css', type: 'png' }); }`,
+    code ??
+      `async (page) => { await page.waitForTimeout(250); await page.screenshot({ path: '.playwright-cli/${label}.png', scale: 'css', type: 'png' }); }`,
   ])
   runCli(cwd, ["--session", session, "console", "info"])
 
@@ -181,21 +128,36 @@ async function main() {
     1400,
   )
   const mobile = await captureViewport("mobile", sessions.mobile, 390, 1200)
-  const quickStart = await captureInteractiveState()
-  const diary = await captureDiaryState()
-  const toolsNarrow = await captureToolsSection(
-    "tools-narrow",
-    sessions.toolsNarrow,
-    402,
-    876,
-  )
-  const toolsTablet = await captureToolsSection(
-    "tools-tablet",
-    sessions.toolsTablet,
-    838,
-    876,
-  )
-
+  const diary = await captureRouteState({
+    label: "diary",
+    session: sessions.diary,
+    route: "/diary/2026-03-21",
+    width: 1440,
+    height: 1400,
+  })
+  const article = await captureRouteState({
+    label: "article",
+    session: sessions.article,
+    route: "/articles/what-agent-skills-are",
+    width: 1440,
+    height: 1400,
+  })
+  const project = await captureRouteState({
+    label: "project",
+    session: sessions.project,
+    route: "/projects/workflow-garden",
+    width: 1440,
+    height: 1400,
+  })
+  const search = await captureRouteState({
+    label: "search",
+    session: sessions.search,
+    route: "/search",
+    width: 1440,
+    height: 1400,
+    code:
+      "async (page) => { await page.getByLabel('Query').fill('proof'); await page.waitForTimeout(500); await page.screenshot({ path: '.playwright-cli/search.png', scale: 'css', type: 'png' }); }",
+  })
   const manifest = {
     baseUrl,
     generatedAt: new Date().toISOString(),
@@ -203,10 +165,10 @@ async function main() {
       desktopNormal,
       desktopWide,
       mobile,
-      quickStart,
       diary,
-      toolsNarrow,
-      toolsTablet,
+      article,
+      project,
+      search,
     },
   }
 
@@ -217,6 +179,7 @@ async function main() {
   )
 
   console.log("Saved output/acceptance/proof-artifacts.json")
+  process.exit(0)
 }
 
 main().catch((error) => {

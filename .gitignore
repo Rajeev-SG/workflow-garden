@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated content and search
+.velite/
+public/pagefind/
+
+# ephemeral proof wrapper artifacts
+output/playwright/**/.playwright-cli/console-*.log
+output/playwright/**/.playwright-cli/page-*.yml
+output/playwright/**/.playwright-cli/quick-start-sheet-*.png
+output/playwright/article-mobile/
+output/playwright/project-mobile/
+output/playwright/search-mobile/

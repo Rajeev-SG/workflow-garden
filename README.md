@@ -1,10 +1,10 @@
 # Workflow Garden
 
-Workflow Garden is a public educational site that explains an issue-driven AI development workflow in plain language. It is designed for curious non-developers and motivated newcomers who want to understand what the workflow is, which tools matter, how to set it up, and what meaningful daily coding activity looks like once it is translated into something human-readable.
+Workflow Garden is a public educational site that explains an issue-driven AI development workflow in plain language. It is designed for curious non-developers and motivated newcomers who want to understand the workflow, browse related articles and projects, search across concepts without leaving the site, and read curated diary entries generated from meaningful local repo activity.
 
 Live URL: [workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 
-Current visual direction: the approved Stitch `B` archive treatment, adapted into repo-native React and Next components rather than copied export markup.
+Current visual direction: the approved Stitch `B` archive treatment, extended into a multi-page archive with repo-native React and Next components rather than copied export markup.
 
 ## Screenshots
 
@@ -12,30 +12,36 @@ Current visual direction: the approved Stitch `B` archive treatment, adapted int
 
 ![Workflow Garden landing overview](./public/readme/landing-overview.png)
 
-### Guided setup sheet
+### Article overview
 
-![Workflow Garden quick start sheet](./public/readme/quick-start-sheet.png)
+![Workflow Garden article overview](./public/readme/article-overview.png)
 
 ### Curated diary state
 
 ![Workflow Garden daily diary](./public/readme/daily-diary.png)
 
+### Search overview
+
+![Workflow Garden search overview](./public/readme/search-overview.png)
+
 ### Mobile overview
 
 ![Workflow Garden mobile overview](./public/readme/mobile-overview.png)
 
-## What the MVP covers
+## What the current site covers
 
-- a plain-language explanation of the workflow
-- an approachable tool map that explains when each major tool is useful
-- a setup path that someone can follow without heavy jargon
-- skim-friendly educational content and examples
+- a route-driven homepage that points visitors into deeper reading instead of forcing one long scroll
+- evergreen articles for skills, workflow concepts, and proof expectations
+- project pages that connect repos, live URLs, and related diary evidence
+- concept pages for repeated terms like `PRD`, `proof`, and `issue branch`
 - a curated daily diary generated from meaningful file activity under `/Users/rajeev/Code`
+- cross-content search across articles, projects, concepts, and diary entries
 
 ## Local commands
 
 ```bash
 pnpm install
+pnpm content:build
 pnpm activity:refresh
 pnpm dev
 ```
@@ -60,6 +66,7 @@ Proof outputs live in:
 The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the repo generates a committed dataset before proof and deploy.
 
 - `pnpm activity:refresh` scans `/Users/rajeev/Code`
+- `pnpm content:build` regenerates typed content indices and the Pagefind index
 - low-signal churn is ignored
 - meaningful repo-day activity is translated into curated diary entries
 - the app renders the generated JSON statically on Vercel

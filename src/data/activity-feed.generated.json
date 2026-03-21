@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-21T18:19:15.784Z",
+  "generatedAt": "2026-03-21T22:35:59.029Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
   "headline": "8 projects moved forward with a visible mix of educational content.",
   "subhead": "The diary surfaced 9 curated updates after scanning the last 7 days of local repo activity and translating the strongest signals into plain-language progress notes.",
   "stats": {
     "activeRepoCount": 8,
-    "changedFileCount": 4352,
+    "changedFileCount": 4405,
     "curatedEntryCount": 9,
     "topTheme": "educational content",
     "daysScanned": 7
@@ -15,20 +15,21 @@
     {
       "date": "2026-03-21",
       "label": "Today",
-      "summary": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in interface work, educational content, and workflow setup.",
+      "summary": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in interface work, educational content, and proof and validation.",
       "entries": [
         {
           "id": "workflow-garden-2026-03-21",
-          "kind": "showcase",
-          "title": "Workflow Garden shaped a clearer visitor-facing experience",
-          "summary": "Workflow Garden moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
-          "whyItMatters": "It turns internal workflow ideas into a surface that someone can understand at a glance.",
+          "kind": "explainer",
+          "title": "Workflow Garden focused on proof that people can actually inspect",
+          "summary": "Workflow Garden moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+          "whyItMatters": "It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works.",
           "repoName": "workflow-garden",
           "repoLabel": "Workflow Garden",
-          "changedFileCount": 40,
+          "changedFileCount": 93,
           "categories": [
             "interface",
             "content",
+            "proof",
             "workflow",
             "automation",
             "docs",

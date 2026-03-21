@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 import type { toolLenses } from "@/data/site-content"
 
 type ToolLens = (typeof toolLenses)[number]
@@ -60,7 +62,16 @@ export function ToolMapSection({
               <div className="mt-auto space-y-4">
                 {lens.tools.map((tool) => (
                   <div key={tool.name} className="archive-card p-4">
-                    <p className="archive-kicker text-primary/45">{tool.name}</p>
+                    {"href" in tool ? (
+                      <Link
+                        href={tool.href}
+                        className="archive-kicker text-primary/45 transition-colors hover:text-tertiary"
+                      >
+                        {tool.name}
+                      </Link>
+                    ) : (
+                      <p className="archive-kicker text-primary/45">{tool.name}</p>
+                    )}
                     <p className="mt-3 text-sm leading-7 text-foreground">
                       {tool.useCase}
                     </p>

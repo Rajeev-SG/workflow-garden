@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 import { QuickStartSheet } from "@/components/quick-start-sheet"
@@ -52,22 +53,28 @@ export function LandingHero({
             A calmer way to understand the workflow behind the shipping.
           </h1>
           <p className="max-w-2xl text-lg leading-8 text-muted-foreground md:text-[1.2rem] md:leading-9">
-            This site explains a modern issue-driven development workflow in
-            plain language. It shows what each tool is for, how a newcomer can
-            adopt it, and what meaningful daily progress looks like when you
-            translate file activity into something a human can actually skim.
+            Workflow Garden now behaves like an archive instead of a single long
+            explainer. Start with an article, jump into a project, or browse
+            the diary when you want to see how the workflow looks in real use.
           </p>
         </div>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
-          <QuickStartSheet />
-          <a
-            href="#daily-diary"
+          <Link
+            href="/articles"
+            className="inline-flex min-h-12 items-center justify-between border border-primary/85 bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/92 sm:w-auto"
+          >
+            Explore the articles
+            <ArrowRight className="ml-3 size-4" />
+          </Link>
+          <Link
+            href="/projects"
             className="inline-flex min-h-12 items-center justify-between border border-primary/85 px-5 py-3 text-sm font-semibold text-primary transition-colors hover:bg-white/82 sm:w-auto"
           >
-            Read today&apos;s diary
+            Browse the projects
             <ArrowRight className="ml-3 size-4" />
-          </a>
+          </Link>
+          <QuickStartSheet />
         </div>
       </div>
 

@@ -1,0 +1,33 @@
+---
+slug: one-issue-one-branch-one-pr
+title: Why one issue, one branch, and one PR matters
+description: A guide to the branch discipline behind the workflow and why it keeps delivery easier to reason about.
+eyebrow: Delivery discipline
+tags:
+  - issue branch
+  - pull request
+  - workflow
+relatedSlugs:
+  - prd-workflow-explained
+  - proof-vs-acceptance
+featured: false
+publishedAt: 2026-03-21
+updatedAt: 2026-03-21
+category: Delivery
+summary: A branch tied to one execution issue keeps code, proof, and merge history easier to inspect.
+audience: Builders shipping tracked work
+readingTime: 4 min
+---
+
+The workflow prefers one execution issue, one ticket-derived branch, and one PR because it makes the project narrative easier to inspect.
+
+If a branch mixes several unrelated goals, the proof becomes harder to interpret, the PR discussion loses focus, and the final merge no longer explains one clear change.
+
+## What this makes easier
+
+- understanding why a branch exists
+- checking whether the proof matches the scope
+- closing the right issue from the merge
+- cleaning up branches instead of letting them linger
+
+This is less about rigid process and more about preserving trust. A branch should tell a coherent story from issue to proof to merge.

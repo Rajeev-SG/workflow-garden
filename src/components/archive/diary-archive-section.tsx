@@ -1,3 +1,4 @@
+import Link from "next/link"
 import type { ActivityDay, ActivityFeed, DiaryEntry } from "@/lib/activity-intelligence"
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -260,6 +261,9 @@ export function DiaryArchiveSection({
               , looks for a meaningful signal, and only then creates entries.
               That keeps the public story curated and readable.
             </p>
+            <Link href="/diary" className="archive-inline-link text-sm">
+              Open the full diary archive
+            </Link>
           </div>
 
           <div className="border border-border/70 bg-white/74 p-6">
@@ -310,6 +314,9 @@ export function DiaryArchiveSection({
                   <p className="mt-4 text-sm leading-7 text-muted-foreground">
                     {day.summary}
                   </p>
+                  <Link href={`/diary/${day.date}`} className="mt-4 inline-block archive-inline-link text-sm">
+                    Read this day in detail
+                  </Link>
                 </div>
 
                 <div className="grid gap-8 md:grid-cols-12">

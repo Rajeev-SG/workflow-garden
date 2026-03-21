@@ -1,0 +1,43 @@
+---
+slug: prd-workflow-explained
+title: How write-a-prd, prd-to-plan, and prd-to-issues fit together
+description: A plain-language explanation of why the workflow splits requirements, planning, and execution into separate steps.
+eyebrow: Planning chain
+tags:
+  - write-a-prd
+  - prd-to-plan
+  - prd-to-issues
+  - planning
+relatedSlugs:
+  - what-agent-skills-are
+  - one-issue-one-branch-one-pr
+featured: true
+publishedAt: 2026-03-21
+updatedAt: 2026-03-21
+category: Planning
+summary: The workflow separates idea, plan, and execution issue so each stage stays readable and auditable.
+audience: People trying to understand the planning flow
+readingTime: 5 min
+---
+
+The planning chain exists because "plan the work" is actually three different jobs.
+
+`write-a-prd` captures the product problem in plain language. `prd-to-plan` turns that into phased implementation thinking. `prd-to-issues` converts the approved shape into execution slices that branches and PRs can follow.
+
+## Why split them?
+
+When all three happen inside one long conversation, the workflow becomes hard to inspect later. Requirements blur into implementation details, and execution starts before anyone knows what success looks like.
+
+Separating them makes each artifact easier to trust:
+
+- the PRD says what problem is being solved
+- the plan says how the work should be approached
+- the issues say what can be executed and proven
+
+## Where a PRD fits
+
+A PRD is not meant to be corporate ceremony. In this workflow, a PRD is simply the clearest version of the product intent that the team can agree on before code starts.
+
+## Where to go next
+
+If you want to see how those issues become safer to execute, read the guide to one issue, one branch, and one PR.

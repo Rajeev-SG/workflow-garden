@@ -10,18 +10,22 @@ export const toolLenses = [
       {
         name: "repo-bootstrap",
         useCase: "Set up a new repo so the next agent knows the workflow, commands, and proof bar.",
+        href: "/articles/repo-bootstrap-explained",
       },
       {
         name: "write-a-prd",
         useCase: "Translate a rough product idea into a plain-language PRD with clear user stories.",
+        href: "/articles/prd-workflow-explained",
       },
       {
         name: "prd-to-plan",
         useCase: "Turn that PRD into thin, demoable phases instead of one giant to-do list.",
+        href: "/articles/prd-workflow-explained",
       },
       {
         name: "prd-to-issues",
         useCase: "Create the actual execution issues that branches and PRs will follow.",
+        href: "/articles/prd-workflow-explained",
       },
     ],
   },
@@ -36,18 +40,22 @@ export const toolLenses = [
       {
         name: "shadcn-ui",
         useCase: "De-risk the tricky basics like tabs, accordions, buttons, and sheets.",
+        href: "/articles/shadcn-ui-explained",
       },
       {
         name: "frontend-design",
         useCase: "Choose a real visual direction instead of shipping generic AI-looking layouts.",
+        href: "/articles/frontend-design-explained",
       },
       {
         name: "critique",
         useCase: "Challenge the design early so structural problems get fixed before polish.",
+        href: "/articles/critique-explained",
       },
       {
         name: "gh + Linear",
         useCase: "Keep the implementation branch, PR, and planning state lined up.",
+        href: "/articles/one-issue-one-branch-one-pr",
       },
     ],
   },
@@ -62,18 +70,22 @@ export const toolLenses = [
       {
         name: "audit",
         useCase: "Run a quality pass across accessibility, responsive behavior, and anti-patterns.",
+        href: "/articles/audit-explained",
       },
       {
         name: "polish",
         useCase: "Fix the last alignment, spacing, copy, and interaction details before shipping.",
+        href: "/articles/polish-explained",
       },
       {
         name: "design-proof",
         useCase: "Fail the pass if normal desktop, wide desktop, or mobile screenshots are compositionally weak.",
+        href: "/articles/proof-vs-acceptance",
       },
       {
         name: "acceptance-proof",
         useCase: "Run the real user journey in a browser and fail if the screenshots do not hold up.",
+        href: "/articles/proof-vs-acceptance",
       },
     ],
   },
@@ -88,14 +100,17 @@ export const toolLenses = [
       {
         name: "vercel",
         useCase: "Push the MVP to a real public URL so the proof can reference a live surface.",
+        href: "/projects/workflow-garden",
       },
       {
         name: "gh",
         useCase: "Reuse one PR, merge it cleanly, and close the linked issue from the merge.",
+        href: "/articles/one-issue-one-branch-one-pr",
       },
       {
         name: "Linear",
         useCase: "Move planning state only when the proof and merge state genuinely line up.",
+        href: "/articles/one-issue-one-branch-one-pr",
       },
       {
         name: "README proof screenshots",

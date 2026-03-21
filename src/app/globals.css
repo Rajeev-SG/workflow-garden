@@ -233,4 +233,50 @@
     opacity: 0.72;
     transform: scaleX(1);
   }
+
+  .archive-inline-link {
+    color: var(--tertiary);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--tertiary) 52%, white 48%);
+    text-underline-offset: 0.18em;
+  }
+
+  .archive-inline-link:hover {
+    color: var(--primary);
+  }
+
+  .archive-prose {
+    color: var(--foreground);
+  }
+
+  .archive-prose > * + * {
+    margin-top: 1.15rem;
+  }
+
+  .archive-prose h2 {
+    margin-top: 2.5rem;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+    color: var(--primary);
+  }
+
+  .archive-prose p,
+  .archive-prose li {
+    font-size: 1rem;
+    line-height: 1.95;
+    color: color-mix(in srgb, var(--foreground) 84%, white 16%);
+  }
+
+  .archive-prose ul {
+    margin-left: 1.1rem;
+    list-style: disc;
+  }
+
+  .archive-code-block pre {
+    overflow-x: auto;
+    padding: 1rem;
+    border: 1px solid rgb(116 119 125 / 12%);
+    box-shadow: 0 18px 48px -42px rgb(4 22 39 / 35%);
+  }
 }

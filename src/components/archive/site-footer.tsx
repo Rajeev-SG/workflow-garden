@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export interface SiteFooterProps {
   scanRoot: string
 }
@@ -14,6 +16,12 @@ export function SiteFooter({ scanRoot }: Readonly<SiteFooterProps>) {
           <p className="text-xs uppercase tracking-[0.24em] text-primary/46">
             Proof-backed, branch-clean, and readable by humans
           </p>
+          <div className="flex flex-wrap gap-4 pt-2 text-sm">
+            <Link href="/articles" className="archive-link">Articles</Link>
+            <Link href="/projects" className="archive-link">Projects</Link>
+            <Link href="/diary" className="archive-link">Diary</Link>
+            <Link href="/search" className="archive-link">Search</Link>
+          </div>
         </div>
 
         <p className="max-w-2xl text-sm leading-7 text-muted-foreground md:text-right">

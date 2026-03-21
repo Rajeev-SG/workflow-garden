@@ -1,0 +1,480 @@
+[
+  {
+    "id": "article:audit-explained",
+    "title": "What audit is checking after the page works",
+    "url": "/articles/audit-explained",
+    "kind": "article",
+    "description": "A short explanation of the audit pass across responsive behavior, accessibility, and anti-patterns.",
+    "content": "audit checks whether the page is robust and trustworthy across responsiveness, accessibility, and obvious quality risks.",
+    "tags": [
+      "audit",
+      "responsive",
+      "accessibility"
+    ],
+    "meta": {
+      "eyebrow": "Tool article",
+      "category": "Proof"
+    }
+  },
+  {
+    "id": "article:critique-explained",
+    "title": "Why critique happens before polish",
+    "url": "/articles/critique-explained",
+    "kind": "article",
+    "description": "A short explanation of why the workflow challenges structure before refining details.",
+    "content": "critique catches conceptual and structural weaknesses before time is spent polishing the wrong shape.",
+    "tags": [
+      "critique",
+      "design review",
+      "hierarchy"
+    ],
+    "meta": {
+      "eyebrow": "Tool article",
+      "category": "Design"
+    }
+  },
+  {
+    "id": "article:frontend-design-explained",
+    "title": "Why frontend-design matters in this workflow",
+    "url": "/articles/frontend-design-explained",
+    "kind": "article",
+    "description": "A short explanation of why the workflow pushes against generic AI-looking layouts.",
+    "content": "frontend-design exists to keep new pages intentional, distinctive, and aligned with the product’s real visual direction.",
+    "tags": [
+      "frontend-design",
+      "design",
+      "composition"
+    ],
+    "meta": {
+      "eyebrow": "Tool article",
+      "category": "Design"
+    }
+  },
+  {
+    "id": "article:one-issue-one-branch-one-pr",
+    "title": "Why one issue, one branch, and one PR matters",
+    "url": "/articles/one-issue-one-branch-one-pr",
+    "kind": "article",
+    "description": "A guide to the branch discipline behind the workflow and why it keeps delivery easier to reason about.",
+    "content": "A branch tied to one execution issue keeps code, proof, and merge history easier to inspect.",
+    "tags": [
+      "issue branch",
+      "pull request",
+      "workflow"
+    ],
+    "meta": {
+      "eyebrow": "Delivery discipline",
+      "category": "Delivery"
+    }
+  },
+  {
+    "id": "article:polish-explained",
+    "title": "What polish means before shipping",
+    "url": "/articles/polish-explained",
+    "kind": "article",
+    "description": "A short explanation of the final quality pass that tightens copy, spacing, and interaction details.",
+    "content": "polish is the final pass that makes the page feel considered, not merely functional.",
+    "tags": [
+      "polish",
+      "finish",
+      "quality"
+    ],
+    "meta": {
+      "eyebrow": "Tool article",
+      "category": "Proof"
+    }
+  },
+  {
+    "id": "article:prd-workflow-explained",
+    "title": "How write-a-prd, prd-to-plan, and prd-to-issues fit together",
+    "url": "/articles/prd-workflow-explained",
+    "kind": "article",
+    "description": "A plain-language explanation of why the workflow splits requirements, planning, and execution into separate steps.",
+    "content": "The workflow separates idea, plan, and execution issue so each stage stays readable and auditable.",
+    "tags": [
+      "write-a-prd",
+      "prd-to-plan",
+      "prd-to-issues",
+      "planning"
+    ],
+    "meta": {
+      "eyebrow": "Planning chain",
+      "category": "Planning"
+    }
+  },
+  {
+    "id": "article:proof-vs-acceptance",
+    "title": "What proof means: design-proof vs acceptance-proof",
+    "url": "/articles/proof-vs-acceptance",
+    "kind": "article",
+    "description": "Why this workflow requires visible evidence, not just a passing test run.",
+    "content": "design-proof checks whether the page looks coherent, while acceptance-proof checks whether the real user journey works and can be inspected.",
+    "tags": [
+      "proof",
+      "design-proof",
+      "acceptance-proof"
+    ],
+    "meta": {
+      "eyebrow": "Proof bar",
+      "category": "Proof"
+    }
+  },
+  {
+    "id": "article:repo-bootstrap-explained",
+    "title": "Why repo-bootstrap exists",
+    "url": "/articles/repo-bootstrap-explained",
+    "kind": "article",
+    "description": "A guide to the first skill in the workflow and why a repo should not begin life as an undocumented blank folder.",
+    "content": "repo-bootstrap sets the rules, commands, docs, and proof bar before feature work starts.",
+    "tags": [
+      "repo-bootstrap",
+      "setup",
+      "onboarding"
+    ],
+    "meta": {
+      "eyebrow": "Skill article",
+      "category": "Skills"
+    }
+  },
+  {
+    "id": "article:shadcn-ui-explained",
+    "title": "Why shadcn-ui shows up in the build lane",
+    "url": "/articles/shadcn-ui-explained",
+    "kind": "article",
+    "description": "A short explanation of why the workflow prefers dependable primitives before inventing custom controls.",
+    "content": "shadcn-ui reduces risk in the primitive layer so design energy can go into composition, content, and clarity.",
+    "tags": [
+      "shadcn-ui",
+      "primitives",
+      "build"
+    ],
+    "meta": {
+      "eyebrow": "Tool article",
+      "category": "Build"
+    }
+  },
+  {
+    "id": "article:what-agent-skills-are",
+    "title": "What agent skills are",
+    "url": "/articles/what-agent-skills-are",
+    "kind": "article",
+    "description": "A plain-language guide to what skills do, why they exist, and how they make an AI workflow more teachable.",
+    "content": "Skills are reusable instruction packs that let the workflow stay consistent instead of depending on one-off chat context.",
+    "tags": [
+      "skills",
+      "workflow",
+      "orientation"
+    ],
+    "meta": {
+      "eyebrow": "Foundation",
+      "category": "Foundation"
+    }
+  },
+  {
+    "id": "project:choice-compass",
+    "title": "Choice Compass",
+    "url": "/projects/choice-compass",
+    "kind": "project",
+    "description": "A weighted decision helper prototype built through the full workflow chain.",
+    "content": "A weighted decision helper prototype built through the full workflow chain. choice-compass Decision helper",
+    "tags": [
+      "project",
+      "live app",
+      "planning chain"
+    ],
+    "meta": {
+      "eyebrow": "Live example",
+      "repoName": "choice-compass",
+      "status": "Live"
+    }
+  },
+  {
+    "id": "project:proof-pack",
+    "title": "Proof Pack",
+    "url": "/projects/proof-pack",
+    "kind": "project",
+    "description": "A public project centered on visible evidence, browser proof, and inspectable output.",
+    "content": "A public project centered on visible evidence, browser proof, and inspectable output. proof-pack Proof workflow",
+    "tags": [
+      "proof",
+      "screenshots",
+      "acceptance"
+    ],
+    "meta": {
+      "eyebrow": "Proof-heavy example",
+      "repoName": "proof-pack",
+      "status": "Live"
+    }
+  },
+  {
+    "id": "project:property-search",
+    "title": "Property Search",
+    "url": "/projects/property-search",
+    "kind": "project",
+    "description": "A larger project where workflow rules, documentation, and tracked slices matter because the system itself is more complex.",
+    "content": "A larger project where workflow rules, documentation, and tracked slices matter because the system itself is more complex. property-search Product system",
+    "tags": [
+      "project",
+      "complex workflow",
+      "docs"
+    ],
+    "meta": {
+      "eyebrow": "System example",
+      "repoName": "property-search",
+      "status": "In progress"
+    }
+  },
+  {
+    "id": "project:workflow-garden",
+    "title": "Workflow Garden",
+    "url": "/projects/workflow-garden",
+    "kind": "project",
+    "description": "A public educational site that turns an issue-driven AI workflow into something a visitor can understand.",
+    "content": "A public educational site that turns an issue-driven AI workflow into something a visitor can understand. workflow-garden Educational site",
+    "tags": [
+      "educational site",
+      "workflow",
+      "proof-backed"
+    ],
+    "meta": {
+      "eyebrow": "Featured project",
+      "repoName": "workflow-garden",
+      "status": "Live"
+    }
+  },
+  {
+    "id": "concept:issue-branch",
+    "title": "What an issue branch is",
+    "url": "/concepts/issue-branch",
+    "kind": "concept",
+    "description": "A plain-language definition of a ticket-derived branch.",
+    "content": "An issue branch is a branch named from the active execution ticket so the code and tracking stay aligned. ticket branch ticket-derived branch",
+    "tags": [
+      "issue branch",
+      "branch"
+    ],
+    "meta": {
+      "eyebrow": "Concept",
+      "canonicalTerm": "Issue branch"
+    }
+  },
+  {
+    "id": "concept:prd",
+    "title": "What a PRD is",
+    "url": "/concepts/prd",
+    "kind": "concept",
+    "description": "A plain-language definition of a PRD and why this workflow uses one.",
+    "content": "A PRD is the clearest version of the product intent before implementation starts. product requirements document",
+    "tags": [
+      "prd",
+      "planning"
+    ],
+    "meta": {
+      "eyebrow": "Concept",
+      "canonicalTerm": "PRD"
+    }
+  },
+  {
+    "id": "concept:proof",
+    "title": "What proof means in this workflow",
+    "url": "/concepts/proof",
+    "kind": "concept",
+    "description": "A definition of proof as visible evidence rather than a polite claim that the change probably works.",
+    "content": "Proof is inspectable evidence that a change works and reads well for another person, not just the implementer. proof artifacts proof-backed",
+    "tags": [
+      "proof",
+      "acceptance"
+    ],
+    "meta": {
+      "eyebrow": "Concept",
+      "canonicalTerm": "Proof"
+    }
+  },
+  {
+    "id": "diary:workflow-garden-2026-03-21",
+    "title": "Workflow Garden focused on proof that people can actually inspect",
+    "url": "/diary/2026-03-21",
+    "kind": "diary",
+    "description": "Workflow Garden moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Workflow Garden moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Workflow Garden the environment contract gitignore infisical",
+    "tags": [
+      "interface",
+      "content",
+      "proof",
+      "workflow",
+      "automation",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-21",
+      "repoName": "workflow-garden",
+      "repoLabel": "Workflow Garden"
+    }
+  },
+  {
+    "id": "diary:proof-pack-2026-03-21",
+    "title": "Proof Pack shaped a clearer visitor-facing experience",
+    "url": "/diary/2026-03-21",
+    "kind": "diary",
+    "description": "Proof Pack moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Proof Pack moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Proof Pack the environment contract gitignore infisical",
+    "tags": [
+      "interface",
+      "content",
+      "workflow",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-21",
+      "repoName": "proof-pack",
+      "repoLabel": "Proof Pack"
+    }
+  },
+  {
+    "id": "diary:choice-compass-2026-03-21",
+    "title": "Choice Compass shaped a clearer visitor-facing experience",
+    "url": "/diary/2026-03-21",
+    "kind": "diary",
+    "description": "Choice Compass moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Choice Compass moved through interface work, educational content, and workflow setup with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Choice Compass the environment contract gitignore the repo workflow guide",
+    "tags": [
+      "interface",
+      "content",
+      "workflow",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-21",
+      "repoName": "choice-compass",
+      "repoLabel": "Choice Compass"
+    }
+  },
+  {
+    "id": "diary:symphony-workspaces-2026-03-20",
+    "title": "Symphony Workspaces turned repeated work into a more dependable system",
+    "url": "/diary/2026-03-20",
+    "kind": "diary",
+    "description": "Symphony Workspaces moved through educational content, automation, and testing with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Symphony Workspaces moved through educational content, automation, and testing with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It reduces repeat work and makes the diary feel curated instead of manually stitched together. Symphony Workspaces the environment contract gitignore the repo workflow guide",
+    "tags": [
+      "content",
+      "automation",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-20",
+      "repoName": "symphony-workspaces",
+      "repoLabel": "Symphony Workspaces"
+    }
+  },
+  {
+    "id": "diary:tools-2026-03-20",
+    "title": "Tools shaped a clearer visitor-facing experience",
+    "url": "/diary/2026-03-20",
+    "kind": "diary",
+    "description": "Tools moved through interface work, educational content, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Tools moved through interface work, educational content, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It turns internal workflow ideas into a surface that someone can understand at a glance. Tools the plain-language README the repo Claude guidance gitignore",
+    "tags": [
+      "interface",
+      "content",
+      "automation",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-20",
+      "repoName": "tools",
+      "repoLabel": "Tools"
+    }
+  },
+  {
+    "id": "diary:property-search-2026-03-20",
+    "title": "Property Search translated workflow steps into something teachable",
+    "url": "/diary/2026-03-20",
+    "kind": "diary",
+    "description": "Property Search moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Property Search moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves. Property Search the environment contract gitignore the repo workflow guide",
+    "tags": [
+      "content",
+      "workflow",
+      "automation",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-20",
+      "repoName": "property-search",
+      "repoLabel": "Property Search"
+    }
+  },
+  {
+    "id": "diary:tools-2026-03-19",
+    "title": "Tools translated workflow steps into something teachable",
+    "url": "/diary/2026-03-19",
+    "kind": "diary",
+    "description": "Tools moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Tools moved through educational content, workflow setup, and automation with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It lowers the setup barrier, which is exactly what new adopters need before they try the workflow themselves. Tools the repo workflow guide cli tools the support docs",
+    "tags": [
+      "content",
+      "workflow",
+      "automation",
+      "docs",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-19",
+      "repoName": "tools",
+      "repoLabel": "Tools"
+    }
+  },
+  {
+    "id": "diary:get-rtm-flats-2026-03-19",
+    "title": "Get Rtm Flats focused on proof that people can actually inspect",
+    "url": "/diary/2026-03-19",
+    "kind": "diary",
+    "description": "Get Rtm Flats moved through educational content, proof and validation, and workflow setup with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Get Rtm Flats moved through educational content, proof and validation, and workflow setup with a deep round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Get Rtm Flats the environment contract the repo workflow guide the plain-language README",
+    "tags": [
+      "content",
+      "proof",
+      "workflow",
+      "docs",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-19",
+      "repoName": "get-rtm-flats",
+      "repoLabel": "Get Rtm Flats"
+    }
+  },
+  {
+    "id": "diary:auto-audit-harness-2026-03-19",
+    "title": "Auto Audit Harness focused on proof that people can actually inspect",
+    "url": "/diary/2026-03-19",
+    "kind": "diary",
+    "description": "Auto Audit Harness moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow.",
+    "content": "Auto Audit Harness moved through interface work, educational content, and proof and validation with a broad round of momentum, then condensed that movement into a short update that a non-developer can follow. It gives visitors visible evidence instead of asking them to trust a vague claim that the workflow works. Auto Audit Harness ARCHITECTURE QUALITY SCORE the plain-language README",
+    "tags": [
+      "interface",
+      "content",
+      "proof",
+      "docs",
+      "testing",
+      "config"
+    ],
+    "meta": {
+      "date": "2026-03-19",
+      "repoName": "auto-audit-harness",
+      "repoLabel": "Auto Audit Harness"
+    }
+  }
+]
