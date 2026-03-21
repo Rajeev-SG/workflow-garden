@@ -1,0 +1,36 @@
+---
+slug: proof-vs-acceptance
+title: "What proof means: design-proof vs acceptance-proof"
+description: Why this workflow requires visible evidence, not just a passing test run.
+eyebrow: Proof bar
+tags:
+  - proof
+  - design-proof
+  - acceptance-proof
+relatedSlugs:
+  - one-issue-one-branch-one-pr
+  - what-agent-skills-are
+featured: true
+publishedAt: 2026-03-21
+updatedAt: 2026-03-21
+category: Proof
+summary: design-proof checks whether the page looks coherent, while acceptance-proof checks whether the real user journey works and can be inspected.
+audience: People evaluating what counts as “done”
+readingTime: 4 min
+---
+
+This workflow treats proof as evidence that another person can inspect. A passing build is useful, but it does not tell a visitor whether the page feels coherent, or whether the real user journey actually works.
+
+`design-proof` and `acceptance-proof` exist to answer different questions.
+
+## design-proof
+
+`design-proof` asks whether the page is compositionally strong across desktop, wide desktop, and mobile. It fails if layout, sequencing, whitespace, or hierarchy breaks down.
+
+## acceptance-proof
+
+`acceptance-proof` asks whether the important journey can actually be completed in a browser. It expects screenshots, logs, and a clear pass or fail result.
+
+## Why the distinction matters
+
+You can have a page that technically works but still feels confusing or weak. You can also have a beautiful page that hides a broken interaction. The workflow keeps both checks separate so neither gets masked by the other.

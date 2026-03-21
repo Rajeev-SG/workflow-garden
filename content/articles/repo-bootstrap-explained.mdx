@@ -1,0 +1,43 @@
+---
+slug: repo-bootstrap-explained
+title: Why repo-bootstrap exists
+description: A guide to the first skill in the workflow and why a repo should not begin life as an undocumented blank folder.
+eyebrow: Skill article
+tags:
+  - repo-bootstrap
+  - setup
+  - onboarding
+relatedSlugs:
+  - what-agent-skills-are
+  - prd-workflow-explained
+  - one-issue-one-branch-one-pr
+featured: true
+publishedAt: 2026-03-21
+updatedAt: 2026-03-21
+category: Skills
+summary: repo-bootstrap sets the rules, commands, docs, and proof bar before feature work starts.
+audience: Builders starting a fresh repo
+readingTime: 4 min
+---
+
+`repo-bootstrap` exists because an empty repo is rarely truly empty. The moment someone starts building, decisions about commands, docs, proof, deployment, and workflow already begin to accumulate.
+
+This skill makes those choices explicit at the start. It creates the basic guidance files, records the purpose of the repo in normal language, and points the project toward the next real step instead of leaving future work to reverse-engineer intent.
+
+## What a good bootstrap should establish
+
+- what the repo is for
+- which commands matter
+- what counts as proof
+- where secrets and auth guidance live
+- what the next workflow step is
+
+For Workflow Garden, that early structure is why the current README, proof commands, and workflow rules already exist instead of being retrofitted after the product shipped.
+
+## Why this helps visitors too
+
+Visitors never run `repo-bootstrap`, but they benefit from the clarity it creates. A well-bootstrapped project is easier to explain because its own structure already tells a coherent story.
+
+## Where to go next
+
+If the repo exists and the next problem is planning, move on to `write-a-prd`, `prd-to-plan`, and `prd-to-issues`.

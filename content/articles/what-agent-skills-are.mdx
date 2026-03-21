@@ -1,0 +1,46 @@
+---
+slug: what-agent-skills-are
+title: What agent skills are
+description: A plain-language guide to what skills do, why they exist, and how they make an AI workflow more teachable.
+eyebrow: Foundation
+tags:
+  - skills
+  - workflow
+  - orientation
+relatedSlugs:
+  - repo-bootstrap-explained
+  - prd-workflow-explained
+  - proof-vs-acceptance
+featured: true
+publishedAt: 2026-03-21
+updatedAt: 2026-03-21
+category: Foundation
+summary: Skills are reusable instruction packs that let the workflow stay consistent instead of depending on one-off chat context.
+audience: Curious newcomers and non-developers
+readingTime: 4 min
+---
+
+Agent skills are reusable instruction packs. They give an AI assistant a named playbook for a recurring kind of work, like `repo-bootstrap`, `write-a-prd`, `design-proof`, or `acceptance-proof`.
+
+That matters because most workflows fall apart when the useful habits live only in chat history. A skill turns the habit into something inspectable, repeatable, and easier to teach.
+
+## Why the workflow uses them
+
+Without skills, every new repo or every new feature asks the assistant to rediscover the same process from scratch. With skills, the workflow can say "use `repo-bootstrap` here" or "run `acceptance-proof` before calling this done" and mean something concrete.
+
+The result is less improvisation in the risky parts of the process:
+
+- planning work before code starts
+- proving user-facing changes with real browser evidence
+- keeping design and acceptance gates consistent
+- creating work that another person can inspect later
+
+## What they are not
+
+Skills are not magic buttons and they are not the product itself. They are workflow scaffolding. A good skill narrows ambiguity, names the proof bar, and makes the next step obvious.
+
+## Where to go next
+
+If you want the first skill most people meet in this workflow, read `repo-bootstrap`.
+
+If you want to see how planning skills connect together, read the guide to `write-a-prd`, `prd-to-plan`, and `prd-to-issues`.
