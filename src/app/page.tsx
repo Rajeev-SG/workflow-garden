@@ -58,28 +58,28 @@ export default function Home() {
       <div className="mx-auto flex w-full max-w-[98rem] flex-col gap-10 px-4 py-6 md:px-8 lg:gap-12 lg:px-10 lg:py-10">
         <section className="rounded-[2.3rem] border border-border/65 bg-white/84 px-5 py-6 shadow-[0_32px_90px_-48px_rgba(44,63,57,0.35)] backdrop-blur md:px-8 md:py-8 xl:px-10 xl:py-10">
           <div className="grid gap-6 xl:grid-cols-[1.35fr_0.95fr]">
-            <article className="flex flex-col justify-between rounded-[2rem] border border-border/55 bg-[linear-gradient(135deg,rgba(250,246,239,0.96),rgba(255,255,255,0.88))] p-6 md:p-8 xl:p-10">
-              <div className="space-y-6">
-                <div className="flex flex-wrap gap-2">
+            <article className="min-w-0 flex flex-col justify-between rounded-[2rem] border border-border/55 bg-[linear-gradient(135deg,rgba(250,246,239,0.96),rgba(255,255,255,0.88))] p-5 md:p-8 xl:p-10">
+              <div className="min-w-0 space-y-6">
+                <div className="flex min-w-0 flex-wrap gap-2">
                   {reassuranceNotes.map((note) => (
                     <Badge
                       key={note}
                       variant="outline"
-                      className="rounded-full border-primary/20 bg-primary/8 px-3 py-1 text-[0.7rem] uppercase tracking-[0.28em] text-primary"
+                      className="h-auto max-w-full whitespace-normal rounded-full border-primary/20 bg-primary/8 px-3 py-1.5 text-[0.66rem] leading-4 uppercase tracking-[0.22em] text-primary sm:text-[0.7rem] sm:tracking-[0.28em]"
                     >
                       {note}
                     </Badge>
                   ))}
                 </div>
 
-                <div className="space-y-4">
+                <div className="min-w-0 space-y-4">
                   <p className="text-xs uppercase tracking-[0.34em] text-muted-foreground">
                     Workflow Garden
                   </p>
-                  <h1 className="max-w-4xl text-[clamp(2.55rem,13vw,5.6rem)] leading-[0.95] font-semibold tracking-[-0.04em] text-foreground">
+                  <h1 className="max-w-4xl text-[clamp(2.15rem,10vw,5.6rem)] leading-[0.95] font-semibold tracking-[-0.04em] text-foreground sm:text-[clamp(2.55rem,13vw,5.6rem)]">
                     A calmer way to understand the workflow behind the shipping.
                   </h1>
-                  <p className="max-w-2xl text-lg leading-8 text-muted-foreground md:text-xl">
+                  <p className="max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8 md:text-xl">
                     This site explains a modern issue-driven development workflow
                     in plain language. It shows what each tool is for, how a
                     newcomer can adopt it, and what meaningful daily progress
@@ -88,13 +88,13 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="flex flex-wrap items-center gap-3">
+                <div className="flex min-w-0 flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
                   <QuickStartSheet />
                   <Button
                     asChild
                     variant="outline"
                     size="lg"
-                    className="h-12 rounded-full border-border/70 bg-white/70 px-6 text-sm font-semibold"
+                    className="min-h-12 w-full whitespace-normal rounded-full border-border/70 bg-white/70 px-6 py-3 text-center text-sm font-semibold sm:w-auto"
                   >
                     <a href="#daily-diary">
                       Read today&apos;s diary
@@ -106,7 +106,7 @@ export default function Home() {
 
               <div className="mt-8 grid gap-4 border-t border-border/60 pt-6 md:grid-cols-2 xl:grid-cols-4">
                 {workflowBeats.map((beat, index) => (
-                  <div key={beat} className="space-y-2">
+                  <div key={beat} className="min-w-0 space-y-2">
                     <p className="text-xs uppercase tracking-[0.28em] text-muted-foreground">
                       0{index + 1}
                     </p>
@@ -116,7 +116,7 @@ export default function Home() {
               </div>
             </article>
 
-            <aside className="rounded-[2rem] border border-border/60 bg-[linear-gradient(180deg,rgba(243,239,228,0.92),rgba(255,255,255,0.9))] p-6 md:p-8">
+            <aside className="min-w-0 rounded-[2rem] border border-border/60 bg-[linear-gradient(180deg,rgba(243,239,228,0.92),rgba(255,255,255,0.9))] p-5 md:p-8">
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <p className="text-xs uppercase tracking-[0.34em] text-muted-foreground">

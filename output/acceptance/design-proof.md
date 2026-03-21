@@ -6,7 +6,7 @@ Target URL: [https://workflow-garden.vercel.app](https://workflow-garden.vercel.
 
 ## Visible delta
 
-The final surface replaces the default scaffold with a designed educational landing page, a live-looking diary pulse, a guided setup sheet, a clear tool map, and a curated daily diary stream grounded in local activity data.
+The current surface keeps the same editorial direction, but the mobile hero now reflows correctly: the reassurance chips wrap within the card, the headline and body copy fit the viewport, and the two primary CTAs stack cleanly instead of clipping off-screen.
 
 ## Screenshot verdict
 
@@ -26,6 +26,6 @@ The final surface replaces the default scaffold with a designed educational land
 
 ## Notes
 
-- The screenshot review loop initially failed on tool-tab crowding and a wide-screen diary dead zone.
-- Both issues were fixed before the final production proof run.
-- Production console logs were clean during the final screenshot capture.
+- The earlier mobile verdict was wrong. A real overflow regression slipped through the first proof pass and was caught by screenshot review afterward.
+- This rerun specifically rechecked the hero at `390px` width and confirmed zero overflowing elements in the landing section.
+- Desktop and wide desktop still pass after the mobile fix, and console logs remained clean during the rerun.
