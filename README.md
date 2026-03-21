@@ -4,6 +4,8 @@ Workflow Garden is a public educational site that explains an issue-driven AI de
 
 Live URL: [workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 
+Current visual direction: the approved Stitch `B` archive treatment, adapted into repo-native React and Next components rather than copied export markup.
+
 ## Screenshots
 
 ### Landing overview
@@ -44,6 +46,7 @@ pnpm dev
 pnpm lint
 pnpm test
 pnpm build
+pnpm proof
 PROOF_BASE_URL=https://workflow-garden.vercel.app pnpm proof
 ```
 
@@ -64,6 +67,7 @@ The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the r
 ## Source of truth
 
 - Product workflow: [AGENTS.md](./AGENTS.md)
+- Approved visual spec: [.stitch/DESIGN.md](./.stitch/DESIGN.md)
 - Current plan: [plans/workflow-garden-mvp.md](./plans/workflow-garden-mvp.md)
 - Secrets contract: [docs/ops/secrets.md](./docs/ops/secrets.md)
 - Vendor auth checks: [docs/ops/vendor-auth.md](./docs/ops/vendor-auth.md)

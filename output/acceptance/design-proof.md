@@ -1,20 +1,20 @@
 # Design Proof
 
-Art direction: a warm editorial field guide with paper-toned surfaces, broad horizontal composition, and reassuring plain-language copy.
+Art direction: the approved Stitch "Intellectual Archive" direction, translated into repo-native React components with ink-on-parchment surfaces, tight paper-like geometry, and editorial hierarchy.
 
-Target URL: [https://workflow-garden.vercel.app](https://workflow-garden.vercel.app)
+Target URL: [http://localhost:3001](http://localhost:3001)
 
 ## Visible delta
 
-The current surface keeps the same editorial direction, but the mobile hero now reflows correctly: the reassurance chips wrap within the card, the headline and body copy fit the viewport, and the two primary CTAs stack cleanly instead of clipping off-screen.
+The app now reads as an archive instead of a rounded SaaS card stack. The headline uses the approved `Newsreader` voice, the hero is paired with an evidence-board panel built from real diary data, the tool map has been rebuilt as editorial columns, the setup path now sits in an ink field, and the diary uses a featured record plus dated archive groups that stay coherent on mobile.
 
 ## Screenshot verdict
 
 - Normal desktop composition: pass
 - Wide desktop composition: pass
 - Mobile sequencing: pass
-- Dead zones or accidental whitespace remain: no
-- Tall narrow panels remain: no
+- Diary section composition past the fold: pass
+- Tool-map composition at wrapped widths: pass
 
 ## Evidence
 
@@ -28,8 +28,6 @@ The current surface keeps the same editorial direction, but the mobile hero now 
 
 ## Notes
 
-- The earlier mobile verdict was wrong. A real overflow regression slipped through the first proof pass and was caught by screenshot review afterward.
-- This rerun specifically rechecked the hero at `390px` width and confirmed zero overflowing elements in the landing section.
-- A second regression in the tools section showed that the tabs list could still overlap its content at wrapped widths.
-- The proof harness now captures that section directly at `402px` and `838px` so mid-page composition failures cannot hide behind top-of-page screenshots.
-- Desktop and wide desktop still pass after the fixes, and console logs remained clean during the rerun.
+- The visual language now matches the approved Stitch direction through tokens and composition, not copied HTML.
+- Mobile keeps the hero sequence intact: reassurance notes, editorial heading, explanatory copy, primary setup action, secondary diary action, then the evidence pulse.
+- The diary proof capture confirms the long-scroll archive still holds together after the featured record and date groups enter view.

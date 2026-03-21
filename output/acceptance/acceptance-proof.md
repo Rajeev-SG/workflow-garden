@@ -1,34 +1,33 @@
 # Acceptance Proof
 
-Target flow: open the public site, verify the educational overview loads, confirm the quick-start sheet opens, and verify the generated diary content is visible on the live deployment.
+Target flow: load the local app, verify the educational archive overview renders, open the guided setup sheet, and confirm that the curated diary and tool-map sections remain usable across desktop and mobile captures.
 
 Expected behavior:
 
 - the page loads without runtime console errors
-- the hero explains the workflow in plain language
+- the archive hero explains the workflow in plain language
 - the quick-start button reveals a setup sheet with concrete steps
 - the diary section shows curated entries based on generated local activity data
+- the tool-map section remains readable at narrow and tablet widths
 - screenshot review passes at normal desktop, wide desktop, and mobile widths
 
 Observed behavior:
 
-- the deployed site loaded successfully at [https://workflow-garden.vercel.app](https://workflow-garden.vercel.app)
+- the local site loaded successfully at [http://localhost:3001](http://localhost:3001)
+- the hero rendered the new archive presentation with real repo copy and live diary stats
 - the quick-start sheet opened and rendered the four-step setup path
-- the diary section rendered curated repo-day entries
-- production console logs were clean across the overview, interactive sheet, and diary captures
-- the original screenshot verdict was invalid because the shipped mobile hero still had a real overflow bug
-- the corrected live rerun now shows the hero fitting a `390px` viewport with stacked CTAs and no horizontal overflow
-- the fresh screenshot set now passes the composition gate on the deployed URL
-- the proof set now also includes targeted tools-section captures at `402px` and `838px` so wrapped tab rows are checked directly
+- the diary section rendered the featured record plus dated archive groups from the generated feed
+- the narrow and tablet tool-map captures stayed readable without overlapping controls or collapsed content
+- browser console logs stayed clean across the overview, interactive sheet, diary, and mobile captures except for dev-only React/HMR notices
 
 Pass/fail decision: pass
 
 Evidence:
 
 - Artifact manifest: [proof-artifacts.json](/Users/rajeev/Code/workflow-garden/output/acceptance/proof-artifacts.json)
-- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T18-33-20-644Z.log)
-- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T18-33-26-295Z.log)
-- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T18-33-31-401Z.log)
+- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T20-23-00-241Z.log)
+- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T20-23-05-583Z.log)
+- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T20-23-11-108Z.log)
 - Interactive sheet screenshot: [quick-start-sheet.png](/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/quick-start-sheet.png)
 - Diary screenshot: [daily-diary.png](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/daily-diary.png)
 - Tools narrow screenshot: [tools-narrow.png](/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/tools-narrow.png)

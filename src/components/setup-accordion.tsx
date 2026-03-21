@@ -15,15 +15,15 @@ export function SetupAccordion() {
         <AccordionItem
           key={step.number}
           value={step.number}
-          className="border-border/60"
+          className="border-border/60 py-1"
         >
           <AccordionTrigger className="gap-4 py-5 text-left hover:no-underline">
             <span className="flex items-start gap-4">
-              <span className="inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-primary/30 bg-primary/8 text-sm font-semibold text-primary">
+              <span className="inline-flex size-11 shrink-0 items-center justify-center border border-border/80 bg-[color:rgb(229_226_218_/_66%)] text-sm font-semibold text-primary">
                 {step.number}
               </span>
               <span className="space-y-1">
-                <span className="block text-lg font-semibold text-foreground">
+                <span className="block text-xl leading-tight font-medium tracking-[-0.03em] text-primary">
                   {step.title}
                 </span>
                 <span className="block text-sm leading-6 text-muted-foreground">
@@ -38,7 +38,7 @@ export function SetupAccordion() {
               {step.commands.map((command) => (
                 <li
                   key={command}
-                  className="rounded-full border border-border/70 bg-white/70 px-3 py-1.5 font-mono text-xs text-foreground"
+                  className="bg-[color:rgb(229_226_218_/_72%)] px-3 py-1.5 font-mono text-xs text-foreground"
                 >
                   {command}
                 </li>

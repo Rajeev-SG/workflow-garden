@@ -2,28 +2,25 @@
 
 ## Anti-patterns verdict
 
-Pass. The final page avoids the usual AI-slop tells: no purple-on-dark shortcut palette, no generic metric hero, no glassmorphism spam, and no card-inside-card pileup at the top of the experience.
+Pass. The page avoids the usual AI-slop tells: no generic SaaS dashboard hero, no over-rounded component pileup, no placeholder lorem patterns, and no copied Stitch-export look.
 
 ## Screenshot composition verdict
 
 - Desktop width: pass. The hero and diary pulse use the width well and establish a clear split between explanation and visible evidence.
-- Wide desktop: pass. The overview layout stays broad instead of collapsing into tall narrow strips, and the diary section was flattened after review so it no longer creates a left-column dead zone.
+- Wide desktop: pass. The overview layout stays broad, and the tool columns plus archive diary avoid tall narrow leftovers.
 - Whitespace: pass. The open areas now read as breathing room rather than leftover gaps.
 - Primary workflow strength: pass. The main learning path is visually stronger than the supporting explanations.
 
 ## Overall impression
 
-The page now feels like a calm editorial field guide rather than a component catalog. The strongest improvement came from simplifying the tool tabs and restructuring the diary section so the composition stays intentional past the fold.
+The page now feels like an educational archive rather than a component catalog. The strongest improvement came from moving the design language into shared tokens and rebuilding the long-scroll sections as editorial compositions instead of stacked rounded cards.
 
 ## What worked
 
 - The hero and daily pulse create immediate orientation and proof in one screen.
-- The warm paper palette and serif headline make the site feel educational without becoming precious.
-- The quick-start sheet gives the page a useful interactive moment without derailing the overall composition.
+- The ink-and-parchment palette plus `Newsreader` headline give the site archival authority without losing readability.
+- The featured diary record makes the detail-screen direction useful without inventing fake article routes.
 
 ## Final notes
 
-Earlier critique rounds caught two real problems and they were fixed before proof:
-
-- the tool-lens trigger row was crowding the layout on smaller widths
-- the diary section created a wide-screen dead zone once the entry stream became longer than the intro column
+The remaining tension is expected rather than harmful: the evidence panel overlaps and paper-stack offsets are intentionally asymmetrical, so future edits should preserve that restraint instead of sanding it back into a centered card layout.

@@ -1,15 +1,15 @@
 import type { Metadata } from "next"
-import { Fraunces, JetBrains_Mono, Source_Sans_3 } from "next/font/google"
+import { Inter, JetBrains_Mono, Newsreader } from "next/font/google"
 
 import "./globals.css"
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 })
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
   subsets: ["latin"],
 })
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${sourceSans.variable} ${fraunces.variable} ${jetBrainsMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${newsreader.variable} ${jetBrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full">{children}</body>
     </html>
