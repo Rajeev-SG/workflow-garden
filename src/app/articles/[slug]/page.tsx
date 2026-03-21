@@ -1,8 +1,10 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { MDXContent } from "@/lib/mdx"
 import {
+  diaryEntriesForSlug,
   getArticleBySlug,
   getArticles,
   relatedContentFor,
@@ -47,6 +49,8 @@ export default async function ArticlePage({
     notFound()
   }
 
+  const diaryEntries = diaryEntriesForSlug(article.slug)
+
   return (
     <SiteFrame>
       <PageHero
@@ -78,6 +82,30 @@ export default async function ArticlePage({
               {article.summary}
             </p>
           </div>
+          {diaryEntries.length > 0 ? (
+            <div className="archive-card p-6">
+              <p className="archive-kicker text-primary/45">Diary echoes</p>
+              <div className="mt-4 space-y-4">
+                {diaryEntries.map((entry) => (
+                  <Link
+                    key={entry.id}
+                    href={`/diary/${entry.daySlug}`}
+                    className="block transition-colors hover:text-tertiary"
+                  >
+                    <p className="text-sm uppercase tracking-[0.2em] text-secondary">
+                      {entry.dayLabel}
+                    </p>
+                    <p className="mt-2 text-xl leading-tight font-medium text-primary">
+                      {entry.title}
+                    </p>
+                    <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                      {entry.summary}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null}
           <RelatedLinks items={relatedContentFor(article.relatedSlugs)} />
         </div>
       </section>

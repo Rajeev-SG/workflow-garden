@@ -111,7 +111,7 @@ function FeaturedEntryPanel({
           <div>
             <p className="archive-kicker text-primary/44">The what</p>
             <p className="mt-3 text-sm leading-7 text-foreground">
-              {entry.summary}
+              {entry.narrative}
             </p>
           </div>
           <div>
@@ -138,7 +138,14 @@ function FeaturedEntryPanel({
               <p className="archive-kicker text-primary/35">Impact radius</p>
               <p className="mt-2 text-sm leading-7 text-foreground">
                 {momentumLabel(entry.changedFileCount)} across{" "}
-                {entry.changedFileCount} changed files.
+                {entry.changedFileCount} changed files and {entry.commitCount} recent
+                commit{entry.commitCount === 1 ? "" : "s"}.
+              </p>
+            </div>
+            <div>
+              <p className="archive-kicker text-primary/35">Day spotlight</p>
+              <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                {day.spotlight}
               </p>
             </div>
             <div>
@@ -209,13 +216,19 @@ function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
         <div>
           <p className="archive-kicker text-primary/38">The what</p>
           <p className="mt-3 text-base leading-7 text-foreground">
-            {entry.summary}
+            {entry.narrative}
           </p>
         </div>
         <div>
           <p className="archive-kicker text-primary/38">So what</p>
           <p className="mt-3 border-l-2 border-[color:rgb(45_8_0_/_18%)] pl-4 text-sm leading-7 text-muted-foreground italic">
             {entry.whyItMatters}
+          </p>
+        </div>
+        <div>
+          <p className="archive-kicker text-primary/38">Explore next</p>
+          <p className="mt-3 text-sm leading-7 text-foreground/80">
+            {entry.exploreNext}
           </p>
         </div>
       </div>

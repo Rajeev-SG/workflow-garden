@@ -220,20 +220,32 @@ export const contentIndex = {
     {
       "slug": "2026-03-21",
       "title": "Today",
-      "description": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in interface work, educational content, and proof and validation.",
+      "description": "Three projects made the cut, led by interface refinements, new educational material, and visible proof that recent changes actually work. Workflow Garden led the day with Build the project content hub and Fix tools tabs overlap proof gap.",
       "href": "/diary/2026-03-21"
     },
     {
       "slug": "2026-03-20",
       "title": "Fri 20 Mar",
-      "description": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in educational content, automation, and testing.",
+      "description": "Three projects moved forward, with the clearest signals in educational material, workflow setup, and automation. Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
       "href": "/diary/2026-03-20"
     },
     {
       "slug": "2026-03-19",
       "title": "Thu 19 Mar",
-      "description": "3 projects produced visitor-worthy movement, with most of the visible momentum landing in educational content, workflow setup, and automation.",
+      "description": "Three projects produced notable updates, with the strongest activity in educational content, workflow setup, and automation. Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
       "href": "/diary/2026-03-19"
+    },
+    {
+      "slug": "2026-03-18",
+      "title": "Wed 18 Mar",
+      "description": "Three projects moved forward, with the clearest signals in interface work, educational content, and proof that changes hold up. Auto Audit Harness led the day with the environment contract and gitignore.",
+      "href": "/diary/2026-03-18"
+    },
+    {
+      "slug": "2026-03-17",
+      "title": "Tue 17 Mar",
+      "description": "Two projects produced archive-worthy updates, with the strongest signals in educational content, validation checks, and testing. Get Estate Agent Urls Uk led the day with the repo command surface and prompt.",
+      "href": "/diary/2026-03-17"
     }
   ]
 } as const

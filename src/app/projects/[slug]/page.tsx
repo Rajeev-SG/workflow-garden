@@ -101,6 +101,7 @@ export default async function ProjectPage({
                     <p className="text-sm uppercase tracking-[0.2em] text-secondary">{entry.dayLabel}</p>
                     <p className="mt-2 text-xl leading-tight font-medium text-primary">{entry.title}</p>
                     <p className="mt-2 text-sm leading-7 text-muted-foreground">{entry.summary}</p>
+                    <p className="mt-2 text-sm leading-7 text-foreground/80">{entry.exploreNext}</p>
                   </Link>
                 ))}
               </div>

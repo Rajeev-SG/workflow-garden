@@ -5,9 +5,9 @@
 ## Architectural decisions
 
 - **Routes**: one primary public route at `/` for the MVP
-- **Data shape**: generated local JSON for activity days and curated entries, imported by the app at build/runtime
+- **Data shape**: generated local JSON for activity days and curated entries, now enriched with search text, related-content links, and refresh-gate metadata
 - **Key models**: `ToolLens`, `SetupStep`, `LearningCard`, `ActivityDay`, `DiaryEntry`
-- **Activity source**: file changes detected inside `/Users/rajeev/Code`, filtered to meaningful activity before content generation
+- **Activity source**: recent repo activity detected inside `/Users/rajeev/Code`, scored by repo-day significance before diary generation
 - **Deployment**: Vercel-hosted Next.js app
 - **Proof**: Playwright-backed screenshots and summaries at normal desktop, wide desktop, and mobile widths
 
@@ -25,6 +25,6 @@ Create a polished public landing experience that teaches the workflow in approac
 
 - [ ] Visitors can understand the workflow, tools, and setup path without developer jargon.
 - [ ] The page composition is strong on normal desktop, wide desktop, and mobile.
-- [ ] The generated diary appears only when meaningful local activity exists and reads like curated editorial content rather than a raw log.
+- [ ] The generated diary appears only when meaningful local activity exists, reads like curated editorial content rather than a raw log, and links visitors into related projects, articles, and concepts.
 - [ ] README screenshots come from current proof artifacts.
 - [ ] The shipped slice is deployed and proven before merge.
