@@ -19,7 +19,7 @@ export function QuickStartSheet() {
       <SheetTrigger asChild>
         <Button
           size="lg"
-          className="h-12 rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-[0_18px_40px_-24px_rgba(55,74,48,0.6)] hover:bg-primary/92"
+          className="min-h-12 w-full whitespace-normal rounded-full bg-primary px-6 py-3 text-center text-sm font-semibold text-primary-foreground shadow-[0_18px_40px_-24px_rgba(55,74,48,0.6)] hover:bg-primary/92 sm:w-auto"
         >
           Try the guided setup
           <ArrowRight className="size-4" />

@@ -16,7 +16,9 @@ Observed behavior:
 - the quick-start sheet opened and rendered the four-step setup path
 - the diary section rendered curated repo-day entries
 - production console logs were clean across the overview, interactive sheet, and diary captures
-- the final screenshot set passed the composition gate
+- the original screenshot verdict was invalid because the shipped mobile hero still had a real overflow bug
+- the corrected live rerun now shows the hero fitting a `390px` viewport with stacked CTAs and no horizontal overflow
+- the fresh screenshot set now passes the composition gate on the deployed URL
 
 Pass/fail decision: pass
 
@@ -32,3 +34,4 @@ Evidence:
 Residual risk:
 
 - The activity diary depends on running `pnpm activity:refresh` before proof and deploy, so stale content is possible if someone skips that step.
+- The proof harness still emits repeated npm environment warnings from the wrapper shell, but the browser console for the exercised page remained clean.
