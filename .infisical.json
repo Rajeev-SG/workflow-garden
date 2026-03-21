@@ -1,0 +1,5 @@
+{
+  "workspaceId": "personal-agent-secrets",
+  "defaultEnvironment": "dev",
+  "note": "App secrets live in Infisical. Use dev for local work, staging for previews, and prod for production deploys."
+}
