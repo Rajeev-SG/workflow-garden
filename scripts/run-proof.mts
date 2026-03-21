@@ -71,7 +71,9 @@ async function captureViewport(
 
 async function captureInteractiveState() {
   const cwd = path.join(playwrightRoot, "interactive")
-  await mkdir(path.join(cwd, ".playwright-cli"), { recursive: true })
+  const artifactDir = path.join(cwd, ".playwright-cli")
+  const screenshotName = `quick-start-sheet-${Date.now()}.png`
+  await mkdir(artifactDir, { recursive: true })
 
   runCli(cwd, ["--session", sessions.interactive, "open", baseUrl])
   runCli(cwd, ["--session", sessions.interactive, "resize", "1440", "1400"])
@@ -79,18 +81,23 @@ async function captureInteractiveState() {
     "--session",
     sessions.interactive,
     "run-code",
-    "async (page) => { await page.getByRole('button', { name: /Try the guided setup/i }).click(); await page.waitForTimeout(250); await page.screenshot({ path: '.playwright-cli/quick-start-sheet.png', scale: 'css', type: 'png' }); }",
+    `async (page) => { await page.getByRole('button', { name: /Try the guided setup/i }).click(); const sheet = page.locator('[data-slot="sheet-content"]'); await sheet.waitFor({ state: 'visible' }); const finalCommand = sheet.locator('li').filter({ hasText: 'acceptance-proof' }); await finalCommand.scrollIntoViewIfNeeded(); await page.waitForTimeout(250); const visibility = await finalCommand.isVisible(); if (!visibility) { throw new Error('Quick-start sheet did not scroll far enough to reveal the final setup step.'); } await page.screenshot({ path: '.playwright-cli/${screenshotName}', scale: 'css', type: 'png' }); }`,
   ])
   runCli(cwd, ["--session", sessions.interactive, "console", "info"])
 
   const latestConsole = await latestMatchingFile(
-    path.join(cwd, ".playwright-cli"),
+    artifactDir,
     "console-",
     ".log",
   )
+  const latestScreenshot = await latestMatchingFile(
+    artifactDir,
+    "quick-start-sheet-",
+    ".png",
+  )
 
   return {
-    screenshot: path.join(cwd, ".playwright-cli", "quick-start-sheet.png"),
+    screenshot: latestScreenshot ? path.join(cwd, ".playwright-cli", latestScreenshot) : null,
     console: latestConsole
       ? path.join(cwd, ".playwright-cli", latestConsole)
       : null,
