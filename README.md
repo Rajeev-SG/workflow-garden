@@ -1,27 +1,36 @@
 # Workflow Garden
 
-Workflow Garden is a public educational site that explains an issue-driven AI development workflow without assuming the visitor is a developer. It combines plain-language explanations, approachable setup guidance, short-form tutorials, and a curated diary of meaningful coding activity detected from `/Users/rajeev/Code`.
+Workflow Garden is a public educational site that explains an issue-driven AI development workflow in plain language. It is designed for curious non-developers and motivated newcomers who want to understand what the workflow is, which tools matter, how to set it up, and what meaningful daily coding activity looks like once it is translated into something human-readable.
 
-## Lifecycle stage
+Live URL: [workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 
-Planning is complete and the first MVP slice is in implementation on `RAJ-37` / GitHub issue `#2`.
+## Screenshots
 
-## Source of truth
+### Landing overview
 
-- Product workflow: [AGENTS.md](./AGENTS.md)
-- Current implementation plan: [plans/workflow-garden-mvp.md](./plans/workflow-garden-mvp.md)
-- Secrets contract: [docs/ops/secrets.md](./docs/ops/secrets.md)
-- Vendor auth checks: [docs/ops/vendor-auth.md](./docs/ops/vendor-auth.md)
+![Workflow Garden landing overview](./public/readme/landing-overview.png)
 
-## Current goals
+### Guided setup sheet
 
-- explain the workflow in plain language
-- teach the major tools and when to use them
-- provide setup guidance that motivated newcomers can follow
-- publish a curated daily activity diary only when meaningful local file activity exists
-- validate the whole issue -> branch -> PR -> proof -> deploy -> merge loop
+![Workflow Garden quick start sheet](./public/readme/quick-start-sheet.png)
 
-## Working commands
+### Curated diary state
+
+![Workflow Garden daily diary](./public/readme/daily-diary.png)
+
+### Mobile overview
+
+![Workflow Garden mobile overview](./public/readme/mobile-overview.png)
+
+## What the MVP covers
+
+- a plain-language explanation of the workflow
+- an approachable tool map that explains when each major tool is useful
+- a setup path that someone can follow without heavy jargon
+- skim-friendly educational content and examples
+- a curated daily diary generated from meaningful file activity under `/Users/rajeev/Code`
+
+## Local commands
 
 ```bash
 pnpm install
@@ -29,19 +38,33 @@ pnpm activity:refresh
 pnpm dev
 ```
 
-## Validation path
+## Validation and proof
 
 ```bash
 pnpm lint
 pnpm test
 pnpm build
-pnpm proof
+PROOF_BASE_URL=https://workflow-garden.vercel.app pnpm proof
 ```
 
-## Deploy assumption
+Proof outputs live in:
 
-The repo is designed for Vercel. The deployed site renders committed generated activity data. Local refresh of that data happens before proof and deploy.
+- `output/acceptance/`
+- `output/playwright/`
 
-## Next repo step
+## Activity diary model
 
-Finish the MVP implementation for `RAJ-37`, capture proof artifacts, update this README with current screenshots, deploy the site, and merge the issue branch.
+The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the repo generates a committed dataset before proof and deploy.
+
+- `pnpm activity:refresh` scans `/Users/rajeev/Code`
+- low-signal churn is ignored
+- meaningful repo-day activity is translated into curated diary entries
+- the app renders the generated JSON statically on Vercel
+
+## Source of truth
+
+- Product workflow: [AGENTS.md](./AGENTS.md)
+- Current plan: [plans/workflow-garden-mvp.md](./plans/workflow-garden-mvp.md)
+- Secrets contract: [docs/ops/secrets.md](./docs/ops/secrets.md)
+- Vendor auth checks: [docs/ops/vendor-auth.md](./docs/ops/vendor-auth.md)
+- Proof summaries: [output/acceptance/design-proof.md](./output/acceptance/design-proof.md), [output/acceptance/acceptance-proof.md](./output/acceptance/acceptance-proof.md)
