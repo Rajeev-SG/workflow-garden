@@ -2,7 +2,7 @@
 
 Art direction: the approved Stitch "Intellectual Archive" direction, translated into repo-native React components with ink-on-parchment surfaces, tight paper-like geometry, and editorial hierarchy.
 
-Target URL: [http://localhost:3001](http://localhost:3001)
+Target URL: [https://workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 
 ## Visible delta
 
@@ -31,3 +31,4 @@ The app now reads as an archive instead of a rounded SaaS card stack. The headli
 - The visual language now matches the approved Stitch direction through tokens and composition, not copied HTML.
 - Mobile keeps the hero sequence intact: reassurance notes, editorial heading, explanatory copy, primary setup action, secondary diary action, then the evidence pulse.
 - The diary proof capture confirms the long-scroll archive still holds together after the featured record and date groups enter view.
+- A post-deploy proof run against the production alias completed with clean browser console logs and refreshed artifact timestamps.

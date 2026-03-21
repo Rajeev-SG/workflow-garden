@@ -1,6 +1,6 @@
 # Acceptance Proof
 
-Target flow: load the local app, verify the educational archive overview renders, open the guided setup sheet, and confirm that the curated diary and tool-map sections remain usable across desktop and mobile captures.
+Target flow: load the production site, verify the educational archive overview renders, open the guided setup sheet, and confirm that the curated diary and tool-map sections remain usable across desktop and mobile captures.
 
 Expected behavior:
 
@@ -13,21 +13,21 @@ Expected behavior:
 
 Observed behavior:
 
-- the local site loaded successfully at [http://localhost:3001](http://localhost:3001)
+- the production site loaded successfully at [https://workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 - the hero rendered the new archive presentation with real repo copy and live diary stats
 - the quick-start sheet opened and rendered the four-step setup path
 - the diary section rendered the featured record plus dated archive groups from the generated feed
 - the narrow and tablet tool-map captures stayed readable without overlapping controls or collapsed content
-- browser console logs stayed clean across the overview, interactive sheet, diary, and mobile captures except for dev-only React/HMR notices
+- browser console logs stayed clean across the overview, interactive sheet, diary, and mobile captures
 
 Pass/fail decision: pass
 
 Evidence:
 
 - Artifact manifest: [proof-artifacts.json](/Users/rajeev/Code/workflow-garden/output/acceptance/proof-artifacts.json)
-- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T20-23-00-241Z.log)
-- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T20-23-05-583Z.log)
-- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T20-23-11-108Z.log)
+- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T20-37-34-718Z.log)
+- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T20-37-40-034Z.log)
+- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T20-37-45-304Z.log)
 - Interactive sheet screenshot: [quick-start-sheet.png](/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/quick-start-sheet.png)
 - Diary screenshot: [daily-diary.png](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/daily-diary.png)
 - Tools narrow screenshot: [tools-narrow.png](/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/tools-narrow.png)

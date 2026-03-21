@@ -1,34 +1,34 @@
 {
-  "baseUrl": "http://localhost:3001",
-  "generatedAt": "2026-03-21T20:23:34.272Z",
+  "baseUrl": "https://workflow-garden.vercel.app",
+  "generatedAt": "2026-03-21T20:38:07.162Z",
   "artifacts": {
     "desktopNormal": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/desktop-normal.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T20-23-00-241Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T20-37-34-718Z.log"
     },
     "desktopWide": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/desktop-wide.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T20-23-05-583Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T20-37-40-034Z.log"
     },
     "mobile": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/mobile.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T20-23-11-108Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T20-37-45-304Z.log"
     },
     "quickStart": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/quick-start-sheet.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/console-2026-03-21T20-23-16-968Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/interactive/.playwright-cli/console-2026-03-21T20-37-50-882Z.log"
     },
     "diary": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/daily-diary.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-21T20-23-22-756Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-21T20-37-56-334Z.log"
     },
     "toolsNarrow": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/tools-narrow.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/console-2026-03-21T20-23-28-470Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-narrow/.playwright-cli/console-2026-03-21T20-38-01-666Z.log"
     },
     "toolsTablet": {
       "screenshot": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-tablet/.playwright-cli/tools-tablet.png",
-      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-tablet/.playwright-cli/console-2026-03-21T20-23-34-255Z.log"
+      "console": "/Users/rajeev/Code/workflow-garden/output/playwright/tools-tablet/.playwright-cli/console-2026-03-21T20-38-07-146Z.log"
     }
   }
 }
