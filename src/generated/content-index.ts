@@ -234,7 +234,7 @@ export const contentIndex = {
     {
       "slug": "2026-03-22",
       "title": "Today",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and workflow setup. Openrouter Model Workbook Maintainer V2 led the day with gh-3 Route refresh workflow secrets through Infisical and gh-1: build model intelligence pipeline and guide.",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and workflow setup. Openrouter Model Workbook Maintainer V2 led the day with gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
       "href": "/diary/2026-03-22"
     },
     {

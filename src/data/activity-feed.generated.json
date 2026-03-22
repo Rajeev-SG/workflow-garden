@@ -1,50 +1,50 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-22T12:57:45.308Z",
+  "generatedAt": "2026-03-22T14:28:59.311Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
-  "headline": "10 projects generated public-facing movement with a strong thread of configuration.",
+  "headline": "10 projects generated public-facing movement with a strong thread of educational content.",
   "subhead": "After scanning the last 7 days of recent repo activity, the diary kept 15 archive-worthy updates and dropped the rest.",
-  "sourceFingerprint": "b582d00c9b15ea1d8700c004830d0a8381876a9e8d1d0e359c35e4d24b1676f7",
+  "sourceFingerprint": "1ede938dbccb44fc81ec9fbc37afff87baadbc46a2e5a123eacb80354cf22e9b",
   "generationMethod": "heuristic",
   "generationModel": null,
   "refreshGate": {
     "decision": "generated",
     "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
-    "aggregateSignalScore": 709,
+    "aggregateSignalScore": 723,
     "meaningfulSnapshotCount": 20,
     "spotlightSignalScore": 56,
-    "previousFingerprint": "9222edc0d75fe49bf70f0c6d68711a6cf601aa030c03afc1c941d96c19035fed"
+    "previousFingerprint": "b582d00c9b15ea1d8700c004830d0a8381876a9e8d1d0e359c35e4d24b1676f7"
   },
   "stats": {
     "activeRepoCount": 10,
-    "changedFileCount": 4184,
-    "commitCount": 53,
+    "changedFileCount": 4193,
+    "commitCount": 55,
     "curatedEntryCount": 15,
-    "topTheme": "configuration",
+    "topTheme": "educational content",
     "daysScanned": 7,
-    "aggregateSignalScore": 585
+    "aggregateSignalScore": 599
   },
   "days": [
     {
       "date": "2026-03-22",
       "label": "Today",
       "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and workflow setup.",
-      "spotlight": "Openrouter Model Workbook Maintainer V2 led the day with gh-3 Route refresh workflow secrets through Infisical and gh-1: build model intelligence pipeline and guide.",
+      "spotlight": "Openrouter Model Workbook Maintainer V2 led the day with gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
       "entries": [
         {
           "id": "openrouter-model-workbook-maintainer-v2-2026-03-22",
           "kind": "showcase",
-          "title": "Openrouter Model Workbook Maintainer V2: Gh-3 Route refresh workflow secrets through Infisical and gh-1: build model intelligence pipeline and guide",
-          "summary": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Route refresh workflow secrets through Infisical and gh-1: build model intelligence pipeline and guide.",
-          "narrative": "Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Route refresh workflow secrets through Infisical, gh-1: build model intelligence pipeline and guide, and import workbook maintainer baseline.",
+          "title": "Openrouter Model Workbook Maintainer V2: Gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical",
+          "summary": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
+          "narrative": "Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide.",
           "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
           "exploreNext": "Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work.",
           "repoName": "openrouter-model-workbook-maintainer-v2",
           "repoLabel": "Openrouter Model Workbook Maintainer V2",
           "changedFileCount": 83,
-          "commitCount": 3,
-          "signalScore": 44,
+          "commitCount": 4,
+          "signalScore": 47,
           "categories": [
             "interface",
             "content",
@@ -55,12 +55,13 @@
             "styling"
           ],
           "signalReasons": [
-            "3 recent commits",
+            "4 recent commits",
             "83 touched files",
             "7 distinct activity categories",
             "operator workflow changed"
           ],
           "commitSubjects": [
+            "gh-3 Align local bootstrap messaging with Infisical",
             "gh-3 Route refresh workflow secrets through Infisical",
             "gh-1: build model intelligence pipeline and guide",
             "import workbook maintainer baseline"
@@ -80,10 +81,10 @@
             "gitignore"
           ],
           "notableChanges": [
+            "gh-3 Align local bootstrap messaging with Infisical",
             "gh-3 Route refresh workflow secrets through Infisical",
             "gh-1: build model intelligence pipeline and guide",
-            "import workbook maintainer baseline",
-            "the environment contract"
+            "import workbook maintainer baseline"
           ],
           "relatedSlugs": [
             "openrouter-model-workbook-maintainer-v2",
@@ -121,23 +122,24 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Route refresh workflow secrets through Infisical and gh-1: build model intelligence pipeline and guide. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Route refresh workflow secrets through Infisical, gh-1: build model intelligence pipeline and guide, and import workbook maintainer baseline. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 3 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 4 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         },
         {
           "id": "workflow-garden-2026-03-22",
           "kind": "explainer",
-          "title": "Workflow Garden: Deepen diary detail and copy quality and the environment contract",
-          "summary": "The strongest movement landed in interface work, proof and validation, and workflow setup, with visible work on Deepen diary detail and copy quality and the environment contract.",
-          "narrative": "Workflow Garden spent the day on Deepen diary detail and copy quality, the environment contract, and the operator docs.",
+          "title": "Workflow Garden: Repair diary refresh publish loop and Deepen diary detail and copy quality",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Repair diary refresh publish loop and Deepen diary detail and copy quality.",
+          "narrative": "Workflow Garden spent the day on Repair diary refresh publish loop, Deepen diary detail and copy quality, and the environment contract.",
           "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
           "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
           "repoName": "workflow-garden",
           "repoLabel": "Workflow Garden",
-          "changedFileCount": 12,
-          "commitCount": 1,
-          "signalScore": 35,
+          "changedFileCount": 21,
+          "commitCount": 2,
+          "signalScore": 46,
           "categories": [
             "interface",
+            "content",
             "proof",
             "workflow",
             "automation",
@@ -145,33 +147,34 @@
             "config"
           ],
           "signalReasons": [
-            "1 recent commit",
-            "12 touched files",
-            "6 distinct activity categories",
+            "2 recent commits",
+            "21 touched files",
+            "7 distinct activity categories",
             "visitor-facing surface changed"
           ],
           "commitSubjects": [
+            "Repair diary refresh publish loop",
             "Deepen diary detail and copy quality"
           ],
           "touchedSurfaces": [
             "the environment contract",
-            "the operator docs",
-            "acceptance proof",
-            "proof artifacts",
-            "the automation scripts",
-            "the reusable interface pieces"
-          ],
-          "highlights": [
-            "the environment contract",
+            "the plain-language README",
+            "the project pages",
             "the operator docs",
             "acceptance proof",
             "proof artifacts"
           ],
+          "highlights": [
+            "the environment contract",
+            "the plain-language README",
+            "the project pages",
+            "the operator docs"
+          ],
           "notableChanges": [
+            "Repair diary refresh publish loop",
             "Deepen diary detail and copy quality",
             "the environment contract",
-            "the operator docs",
-            "acceptance proof"
+            "the plain-language README"
           ],
           "relatedSlugs": [
             "workflow-garden",
@@ -209,7 +212,7 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, proof and validation, and workflow setup, with visible work on Deepen diary detail and copy quality and the environment contract. Workflow Garden spent the day on Deepen diary detail and copy quality, the environment contract, and the operator docs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 1 recent commit 12 touched files 6 distinct activity categories visitor-facing surface changed Deepen diary detail and copy quality the environment contract the operator docs acceptance proof proof artifacts the automation scripts the reusable interface pieces the environment contract the operator docs acceptance proof proof artifacts Deepen diary detail and copy quality the environment contract the operator docs acceptance proof Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Repair diary refresh publish loop and Deepen diary detail and copy quality. Workflow Garden spent the day on Repair diary refresh publish loop, Deepen diary detail and copy quality, and the environment contract. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 2 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         },
         {
           "id": "tools-2026-03-22",
