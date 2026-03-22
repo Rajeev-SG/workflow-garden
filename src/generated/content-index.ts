@@ -219,32 +219,32 @@ export const contentIndex = {
   "diary": [
     {
       "slug": "2026-03-21",
-      "title": "Today",
-      "description": "Three projects made the cut, led by interface refinements, new educational material, and visible proof that recent changes actually work. Workflow Garden led the day with Build the project content hub and Fix tools tabs overlap proof gap.",
+      "title": "Sat 21 Mar",
+      "description": "Three projects moved. Workflow Garden built a selective diary pipeline and content hub. Proof Pack added screenshots to its readme and fixed wide-screen layout. Choice Compass hardened mobile task order with an explicit design gate. Workflow Garden: selective linked diary pipeline and project content hub",
       "href": "/diary/2026-03-21"
     },
     {
       "slug": "2026-03-20",
       "title": "Fri 20 Mar",
-      "description": "Three projects moved forward, with the clearest signals in educational material, workflow setup, and automation. Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
+      "description": "Three projects moved. Property Search hardened crawl smoke source pinning and registry fallback. Tools and Symphony Workspaces saw heavy file churn in documentation and configuration surfaces. Property Search: crawl smoke registry fallback and source pinning",
       "href": "/diary/2026-03-20"
     },
     {
       "slug": "2026-03-19",
       "title": "Thu 19 Mar",
-      "description": "Three projects produced notable updates, with the strongest activity in educational content, workflow setup, and automation. Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
+      "description": "Three projects moved. Property Search aligned CI pnpm versions and added initial scaffold. Auto Audit Harness surfaced architecture and quality score documentation. Tools saw heavy churn in workflow guides and CLI surfaces. Property Search: CI pnpm alignment and initial project scaffold",
       "href": "/diary/2026-03-19"
     },
     {
       "slug": "2026-03-18",
       "title": "Wed 18 Mar",
-      "description": "Three projects moved forward, with the clearest signals in interface work, educational content, and proof that changes hold up. Auto Audit Harness led the day with the environment contract and gitignore.",
+      "description": "Three projects moved. Auto Audit Harness updated environment contracts and security documentation. Rtm Hunt refined its Makefile and readme. Get Estate Agent Urls Uk added dev logs and live data manifests. Auto Audit Harness: Environment contract and security documentation",
       "href": "/diary/2026-03-18"
     },
     {
       "slug": "2026-03-17",
       "title": "Tue 17 Mar",
-      "description": "Two projects produced archive-worthy updates, with the strongest signals in educational content, validation checks, and testing. Get Estate Agent Urls Uk led the day with the repo command surface and prompt.",
+      "description": "Two projects moved. Get Estate Agent Urls Uk refined its command surface and validation tools. Get Rtm Flats updated logging and location configuration. Get Estate Agent Urls Uk: Repo command surface and validation prompt",
       "href": "/diary/2026-03-17"
     }
   ]

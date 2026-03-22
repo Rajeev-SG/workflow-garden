@@ -46,6 +46,9 @@ export type DiaryEntry = {
   commitCount: number
   signalScore: number
   categories: string[]
+  signalReasons: string[]
+  commitSubjects: string[]
+  touchedSurfaces: string[]
   highlights: string[]
   notableChanges: string[]
   relatedSlugs: string[]
@@ -225,6 +228,10 @@ function formatList(items: string[]) {
 
 function dedupe<T>(items: T[]) {
   return [...new Set(items)]
+}
+
+function sentenceCase(value: string) {
+  return value ? `${value.charAt(0).toUpperCase()}${value.slice(1)}` : value
 }
 
 function slugFromHref(href: string) {
@@ -577,22 +584,17 @@ function scoreReasonLabel(category: string) {
 }
 
 function entryTitle(snapshot: ScoredSnapshot, repoLabel: string) {
-  const kind = pickEntryKind(snapshot.categories)
+  const changeHooks = dedupe(
+    [
+      ...(snapshot.commits ?? []).map((commit) =>
+        humanizeCommitSubject(commit.subject, repoLabel),
+      ),
+      ...snapshot.files.map(humanizeHighlight),
+    ].filter(Boolean),
+  ).slice(0, 2)
 
-  if (kind === "explainer") {
-    return `${repoLabel} turned recent work into proof people can inspect`
-  }
-
-  if (kind === "showcase") {
-    return `${repoLabel} made the public surface easier to follow`
-  }
-
-  if (kind === "tutorial") {
-    return `${repoLabel} made the workflow easier to learn`
-  }
-
-  if (kind === "article") {
-    return `${repoLabel} made the archive less manual to maintain`
+  if (changeHooks.length > 0) {
+    return `${repoLabel}: ${sentenceCase(formatList(changeHooks))}`
   }
 
   const leadingCategory = scoreReasonLabel(snapshot.categories[0] ?? "content")
@@ -797,6 +799,9 @@ function buildEntrySearchText(entry: DiaryEntry) {
     entry.whyItMatters,
     entry.exploreNext,
     entry.repoLabel,
+    ...entry.signalReasons,
+    ...entry.commitSubjects,
+    ...entry.touchedSurfaces,
     ...entry.highlights,
     ...entry.notableChanges,
     ...entry.relatedLinks.map((link) => link.title),
@@ -809,15 +814,14 @@ function buildDiaryEntry(
 ) {
   const repoLabel = repoLabelFromSlug(snapshot.repoName)
   const relatedLinks = relatedLinksForSnapshot(snapshot, context)
-  const highlights = dedupe(snapshot.files.map(humanizeHighlight)).slice(0, 4)
-  const notableChanges = dedupe(
-    [
-      ...(snapshot.commits ?? []).map((commit) =>
-        humanizeCommitSubject(commit.subject, repoLabel),
-      ),
-      ...highlights,
-    ],
+  const commitSubjects = dedupe(
+    (snapshot.commits ?? []).map((commit) =>
+      humanizeCommitSubject(commit.subject, repoLabel),
+    ),
   ).slice(0, 4)
+  const touchedSurfaces = dedupe(snapshot.files.map(humanizeHighlight)).slice(0, 6)
+  const highlights = touchedSurfaces.slice(0, 4)
+  const notableChanges = dedupe([...commitSubjects, ...touchedSurfaces]).slice(0, 4)
 
   const entry = {
     id: `${snapshot.repoName}-${snapshot.day}`,
@@ -836,6 +840,9 @@ function buildDiaryEntry(
     commitCount: snapshot.commits?.length ?? 0,
     signalScore: snapshot.signalScore,
     categories: snapshot.categories,
+    signalReasons: snapshot.signalReasons.slice(0, 4),
+    commitSubjects,
+    touchedSurfaces,
     highlights,
     notableChanges,
     relatedSlugs: relatedLinks.map((link) => link.slug),

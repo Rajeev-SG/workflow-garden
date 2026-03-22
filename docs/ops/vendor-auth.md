@@ -27,6 +27,7 @@ Quick local check:
 ```bash
 source ~/.config/claude-openrouter/env.sh
 node -e 'fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{Authorization:`Bearer ${process.env.OPENROUTER_API_KEY}`,"Content-Type":"application/json"},body:JSON.stringify({model:"z-ai/glm-5-turbo",response_format:{type:"json_object"},reasoning:{effort:"none",exclude:true},messages:[{role:"system",content:"Return JSON only."},{role:"user",content:"Return {\"status\":\"ok\"}."}]})}).then(async (r)=>{console.log(r.status); console.log(await r.text())})'
+node -e 'fetch("https://openrouter.ai/api/v1/chat/completions",{method:"POST",headers:{Authorization:`Bearer ${process.env.OPENROUTER_API_KEY}`,"Content-Type":"application/json"},body:JSON.stringify({model:"moonshotai/kimi-k2.5",response_format:{type:"json_object"},reasoning:{effort:"none",exclude:true},messages:[{role:"system",content:"Return JSON only."},{role:"user",content:"Return {\"status\":\"ok\"}."}]})}).then(async (r)=>{console.log(r.status); console.log(await r.text())})'
 ```
 
 ## Cloudflare
