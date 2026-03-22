@@ -116,6 +116,7 @@ async function captureRouteState({
 
 async function main() {
   await mkdir(acceptanceRoot, { recursive: true })
+  const isLocalProof = baseUrl.includes("localhost")
 
   const desktopNormal = await captureViewport(
     "desktop-normal",
@@ -183,7 +184,7 @@ async function main() {
 
   const acceptanceProof = `# Acceptance Proof
 
-Target flow: load the local site, verify the educational archive overview renders, move into an article, inspect a project page, open the latest diary detail route, and confirm that search returns cross-content results.
+Target flow: load the site, verify the educational archive overview renders, move into an article, inspect a project page, open the latest diary detail route, and confirm that search returns cross-content results.
 
 Target URL: \`${baseUrl}\`
 
@@ -199,7 +200,7 @@ Expected behavior:
 
 Observed behavior:
 
-- the local site loaded successfully at \`${baseUrl}\`
+- the site loaded successfully at \`${baseUrl}\`
 - the homepage rendered the archive overview with article, project, diary, and search entry points
 - the article route rendered readable long-form content with working internal links
 - the project route exposed repo and live URL context without leaving the archive design system
@@ -235,7 +236,7 @@ Evidence:
 
 Residual risk:
 
-- The proof loop still depends on running a local dev server at port \`3001\` before \`pnpm proof\`.
+- ${isLocalProof ? "The proof loop still depends on running a local dev server before `pnpm proof`." : "The proof run depends on the production deployment already being live before `pnpm proof` is executed against it."}
 - The shell wrapper still prints repeated npm environment warnings, but those did not surface as browser-console failures in the exercised routes.
 `
 

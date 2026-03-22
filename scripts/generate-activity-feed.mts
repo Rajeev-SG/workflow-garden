@@ -28,7 +28,7 @@ const MIN_MEANINGFUL_SNAPSHOTS = Number(
   process.env.WORKFLOW_GARDEN_MIN_MEANINGFUL_SNAPSHOTS ?? "2",
 )
 const OPENROUTER_MODEL =
-  process.env.WORKFLOW_GARDEN_DIARY_MODEL ?? "z-ai/glm-5-turbo"
+  process.env.WORKFLOW_GARDEN_DIARY_MODEL ?? "moonshotai/kimi-k2.5"
 const OPENROUTER_TIMEOUT_MS = Number(
   process.env.WORKFLOW_GARDEN_OPENROUTER_TIMEOUT_MS ?? "45000",
 )
@@ -513,7 +513,31 @@ function mergeEditorialRewrite(baseFeed: ActivityFeed, candidate: unknown, model
   return baseFeed
 }
 
-async function rewriteFeedWithOpenRouter(feed: ActivityFeed) {
+function relatedDescriptionForLink(
+  context: DiaryContentContext | undefined,
+  link: { slug: string; kind: "article" | "project" | "concept" },
+) {
+  if (!context) {
+    return null
+  }
+
+  if (link.kind === "project") {
+    return context.projects.find((item) => item.slug === link.slug)?.description ?? null
+  }
+
+  if (link.kind === "article") {
+    return context.articles.find((item) => item.slug === link.slug)?.summary ?? null
+  }
+
+  return (
+    context.concepts.find((item) => item.slug === link.slug)?.shortDefinition ?? null
+  )
+}
+
+async function rewriteFeedWithOpenRouter(
+  feed: ActivityFeed,
+  context?: DiaryContentContext,
+) {
   const apiKey = process.env.OPENROUTER_API_KEY
   if (!apiKey) {
     console.log(
@@ -533,7 +557,13 @@ async function rewriteFeedWithOpenRouter(feed: ActivityFeed) {
       entries: day.entries.map((entry) => ({
         id: entry.id,
         repoLabel: entry.repoLabel,
+        changedFileCount: entry.changedFileCount,
+        commitCount: entry.commitCount,
+        signalScore: entry.signalScore,
         categories: entry.categories,
+        signalReasons: entry.signalReasons,
+        commitSubjects: entry.commitSubjects,
+        touchedSurfaces: entry.touchedSurfaces,
         highlights: entry.highlights,
         notableChanges: entry.notableChanges,
         title: entry.title,
@@ -542,9 +572,11 @@ async function rewriteFeedWithOpenRouter(feed: ActivityFeed) {
         whyItMatters: entry.whyItMatters,
         exploreNext: entry.exploreNext,
         relatedLinks: entry.relatedLinks.map((link) => ({
+          slug: link.slug,
           title: link.title,
           kind: link.kind,
           reason: link.reason,
+          description: relatedDescriptionForLink(context, link),
         })),
       })),
     })),
@@ -565,7 +597,7 @@ async function rewriteFeedWithOpenRouter(feed: ActivityFeed) {
       body: JSON.stringify({
         model: OPENROUTER_MODEL,
         temperature: 0.1,
-        max_tokens: 4800,
+        max_tokens: 7200,
         response_format: { type: "json_object" },
         reasoning: { effort: "none", exclude: true },
         provider:
@@ -580,11 +612,24 @@ async function rewriteFeedWithOpenRouter(feed: ActivityFeed) {
           {
             role: "system",
             content:
-              "You are editing a public-facing coding diary for curious non-developers. Keep every factual relationship, date, repo label, and related link intact. Rewrite only for specificity, clarity, warmth, and editorial interest. Avoid hype, repetition, and jargon. Return JSON only.",
+              "You are editing a public-facing coding diary for curious non-developers. Keep every factual relationship, date, repo label, counts, and related link intact. Rewrite only for specificity, clarity, warmth, and editorial interest. Write like an observant editor, not a changelog formatter. Name concrete moves, explain the payoff in plain language, vary the phrasing across entries, and avoid hype, vagueness, repetition, and jargon. Return JSON only.",
           },
           {
             role: "user",
-            content: `Rewrite the following diary archive copy. Keep the same day dates and entry ids. Do not add or remove entries or links. Return JSON with this shape only: { "headline": string, "subhead": string, "days": [{ "date": string, "summary": string, "spotlight": string, "entries": [{ "id": string, "title": string, "summary": string, "narrative": string, "whyItMatters": string, "exploreNext": string, "notableChanges": string[] }] }] }.\n\n${JSON.stringify(promptPayload, null, 2)}`,
+            content: `Rewrite the following diary archive copy. Keep the same day dates and entry ids. Do not add or remove entries, categories, counts, or links. Use the supplied commit subjects, touched surfaces, signal reasons, and related-link context as source evidence. Do not invent facts.
+
+Rules:
+- Titles must be specific to that repo-day, not reusable templates.
+- Each entry summary should be 1 to 2 sentences and mention the most concrete public-facing or workflow-facing moves.
+- Each narrative should be 2 sentences that explain what actually changed using the supplied evidence.
+- Each whyItMatters should connect the work to visitor understanding, trust, or operator reliability in plain language.
+- Each exploreNext should point toward the most relevant next page and explain why that page is the next click.
+- Day summaries and spotlights should mention named repos and real changes, not abstract momentum.
+- Avoid phrases like "public context around this work", "made the cut", "stood out", or "turned recent work into proof people can inspect" unless the evidence truly demands them.
+
+Return JSON with this shape only: { "headline": string, "subhead": string, "days": [{ "date": string, "summary": string, "spotlight": string, "entries": [{ "id": string, "title": string, "summary": string, "narrative": string, "whyItMatters": string, "exploreNext": string, "notableChanges": string[] }] }] }.
+
+${JSON.stringify(promptPayload, null, 2)}`,
           },
         ],
       }),
@@ -661,7 +706,7 @@ async function main() {
   )
 
   if (gate.decision === "generated" && feed.days.length > 0) {
-    feed = await rewriteFeedWithOpenRouter(feed)
+    feed = await rewriteFeedWithOpenRouter(feed, contentContext)
   }
 
   await mkdir(targetDir, { recursive: true })

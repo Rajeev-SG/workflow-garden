@@ -39,9 +39,9 @@ Each repo-day snapshot captures:
 
 ## LLM step
 
-When a full refresh runs and `OPENROUTER_API_KEY` is available, the pipeline tries an OpenRouter rewrite with a fast JSON-friendly model.
+When a full refresh runs and `OPENROUTER_API_KEY` is available, the pipeline tries an OpenRouter rewrite with a detailed JSON-friendly model.
 
-- current default model: `z-ai/glm-5-turbo`
+- current default model: `moonshotai/kimi-k2.5`
 - optional provider pinning via `WORKFLOW_GARDEN_OPENROUTER_PROVIDER_ORDER`
 - default timeout: `45000` ms
 - the model only rewrites copy fields

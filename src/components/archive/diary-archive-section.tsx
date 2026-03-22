@@ -214,6 +214,12 @@ function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
 
       <div className="mt-6 space-y-6">
         <div>
+          <p className="archive-kicker text-primary/38">At a glance</p>
+          <p className="mt-3 text-sm leading-7 text-muted-foreground">
+            {entry.summary}
+          </p>
+        </div>
+        <div>
           <p className="archive-kicker text-primary/38">The what</p>
           <p className="mt-3 text-base leading-7 text-foreground">
             {entry.narrative}
@@ -230,6 +236,14 @@ function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
           <p className="mt-3 text-sm leading-7 text-foreground/80">
             {entry.exploreNext}
           </p>
+        </div>
+        <div>
+          <p className="archive-kicker text-primary/38">Concrete moves</p>
+          <ul className="mt-3 space-y-2 text-sm leading-7 text-foreground/85">
+            {entry.notableChanges.slice(0, 3).map((change) => (
+              <li key={change}>{change}</li>
+            ))}
+          </ul>
         </div>
       </div>
 

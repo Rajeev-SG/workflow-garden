@@ -1,6 +1,6 @@
 # Acceptance Proof
 
-Target flow: load the local site, verify the educational archive overview renders, move into an article, inspect a project page, open the latest diary detail route, and confirm that search returns cross-content results.
+Target flow: load the site, verify the educational archive overview renders, move into an article, inspect a project page, open the latest diary detail route, and confirm that search returns cross-content results.
 
 Target URL: `https://workflow-garden.vercel.app`
 
@@ -16,7 +16,7 @@ Expected behavior:
 
 Observed behavior:
 
-- the local site loaded successfully at `https://workflow-garden.vercel.app`
+- the site loaded successfully at `https://workflow-garden.vercel.app`
 - the homepage rendered the archive overview with article, project, diary, and search entry points
 - the article route rendered readable long-form content with working internal links
 - the project route exposed repo and live URL context without leaving the archive design system
@@ -42,16 +42,16 @@ Evidence:
 - Article screenshot: [article.png](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/article.png)
 - Project screenshot: [project.png](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/project.png)
 - Search screenshot: [search.png](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/search.png)
-- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-21T23-50-38-537Z.log)
-- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-21T23-50-44-350Z.log)
-- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-21T23-51-17-352Z.log)
-- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-21T23-51-23-554Z.log)
-- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-21T23-51-55-719Z.log)
-- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-21T23-52-28-874Z.log)
-- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-21T23-53-04-964Z.log)
+- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-22T00-08-08-909Z.log)
+- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-22T00-08-14-918Z.log)
+- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-22T00-08-20-723Z.log)
+- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-22T00-08-26-968Z.log)
+- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-22T00-08-33-139Z.log)
+- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-22T00-08-39-217Z.log)
+- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-22T00-08-46-639Z.log)
 
 Residual risk:
 
-- The proof loop still depends on running a local dev server at port `3001` before `pnpm proof`.
+- The proof run depends on the production deployment already being live before `pnpm proof` is executed against it.
 - The shell wrapper still prints repeated npm environment warnings, but those did not surface as browser-console failures in the exercised routes.
 
