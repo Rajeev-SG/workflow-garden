@@ -12,6 +12,7 @@ gh auth status
 
 ```bash
 vercel whoami
+vercel inspect workflow-garden.vercel.app
 ```
 
 ## OpenRouter

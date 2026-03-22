@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "content:source": "pnpm exec velite build --clean",
-    "content:build": "pnpm content:source && tsx scripts/build-content-indices.mts && tsx scripts/build-search.mts",
-    "activity:generate": "tsx scripts/generate-activity-feed.mts",
+    "content:build": "pnpm content:source && node --import tsx scripts/build-content-indices.mts && node --import tsx scripts/build-search.mts",
+    "activity:generate": "node --import tsx scripts/generate-activity-feed.mts",
     "activity:refresh": "bash scripts/run-diary-refresh.sh",
-    "dev": "tsx scripts/dev.mts",
+    "dev": "node --import tsx scripts/dev.mts",
     "build": "pnpm content:build && next build",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "proof": "tsx scripts/run-proof.mts"
+    "proof": "node --import tsx scripts/run-proof.mts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

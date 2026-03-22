@@ -31,4 +31,5 @@ Infisical is the source of truth for app secrets.
 - Use `.env.example` for names only.
 - Use `infisical run --env=dev -- pnpm <command>` if this repo gains real secrets later.
 - OpenRouter auth is operator-only for the diary refresh. Do not commit keys into the repo.
+- The automation fallback sources `~/.config/claude-openrouter/env.sh` when `OPENROUTER_API_KEY` is not already present.
 - Do not commit populated `.env` files.

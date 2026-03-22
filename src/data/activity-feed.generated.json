@@ -1,45 +1,303 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-22T00:02:02.987Z",
+  "generatedAt": "2026-03-22T20:28:59.890Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
-  "headline": "14 archive entries across 5 days, with Workflow Garden and Property Search driving the clearest visitor-facing changes",
-  "subhead": "From March 17–21, ten projects generated movement. The diary kept entries where proof, interface, or workflow documentation actually changed.",
-  "sourceFingerprint": "92e26ed77e31366803223bdb3e6549892248de8f83cfdbf5d2da6d9045608728",
-  "generationMethod": "llm",
-  "generationModel": "moonshotai/kimi-k2.5",
+  "headline": "10 projects generated public-facing movement with a strong thread of educational content.",
+  "subhead": "After scanning the last 7 days of recent repo activity, the diary kept 15 archive-worthy updates and dropped the rest.",
+  "sourceFingerprint": "4ba29e47783db7d3e0c8461d70440cc4ed9843300953da3b70ba0beef3ebdb5a",
+  "generationMethod": "heuristic",
+  "generationModel": null,
   "refreshGate": {
     "decision": "generated",
-    "reason": "A forced refresh was requested for the diary archive.",
-    "aggregateSignalScore": 615,
-    "meaningfulSnapshotCount": 18,
+    "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
+    "aggregateSignalScore": 726,
+    "meaningfulSnapshotCount": 20,
     "spotlightSignalScore": 56,
-    "previousFingerprint": "92e26ed77e31366803223bdb3e6549892248de8f83cfdbf5d2da6d9045608728"
+    "previousFingerprint": "1ede938dbccb44fc81ec9fbc37afff87baadbc46a2e5a123eacb80354cf22e9b"
   },
   "stats": {
     "activeRepoCount": 10,
-    "changedFileCount": 4117,
-    "commitCount": 49,
-    "curatedEntryCount": 14,
+    "changedFileCount": 4193,
+    "commitCount": 56,
+    "curatedEntryCount": 15,
     "topTheme": "educational content",
     "daysScanned": 7,
-    "aggregateSignalScore": 523
+    "aggregateSignalScore": 602
   },
   "days": [
     {
+      "date": "2026-03-22",
+      "label": "Today",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
+      "spotlight": "Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
+      "entries": [
+        {
+          "id": "workflow-garden-2026-03-22",
+          "kind": "explainer",
+          "title": "Workflow Garden: Refresh diary publishable outputs and Repair diary refresh publish loop",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop.",
+          "narrative": "Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
+          "repoName": "workflow-garden",
+          "repoLabel": "Workflow Garden",
+          "changedFileCount": 21,
+          "commitCount": 3,
+          "signalScore": 49,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "workflow",
+            "automation",
+            "docs",
+            "config"
+          ],
+          "signalReasons": [
+            "3 recent commits",
+            "21 touched files",
+            "7 distinct activity categories",
+            "visitor-facing surface changed"
+          ],
+          "commitSubjects": [
+            "Refresh diary publishable outputs",
+            "Repair diary refresh publish loop",
+            "Deepen diary detail and copy quality"
+          ],
+          "touchedSurfaces": [
+            "the environment contract",
+            "the plain-language README",
+            "the project pages",
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts"
+          ],
+          "highlights": [
+            "the environment contract",
+            "the plain-language README",
+            "the project pages",
+            "the operator docs"
+          ],
+          "notableChanges": [
+            "Refresh diary publishable outputs",
+            "Repair diary refresh publish loop",
+            "Deepen diary detail and copy quality",
+            "the environment contract"
+          ],
+          "relatedSlugs": [
+            "workflow-garden",
+            "what-agent-skills-are",
+            "proof-vs-acceptance",
+            "one-issue-one-branch-one-pr"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "workflow-garden",
+              "title": "Workflow Garden",
+              "href": "/projects/workflow-garden",
+              "kind": "project",
+              "reason": "This diary note comes from the same repo as the project page."
+            },
+            {
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop. Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 3 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        },
+        {
+          "id": "openrouter-model-workbook-maintainer-v2-2026-03-22",
+          "kind": "showcase",
+          "title": "Openrouter Model Workbook Maintainer V2: Gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical",
+          "summary": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
+          "narrative": "Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide.",
+          "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
+          "exploreNext": "Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work.",
+          "repoName": "openrouter-model-workbook-maintainer-v2",
+          "repoLabel": "Openrouter Model Workbook Maintainer V2",
+          "changedFileCount": 83,
+          "commitCount": 4,
+          "signalScore": 47,
+          "categories": [
+            "interface",
+            "content",
+            "workflow",
+            "automation",
+            "docs",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "4 recent commits",
+            "83 touched files",
+            "7 distinct activity categories",
+            "operator workflow changed"
+          ],
+          "commitSubjects": [
+            "gh-3 Align local bootstrap messaging with Infisical",
+            "gh-3 Route refresh workflow secrets through Infisical",
+            "gh-1: build model intelligence pipeline and guide",
+            "import workbook maintainer baseline"
+          ],
+          "touchedSurfaces": [
+            "the environment contract",
+            "ci",
+            "daily refresh",
+            "gitignore",
+            "AGENT TASK",
+            "Makefile"
+          ],
+          "highlights": [
+            "the environment contract",
+            "ci",
+            "daily refresh",
+            "gitignore"
+          ],
+          "notableChanges": [
+            "gh-3 Align local bootstrap messaging with Infisical",
+            "gh-3 Route refresh workflow secrets through Infisical",
+            "gh-1: build model intelligence pipeline and guide",
+            "import workbook maintainer baseline"
+          ],
+          "relatedSlugs": [
+            "openrouter-model-workbook-maintainer-v2",
+            "prd",
+            "proof-vs-acceptance",
+            "one-issue-one-branch-one-pr"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "openrouter-model-workbook-maintainer-v2",
+              "title": "OpenRouter Model Workbook Maintainer V2",
+              "href": "/projects/openrouter-model-workbook-maintainer-v2",
+              "kind": "project",
+              "reason": "This diary note comes from the same repo as the project page."
+            },
+            {
+              "slug": "prd",
+              "title": "What a PRD is",
+              "href": "/concepts/prd",
+              "kind": "concept",
+              "reason": "This concept explains a repeated term behind the work."
+            },
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 4 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        },
+        {
+          "id": "tools-2026-03-22",
+          "kind": "explainer",
+          "title": "Tools: Gitignore and README",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on gitignore and README.",
+          "narrative": "Tools spent the day on gitignore, README, and agent offload setup recommendation.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work.",
+          "repoName": "tools",
+          "repoLabel": "Tools",
+          "changedFileCount": 45,
+          "commitCount": 0,
+          "signalScore": 28,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "45 touched files",
+            "5 distinct activity categories"
+          ],
+          "commitSubjects": [],
+          "touchedSurfaces": [
+            "gitignore",
+            "README",
+            "agent offload setup recommendation",
+            "agent offload",
+            "llama3.2 3b cpu",
+            "local coder helper"
+          ],
+          "highlights": [
+            "gitignore",
+            "README",
+            "agent offload setup recommendation",
+            "agent offload"
+          ],
+          "notableChanges": [
+            "gitignore",
+            "README",
+            "agent offload setup recommendation",
+            "agent offload"
+          ],
+          "relatedSlugs": [
+            "proof-vs-acceptance",
+            "proof"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "proof",
+              "title": "What proof means in this workflow",
+              "href": "/concepts/proof",
+              "kind": "concept",
+              "reason": "This concept explains a repeated term behind the work."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on gitignore and README. Tools spent the day on gitignore, README, and agent offload setup recommendation. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Tools 45 touched files 5 distinct activity categories gitignore README agent offload setup recommendation agent offload llama3.2 3b cpu local coder helper gitignore README agent offload setup recommendation agent offload gitignore README agent offload setup recommendation agent offload What proof means: design-proof vs acceptance-proof What proof means in this workflow"
+        }
+      ]
+    },
+    {
       "date": "2026-03-21",
       "label": "Sat 21 Mar",
-      "summary": "Three projects moved. Workflow Garden built a selective diary pipeline and content hub. Proof Pack added screenshots to its readme and fixed wide-screen layout. Choice Compass hardened mobile task order with an explicit design gate.",
-      "spotlight": "Workflow Garden: selective linked diary pipeline and project content hub",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
+      "spotlight": "Workflow Garden led the day with Implement selective linked diary pipeline and Build the project content hub.",
       "entries": [
         {
           "id": "workflow-garden-2026-03-21",
           "kind": "explainer",
-          "title": "Workflow Garden: Selective diary pipeline and content hub",
-          "summary": "Six commits touched 116 files across nine categories, with the clearest moves in a new linked-diary pipeline and a dedicated project content hub.",
-          "narrative": "The selective linked diary pipeline changes how entries surface across projects. The content hub gives each project a readable landing point. Two proof fixes—tools tab overlap and mobile hero overflow—tightened the interface.",
-          "whyItMatters": "Visitors can now follow how a project evolves without digging through raw commit logs. The fixes mean the site stays readable on phones and crowded screens.",
-          "exploreNext": "Visit the Workflow Garden project page to see the content hub in action and trace how the diary pipeline connects entries.",
+          "title": "Workflow Garden: Implement selective linked diary pipeline and Build the project content hub",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Implement selective linked diary pipeline and Build the project content hub.",
+          "narrative": "Workflow Garden spent the day on Implement selective linked diary pipeline, Build the project content hub, and Fix tools tabs overlap proof gap.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
           "repoName": "workflow-garden",
           "repoLabel": "Workflow Garden",
           "changedFileCount": 116,
@@ -124,16 +382,16 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "Six commits touched 116 files across nine categories, with the clearest moves in a new linked-diary pipeline and a dedicated project content hub. The selective linked diary pipeline changes how entries surface across projects. The content hub gives each project a readable landing point. Two proof fixes—tools tab overlap and mobile hero overflow—tightened the interface. Visitors can now follow how a project evolves without digging through raw commit logs. The fixes mean the site stays readable on phones and crowded screens. Visit the Workflow Garden project page to see the content hub in action and trace how the diary pipeline connects entries. Workflow Garden the environment contract pull request template gitignore infisical Implement selective linked diary pipeline Build the project content hub Fix tools tabs overlap proof gap Fix mobile hero overflow proof regression Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Implement selective linked diary pipeline and Build the project content hub. Workflow Garden spent the day on Implement selective linked diary pipeline, Build the project content hub, and Fix tools tabs overlap proof gap. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 6 recent commits 116 touched files 9 distinct activity categories visitor-facing surface changed Implement selective linked diary pipeline Build the project content hub Fix tools tabs overlap proof gap Fix mobile hero overflow proof regression the environment contract pull request template gitignore infisical DESIGN the repo workflow guide the environment contract pull request template gitignore infisical Implement selective linked diary pipeline Build the project content hub Fix tools tabs overlap proof gap Fix mobile hero overflow proof regression Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         },
         {
           "id": "proof-pack-2026-03-21",
           "kind": "explainer",
-          "title": "Proof Pack: Screenshots in readme and wide-screen fix",
-          "summary": "Nine commits across 49 files centered on visible evidence: screenshots added to the readme, wide-screen composition repaired, and deployed artifacts linked.",
-          "narrative": "Screenshots now live in the project readme so visitors see output without running code. The wide-screen fix and rebuilt landing composition keep the design gate honest. Deployed proof artifacts and a live URL close the loop between commit and inspectable result.",
-          "whyItMatters": "Proof stops being a claim and becomes something you can scroll through. The live URL means the latest version is always the one being judged.",
-          "exploreNext": "Open the Proof Pack project page to compare the readme screenshots against the live deployment.",
+          "title": "Proof Pack: Add proof screenshots to the project readme and fix wide-screen composition in the project",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on add proof screenshots to the project readme and fix wide-screen composition in the project.",
+          "narrative": "Proof Pack spent the day on add proof screenshots to the project readme, fix wide-screen composition in the project, and rebuild the landing composition and harden the design gate.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Proof Pack next to see the public context around this work.",
           "repoName": "proof-pack",
           "repoLabel": "Proof Pack",
           "changedFileCount": 49,
@@ -217,16 +475,16 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "Nine commits across 49 files centered on visible evidence: screenshots added to the readme, wide-screen composition repaired, and deployed artifacts linked. Screenshots now live in the project readme so visitors see output without running code. The wide-screen fix and rebuilt landing composition keep the design gate honest. Deployed proof artifacts and a live URL close the loop between commit and inspectable result. Proof stops being a claim and becomes something you can scroll through. The live URL means the latest version is always the one being judged. Open the Proof Pack project page to compare the readme screenshots against the live deployment. Proof Pack the environment contract pull request template gitignore infisical add proof screenshots to the project readme fix wide-screen composition in the project rebuild the landing composition and harden the design gate Add deployed proof artifacts and live URL Proof Pack What proof means: design-proof vs acceptance-proof What agent skills are polish"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on add proof screenshots to the project readme and fix wide-screen composition in the project. Proof Pack spent the day on add proof screenshots to the project readme, fix wide-screen composition in the project, and rebuild the landing composition and harden the design gate. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Proof Pack next to see the public context around this work. Proof Pack 9 recent commits 49 touched files 8 distinct activity categories visitor-facing surface changed add proof screenshots to the project readme fix wide-screen composition in the project rebuild the landing composition and harden the design gate Add deployed proof artifacts and live URL the environment contract pull request template gitignore infisical the browser proof setup the repo workflow guide the environment contract pull request template gitignore infisical add proof screenshots to the project readme fix wide-screen composition in the project rebuild the landing composition and harden the design gate Add deployed proof artifacts and live URL Proof Pack What proof means: design-proof vs acceptance-proof What agent skills are polish"
         },
         {
           "id": "choice-compass-2026-03-21",
           "kind": "explainer",
-          "title": "Choice Compass: Mobile design gate and refreshed proof",
-          "summary": "Five commits across 29 files hardened mobile task order with an explicit design gate and refreshed live proof after redeploy.",
-          "narrative": "The mobile design gate now enforces task order so the flow stays coherent on small screens. Refreshed proof and polished mobile flow, plus PR workflow notes, make the ship loop readable.",
-          "whyItMatters": "Mobile visitors get a sequence that was actually tested, not assumed. The PR workflow notes let others trace how a change moved from issue to merge.",
-          "exploreNext": "Read the PR workflow article to understand how the branch-to-merge path keeps proof and code aligned.",
+          "title": "Choice Compass: Add explicit design gate for mobile task order and refresh live proof after redeploy",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on add explicit design gate for mobile task order and refresh live proof after redeploy.",
+          "narrative": "Choice Compass spent the day on add explicit design gate for mobile task order, refresh live proof after redeploy, and polish mobile flow and add PR workflow.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Choice Compass next to see the public context around this work.",
           "repoName": "choice-compass",
           "repoLabel": "Choice Compass",
           "changedFileCount": 29,
@@ -310,24 +568,24 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "Five commits across 29 files hardened mobile task order with an explicit design gate and refreshed live proof after redeploy. The mobile design gate now enforces task order so the flow stays coherent on small screens. Refreshed proof and polished mobile flow, plus PR workflow notes, make the ship loop readable. Mobile visitors get a sequence that was actually tested, not assumed. The PR workflow notes let others trace how a change moved from issue to merge. Read the PR workflow article to understand how the branch-to-merge path keeps proof and code aligned. Choice Compass the environment contract pull request template gitignore the repo workflow guide add explicit design gate for mobile task order refresh live proof after redeploy polish mobile flow and add PR workflow Add acceptance proof and ship-loop notes Choice Compass How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters acceptance-proof"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on add explicit design gate for mobile task order and refresh live proof after redeploy. Choice Compass spent the day on add explicit design gate for mobile task order, refresh live proof after redeploy, and polish mobile flow and add PR workflow. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Choice Compass next to see the public context around this work. Choice Compass 5 recent commits 29 touched files 8 distinct activity categories visitor-facing surface changed add explicit design gate for mobile task order refresh live proof after redeploy polish mobile flow and add PR workflow Add acceptance proof and ship-loop notes the environment contract pull request template gitignore the repo workflow guide CLAUDE the plain-language README the environment contract pull request template gitignore the repo workflow guide add explicit design gate for mobile task order refresh live proof after redeploy polish mobile flow and add PR workflow Add acceptance proof and ship-loop notes Choice Compass How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters acceptance-proof"
         }
       ]
     },
     {
       "date": "2026-03-20",
       "label": "Fri 20 Mar",
-      "summary": "Three projects moved. Property Search hardened crawl smoke source pinning and registry fallback. Tools and Symphony Workspaces saw heavy file churn in documentation and configuration surfaces.",
-      "spotlight": "Property Search: crawl smoke registry fallback and source pinning",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation.",
+      "spotlight": "Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
       "entries": [
         {
           "id": "property-search-2026-03-20",
           "kind": "tutorial",
-          "title": "Property Search: Crawl smoke registry fallback and source pinning",
-          "summary": "Twenty-seven commits across 99 files focused on crawl smoke reliability: registry fallback coverage and hardened source pinning.",
-          "narrative": "The crawl smoke registry fallback keeps tests running when upstream sources shift. Source pinning makes the crawl reproducible. RAJ-10 finished source selection; RAJ-27 notes an openreview rerun intent.",
-          "whyItMatters": "Operators can trust that a failed crawl signals a real problem, not a flaky dependency. The issue notes keep intent visible for anyone picking up the work.",
-          "exploreNext": "See the Property Search project page for how tracked issues like RAJ-10 map to commits.",
+          "title": "Property Search: : cover crawl smoke registry fallback and : harden crawl smoke source pinning",
+          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
+          "narrative": "Property Search spent the day on : cover crawl smoke registry fallback, : harden crawl smoke source pinning, and Finish RAJ-10 crawl smoke source selection.",
+          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
+          "exploreNext": "Explore Property Search next to see the public context around this work.",
           "repoName": "property-search",
           "repoLabel": "Property Search",
           "changedFileCount": 99,
@@ -409,19 +667,19 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "Twenty-seven commits across 99 files focused on crawl smoke reliability: registry fallback coverage and hardened source pinning. The crawl smoke registry fallback keeps tests running when upstream sources shift. Source pinning makes the crawl reproducible. RAJ-10 finished source selection; RAJ-27 notes an openreview rerun intent. Operators can trust that a failed crawl signals a real problem, not a flaky dependency. The issue notes keep intent visible for anyone picking up the work. See the Property Search project page for how tracked issues like RAJ-10 map to commits. Property Search the environment contract pull request template ci codeql : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills"
+          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on : cover crawl smoke registry fallback and : harden crawl smoke source pinning. Property Search spent the day on : cover crawl smoke registry fallback, : harden crawl smoke source pinning, and Finish RAJ-10 crawl smoke source selection. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Property Search 27 recent commits 99 touched files 6 distinct activity categories operator workflow changed : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent the environment contract pull request template ci codeql semgrep gitignore the environment contract pull request template ci codeql : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills"
         },
         {
           "id": "tools-2026-03-20",
           "kind": "showcase",
-          "title": "Tools: Plain-language readme and CLAUDE configuration",
-          "summary": "Three hundred files changed across seven categories, with the plain-language readme and CLAUDE configuration files leading.",
-          "narrative": "The plain-language readme strips jargon so the workflow makes sense to newcomers. CLAUDE configuration and updated gitignore keep the environment predictable.",
-          "whyItMatters": "A readable readme is where trust starts for anyone browsing without context. Clean configuration means fewer surprises when the environment rebuilds.",
-          "exploreNext": "Read the agent skills article to understand how CLAUDE configuration turns into reusable workflow instructions.",
+          "title": "Tools: The plain-language README and CLAUDE",
+          "summary": "The strongest movement landed in interface work, educational content, and automation, with visible work on the plain-language README and CLAUDE.",
+          "narrative": "Tools spent the day on the plain-language README, CLAUDE, and gitignore.",
+          "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
+          "exploreNext": "Explore agent skills next to see the public context around this work.",
           "repoName": "tools",
           "repoLabel": "Tools",
-          "changedFileCount": 300,
+          "changedFileCount": 297,
           "commitCount": 0,
           "signalScore": 35,
           "categories": [
@@ -434,7 +692,7 @@
             "styling"
           ],
           "signalReasons": [
-            "300 touched files",
+            "297 touched files",
             "7 distinct activity categories",
             "operator workflow changed"
           ],
@@ -471,16 +729,16 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "Three hundred files changed across seven categories, with the plain-language readme and CLAUDE configuration files leading. The plain-language readme strips jargon so the workflow makes sense to newcomers. CLAUDE configuration and updated gitignore keep the environment predictable. A readable readme is where trust starts for anyone browsing without context. Clean configuration means fewer surprises when the environment rebuilds. Read the agent skills article to understand how CLAUDE configuration turns into reusable workflow instructions. Tools the plain-language README CLAUDE gitignore the repo workflow guide the plain-language README CLAUDE gitignore the repo workflow guide agent skills"
+          "searchText": "The strongest movement landed in interface work, educational content, and automation, with visible work on the plain-language README and CLAUDE. Tools spent the day on the plain-language README, CLAUDE, and gitignore. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore agent skills next to see the public context around this work. Tools 297 touched files 7 distinct activity categories operator workflow changed the plain-language README CLAUDE gitignore the repo workflow guide CHANGELOG CONTRIBUTING the plain-language README CLAUDE gitignore the repo workflow guide the plain-language README CLAUDE gitignore the repo workflow guide agent skills"
         },
         {
           "id": "symphony-workspaces-2026-03-20",
           "kind": "article",
-          "title": "Symphony Workspaces: Environment contract and architecture docs",
-          "summary": "1,653 files changed, concentrated in the environment contract, gitignore, and architecture documentation.",
-          "narrative": "The environment contract and gitignore changes standardize how workspaces initialize. Architecture and review docs give operators a map of the system.",
-          "whyItMatters": "New workspaces start from a known state instead of accumulated local tweaks. The architecture doc keeps the mental model shared across contributors.",
-          "exploreNext": "Read the agent skills article to see how reusable instructions keep workspace setup consistent.",
+          "title": "Symphony Workspaces: The environment contract and gitignore",
+          "summary": "The strongest movement landed in educational content, automation, and testing, with visible work on the environment contract and gitignore.",
+          "narrative": "Symphony Workspaces spent the day on the environment contract, gitignore, and the repo workflow guide.",
+          "whyItMatters": "It makes the archive more dependable and less reliant on manual cleanup or heroic memory.",
+          "exploreNext": "Explore agent skills next to see the public context around this work.",
           "repoName": "symphony-workspaces",
           "repoLabel": "Symphony Workspaces",
           "changedFileCount": 1653,
@@ -529,24 +787,24 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "1,653 files changed, concentrated in the environment contract, gitignore, and architecture documentation. The environment contract and gitignore changes standardize how workspaces initialize. Architecture and review docs give operators a map of the system. New workspaces start from a known state instead of accumulated local tweaks. The architecture doc keeps the mental model shared across contributors. Read the agent skills article to see how reusable instructions keep workspace setup consistent. Symphony Workspaces the environment contract gitignore the repo workflow guide ARCHITECTURE the environment contract gitignore the repo workflow guide ARCHITECTURE agent skills"
+          "searchText": "The strongest movement landed in educational content, automation, and testing, with visible work on the environment contract and gitignore. Symphony Workspaces spent the day on the environment contract, gitignore, and the repo workflow guide. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Symphony Workspaces 1653 touched files 4 distinct activity categories the environment contract gitignore the repo workflow guide ARCHITECTURE README REVIEW the environment contract gitignore the repo workflow guide ARCHITECTURE the environment contract gitignore the repo workflow guide ARCHITECTURE agent skills"
         }
       ]
     },
     {
       "date": "2026-03-19",
       "label": "Thu 19 Mar",
-      "summary": "Three projects moved. Property Search aligned CI pnpm versions and added initial scaffold. Auto Audit Harness surfaced architecture and quality score documentation. Tools saw heavy churn in workflow guides and CLI surfaces.",
-      "spotlight": "Property Search: CI pnpm alignment and initial project scaffold",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation.",
+      "spotlight": "Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
       "entries": [
         {
           "id": "property-search-2026-03-19",
           "kind": "tutorial",
-          "title": "Property Search: CI pnpm alignment and initial scaffold",
-          "summary": "Two commits across 97 files aligned the CI pnpm version with packageManager and added the initial project scaffold, docs, and fixtures.",
-          "narrative": "The pnpm alignment prevents version drift between local and CI environments. The scaffold, config.toml, and environment contract give the project a reproducible foundation.",
-          "whyItMatters": "Matching versions mean \"works on my machine\" becomes \"works everywhere.\" The scaffold lets new contributors start with working tests and documented conventions.",
-          "exploreNext": "See the Property Search project page for how the scaffold connects to the broader workflow.",
+          "title": "Property Search: Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures",
+          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
+          "narrative": "Property Search spent the day on Align CI pnpm version with packageManager, Add initial project scaffold, docs, and fixtures, and config.toml.",
+          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
+          "exploreNext": "Explore Property Search next to see the public context around this work.",
           "repoName": "property-search",
           "repoLabel": "Property Search",
           "changedFileCount": 97,
@@ -626,16 +884,16 @@
               "reason": "The recent repo activity mentioned this term directly."
             }
           ],
-          "searchText": "Two commits across 97 files aligned the CI pnpm version with packageManager and added the initial project scaffold, docs, and fixtures. The pnpm alignment prevents version drift between local and CI environments. The scaffold, config.toml, and environment contract give the project a reproducible foundation. Matching versions mean \"works on my machine\" becomes \"works everywhere.\" The scaffold lets new contributors start with working tests and documented conventions. See the Property Search project page for how the scaffold connects to the broader workflow. Property Search config.toml the environment contract ci gitignore Align CI pnpm version with packageManager Add initial project scaffold, docs, and fixtures config.toml the environment contract Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills"
+          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures. Property Search spent the day on Align CI pnpm version with packageManager, Add initial project scaffold, docs, and fixtures, and config.toml. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Property Search 2 recent commits 97 touched files 6 distinct activity categories operator workflow changed Align CI pnpm version with packageManager Add initial project scaffold, docs, and fixtures config.toml the environment contract ci gitignore review the repo workflow guide config.toml the environment contract ci gitignore Align CI pnpm version with packageManager Add initial project scaffold, docs, and fixtures config.toml the environment contract Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills"
         },
         {
           "id": "auto-audit-harness-2026-03-19",
           "kind": "explainer",
-          "title": "Auto Audit Harness: Architecture docs and quality score surface",
-          "summary": "Seventy files changed across seven categories, with ARCHITECTURE, QUALITY SCORE, and the plain-language readme leading.",
-          "narrative": "The architecture doc explains how audit checks fit together. The quality score surface makes pass/fail criteria readable. The plain-language readme translates reliability concepts for non-developers.",
-          "whyItMatters": "Visitors can understand what \"audit\" means without reading source code. The quality score gives a concrete target instead of vague \"better quality.\"",
-          "exploreNext": "Read the audit article to see how the harness checks responsiveness, accessibility, and quality risks.",
+          "title": "Auto Audit Harness: ARCHITECTURE and QUALITY SCORE",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on ARCHITECTURE and QUALITY SCORE.",
+          "narrative": "Auto Audit Harness spent the day on ARCHITECTURE, QUALITY SCORE, and the plain-language README.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore audit next to see the public context around this work.",
           "repoName": "auto-audit-harness",
           "repoLabel": "Auto Audit Harness",
           "changedFileCount": 70,
@@ -704,16 +962,16 @@
               "reason": "This concept explains a repeated term behind the work."
             }
           ],
-          "searchText": "Seventy files changed across seven categories, with ARCHITECTURE, QUALITY SCORE, and the plain-language readme leading. The architecture doc explains how audit checks fit together. The quality score surface makes pass/fail criteria readable. The plain-language readme translates reliability concepts for non-developers. Visitors can understand what \"audit\" means without reading source code. The quality score gives a concrete target instead of vague \"better quality.\" Read the audit article to see how the harness checks responsiveness, accessibility, and quality risks. Auto Audit Harness ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on ARCHITECTURE and QUALITY SCORE. Auto Audit Harness spent the day on ARCHITECTURE, QUALITY SCORE, and the plain-language README. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness 70 touched files 7 distinct activity categories operator workflow changed ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY globals page ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow"
         },
         {
           "id": "tools-2026-03-19",
           "kind": "showcase",
-          "title": "Tools: Workflow guide and CLI tool documentation",
-          "summary": "1,347 files changed across six categories, concentrated in the repo workflow guide, CLI tools, and operator documentation.",
-          "narrative": "The repo workflow guide and CLI tools documentation make the operator surface explicit. Automation scripts and licensing files round out the changes.",
-          "whyItMatters": "Clear operator docs mean the workflow can be run by someone other than the original author. The CLI surface being documented keeps commands discoverable.",
-          "exploreNext": "Read the one-issue-one-branch article to understand how the workflow guide structures branches and merges.",
+          "title": "Tools: The repo workflow guide and cli tools",
+          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the repo workflow guide and cli tools.",
+          "narrative": "Tools spent the day on the repo workflow guide, cli tools, and the operator docs.",
+          "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
+          "exploreNext": "Explore Why one issue, one branch, and one PR matters next to see the public context around this work.",
           "repoName": "tools",
           "repoLabel": "Tools",
           "changedFileCount": 1347,
@@ -781,24 +1039,24 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "1,347 files changed across six categories, concentrated in the repo workflow guide, CLI tools, and operator documentation. The repo workflow guide and CLI tools documentation make the operator surface explicit. Automation scripts and licensing files round out the changes. Clear operator docs mean the workflow can be run by someone other than the original author. The CLI surface being documented keeps commands discoverable. Read the one-issue-one-branch article to understand how the workflow guide structures branches and merges. Tools the repo workflow guide cli tools the operator docs the automation scripts the repo workflow guide cli tools the operator docs the automation scripts Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
+          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the repo workflow guide and cli tools. Tools spent the day on the repo workflow guide, cli tools, and the operator docs. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Tools 1347 touched files 6 distinct activity categories operator workflow changed the repo workflow guide cli tools the operator docs the automation scripts LICENSE NOTICE the repo workflow guide cli tools the operator docs the automation scripts the repo workflow guide cli tools the operator docs the automation scripts Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
         }
       ]
     },
     {
       "date": "2026-03-18",
       "label": "Wed 18 Mar",
-      "summary": "Three projects moved. Auto Audit Harness updated environment contracts and security documentation. Rtm Hunt refined its Makefile and readme. Get Estate Agent Urls Uk added dev logs and live data manifests.",
-      "spotlight": "Auto Audit Harness: Environment contract and security documentation",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
+      "spotlight": "Auto Audit Harness led the day with the environment contract and gitignore.",
       "entries": [
         {
           "id": "auto-audit-harness-2026-03-18",
           "kind": "explainer",
-          "title": "Auto Audit Harness: Environment contract and security docs",
-          "summary": "172 files changed across nine categories, with the environment contract, gitignore, and SECURITY documentation leading.",
-          "narrative": "The environment contract and gitignore keep the audit environment reproducible. SECURITY and WORKFLOW docs, plus layout files, make the harness inspectable.",
-          "whyItMatters": "Reproducible environments mean audit results compare across runs. Security documentation lets visitors judge trustworthiness without guessing.",
-          "exploreNext": "Read the audit article to understand what the harness checks and why it matters.",
+          "title": "Auto Audit Harness: The environment contract and gitignore",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on the environment contract and gitignore.",
+          "narrative": "Auto Audit Harness spent the day on the environment contract, gitignore, and the repo workflow guide.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore audit next to see the public context around this work.",
           "repoName": "auto-audit-harness",
           "repoLabel": "Auto Audit Harness",
           "changedFileCount": 172,
@@ -877,16 +1135,16 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "172 files changed across nine categories, with the environment contract, gitignore, and SECURITY documentation leading. The environment contract and gitignore keep the audit environment reproducible. SECURITY and WORKFLOW docs, plus layout files, make the harness inspectable. Reproducible environments mean audit results compare across runs. Security documentation lets visitors judge trustworthiness without guessing. Read the audit article to understand what the harness checks and why it matters. Auto Audit Harness the environment contract gitignore the repo workflow guide SECURITY the environment contract gitignore the repo workflow guide SECURITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on the environment contract and gitignore. Auto Audit Harness spent the day on the environment contract, gitignore, and the repo workflow guide. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness 172 touched files 9 distinct activity categories operator workflow changed the environment contract gitignore the repo workflow guide SECURITY WORKFLOW layout the environment contract gitignore the repo workflow guide SECURITY the environment contract gitignore the repo workflow guide SECURITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow Why one issue, one branch, and one PR matters"
         },
         {
           "id": "rtm-hunt-2026-03-18",
           "kind": "tutorial",
-          "title": "Rtm Hunt: Makefile and plain-language readme",
-          "summary": "Eighty-four files changed across five categories, with the environment contract, Makefile, and plain-language readme leading.",
-          "narrative": "The Makefile standardizes common tasks so operators don't memorize commands. The plain-language readme and London-specific files make the hunt's purpose clear.",
-          "whyItMatters": "A Makefile turns \"how do I run this?\" into a short command. The readme keeps the project approachable for curious visitors who aren't Python experts.",
-          "exploreNext": "Read the one-issue-one-branch article to see how the Makefile connects to branch-based workflow execution.",
+          "title": "Rtm Hunt: The environment contract and Makefile",
+          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the environment contract and Makefile.",
+          "narrative": "Rtm Hunt spent the day on the environment contract, Makefile, and the plain-language README.",
+          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
+          "exploreNext": "Explore Why one issue, one branch, and one PR matters next to see the public context around this work.",
           "repoName": "rtm-hunt",
           "repoLabel": "Rtm Hunt",
           "changedFileCount": 84,
@@ -953,16 +1211,16 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "Eighty-four files changed across five categories, with the environment contract, Makefile, and plain-language readme leading. The Makefile standardizes common tasks so operators don't memorize commands. The plain-language readme and London-specific files make the hunt's purpose clear. A Makefile turns \"how do I run this?\" into a short command. The readme keeps the project approachable for curious visitors who aren't Python experts. Read the one-issue-one-branch article to see how the Makefile connects to branch-based workflow execution. Rtm Hunt the environment contract Makefile the plain-language README london the environment contract Makefile the plain-language README london Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
+          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the environment contract and Makefile. Rtm Hunt spent the day on the environment contract, Makefile, and the plain-language README. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Rtm Hunt 84 touched files 5 distinct activity categories operator workflow changed the environment contract Makefile the plain-language README london pyproject init the environment contract Makefile the plain-language README london the environment contract Makefile the plain-language README london Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
         },
         {
           "id": "get-estate-agent-urls-uk-2026-03-18",
           "kind": "tutorial",
-          "title": "Get Estate Agent Urls Uk: Dev log and live data manifests",
-          "summary": "Thirty-one files changed across five categories, with the plain-language readme, dev log, and Croydon live data manifests leading.",
-          "narrative": "The dev log tracks decisions as they happen. The Croydon live v2 files—manifest, merged, and raw—show how data pipelines produce inspectable outputs.",
-          "whyItMatters": "The dev log lets others follow the reasoning, not just the results. The manifest files make the data pipeline auditable step by step.",
-          "exploreNext": "Read the agent skills article to see how reusable instructions keep data pipelines consistent across locations.",
+          "title": "Get Estate Agent Urls Uk: The plain-language README and dev log",
+          "summary": "The strongest movement landed in educational content, automation, and plain-language docs, with visible work on the plain-language README and dev log.",
+          "narrative": "Get Estate Agent Urls Uk spent the day on the plain-language README, dev log, and croydon live v2.",
+          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
+          "exploreNext": "Explore What agent skills are next to see the public context around this work.",
           "repoName": "get-estate-agent-urls-uk",
           "repoLabel": "Get Estate Agent Urls Uk",
           "changedFileCount": 31,
@@ -1013,146 +1271,7 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "Thirty-one files changed across five categories, with the plain-language readme, dev log, and Croydon live data manifests leading. The dev log tracks decisions as they happen. The Croydon live v2 files—manifest, merged, and raw—show how data pipelines produce inspectable outputs. The dev log lets others follow the reasoning, not just the results. The manifest files make the data pipeline auditable step by step. Read the agent skills article to see how reusable instructions keep data pipelines consistent across locations. Get Estate Agent Urls Uk the plain-language README dev log croydon live v2 croydon live v2.csv.manifest the plain-language README dev log croydon live v2 croydon live v2.csv.manifest What agent skills are"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-17",
-      "label": "Tue 17 Mar",
-      "summary": "Two projects moved. Get Estate Agent Urls Uk refined its command surface and validation tools. Get Rtm Flats updated logging and location configuration.",
-      "spotlight": "Get Estate Agent Urls Uk: Repo command surface and validation prompt",
-      "entries": [
-        {
-          "id": "get-estate-agent-urls-uk-2026-03-17",
-          "kind": "explainer",
-          "title": "Get Estate Agent Urls Uk: Command surface and validation prompt",
-          "summary": "Fifty-seven files changed across four categories, with the repo command surface, prompt, dedupe, and inspect area leading.",
-          "narrative": "The command surface and prompt make validation steps explicit. Dedupe and inspect area tools let operators check data quality without writing custom scripts.",
-          "whyItMatters": "Explicit commands mean validation happens the same way every time. The inspect area gives a concrete place to look when data looks wrong.",
-          "exploreNext": "Read the proof article to understand how validation tools produce inspectable evidence.",
-          "repoName": "get-estate-agent-urls-uk",
-          "repoLabel": "Get Estate Agent Urls Uk",
-          "changedFileCount": 57,
-          "commitCount": 0,
-          "signalScore": 26,
-          "categories": [
-            "content",
-            "proof",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "57 touched files",
-            "4 distinct activity categories"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the repo command surface",
-            "prompt",
-            "dedupe",
-            "inspect area",
-            "sources",
-            "validate"
-          ],
-          "highlights": [
-            "the repo command surface",
-            "prompt",
-            "dedupe",
-            "inspect area"
-          ],
-          "notableChanges": [
-            "the repo command surface",
-            "prompt",
-            "dedupe",
-            "inspect area"
-          ],
-          "relatedSlugs": [
-            "proof-vs-acceptance",
-            "proof"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            }
-          ],
-          "searchText": "Fifty-seven files changed across four categories, with the repo command surface, prompt, dedupe, and inspect area leading. The command surface and prompt make validation steps explicit. Dedupe and inspect area tools let operators check data quality without writing custom scripts. Explicit commands mean validation happens the same way every time. The inspect area gives a concrete place to look when data looks wrong. Read the proof article to understand how validation tools produce inspectable evidence. Get Estate Agent Urls Uk the repo command surface prompt dedupe inspect area the repo command surface prompt dedupe inspect area What proof means: design-proof vs acceptance-proof What proof means in this workflow"
-        },
-        {
-          "id": "get-rtm-flats-2026-03-17",
-          "kind": "explainer",
-          "title": "Get Rtm Flats: Logging and location configuration",
-          "summary": "Thirteen files changed across three categories, with gitignore, logging, and London location files leading.",
-          "narrative": "Logging configuration and London-specific files make the scraper's behavior observable. Beliefs and acceptance files document assumptions behind the data.",
-          "whyItMatters": "Good logging turns \"it didn't work\" into a traceable sequence. Documented beliefs keep the scraper's limits visible to future maintainers.",
-          "exploreNext": "Read the proof article to see how logging and documented beliefs support inspectable claims.",
-          "repoName": "get-rtm-flats",
-          "repoLabel": "Get Rtm Flats",
-          "changedFileCount": 13,
-          "commitCount": 0,
-          "signalScore": 19,
-          "categories": [
-            "content",
-            "proof",
-            "config"
-          ],
-          "signalReasons": [
-            "13 touched files",
-            "3 distinct activity categories"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "gitignore",
-            "logging",
-            "london",
-            "beliefs",
-            "acceptance",
-            "repo map"
-          ],
-          "highlights": [
-            "gitignore",
-            "logging",
-            "london",
-            "beliefs"
-          ],
-          "notableChanges": [
-            "gitignore",
-            "logging",
-            "london",
-            "beliefs"
-          ],
-          "relatedSlugs": [
-            "proof-vs-acceptance",
-            "proof"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            }
-          ],
-          "searchText": "Thirteen files changed across three categories, with gitignore, logging, and London location files leading. Logging configuration and London-specific files make the scraper's behavior observable. Beliefs and acceptance files document assumptions behind the data. Good logging turns \"it didn't work\" into a traceable sequence. Documented beliefs keep the scraper's limits visible to future maintainers. Read the proof article to see how logging and documented beliefs support inspectable claims. Get Rtm Flats gitignore logging london beliefs gitignore logging london beliefs What proof means: design-proof vs acceptance-proof What proof means in this workflow"
+          "searchText": "The strongest movement landed in educational content, automation, and plain-language docs, with visible work on the plain-language README and dev log. Get Estate Agent Urls Uk spent the day on the plain-language README, dev log, and croydon live v2. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore What agent skills are next to see the public context around this work. Get Estate Agent Urls Uk 31 touched files 5 distinct activity categories operator workflow changed the plain-language README dev log croydon live v2 croydon live v2.csv.manifest croydon live v2.csv.merged croydon live v2.csv.raw the plain-language README dev log croydon live v2 croydon live v2.csv.manifest the plain-language README dev log croydon live v2 croydon live v2.csv.manifest What agent skills are"
         }
       ]
     }

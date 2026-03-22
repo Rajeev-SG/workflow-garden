@@ -15,6 +15,12 @@ That wrapper does four things in order:
 3. decides whether the diary fingerprint has changed enough to justify a full refresh
 4. rebuilds the derived content graph and Pagefind search output
 
+The wrapper always rebuilds the tracked derived outputs after the refresh decision:
+
+- `src/data/activity-feed.generated.json`
+- `src/generated/content-index.ts`
+- `src/generated/search-documents.json`
+
 ## Refresh gate
 
 The expensive full generation step only runs when at least one of these is true:
@@ -25,6 +31,10 @@ The expensive full generation step only runs when at least one of these is true:
 - a force-refresh was requested explicitly
 
 If the fingerprint is unchanged, the script exits the diary-generation step cleanly and still rebuilds the downstream derived outputs.
+
+That means a skipped full diary regeneration is not the same thing as "nothing to publish." Content, project, concept, or search data can still change enough to require a production deploy even when the diary fingerprint itself is unchanged.
+
+For operator runs and automations, the publishing decision should come from whether the tracked generated outputs changed after `pnpm activity:refresh`, not from the refresh-gate log line alone.
 
 ## Activity source
 

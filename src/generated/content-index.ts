@@ -157,6 +157,20 @@ export const contentIndex = {
       "href": "/projects/choice-compass"
     },
     {
+      "slug": "openrouter-model-workbook-maintainer-v2",
+      "title": "OpenRouter Model Workbook Maintainer V2",
+      "description": "A deterministic model-intelligence pipeline and guide that joins OpenRouter pricing with Artificial Analysis coverage and benchmark enrichment.",
+      "eyebrow": "Current build",
+      "tags": [
+        "model intelligence",
+        "openrouter",
+        "artificial analysis",
+        "workflow"
+      ],
+      "featured": false,
+      "href": "/projects/openrouter-model-workbook-maintainer-v2"
+    },
+    {
       "slug": "proof-pack",
       "title": "Proof Pack",
       "description": "A public project centered on visible evidence, browser proof, and inspectable output.",
@@ -218,34 +232,34 @@ export const contentIndex = {
   ],
   "diary": [
     {
+      "slug": "2026-03-22",
+      "title": "Today",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
+      "href": "/diary/2026-03-22"
+    },
+    {
       "slug": "2026-03-21",
       "title": "Sat 21 Mar",
-      "description": "Three projects moved. Workflow Garden built a selective diary pipeline and content hub. Proof Pack added screenshots to its readme and fixed wide-screen layout. Choice Compass hardened mobile task order with an explicit design gate. Workflow Garden: selective linked diary pipeline and project content hub",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Implement selective linked diary pipeline and Build the project content hub.",
       "href": "/diary/2026-03-21"
     },
     {
       "slug": "2026-03-20",
       "title": "Fri 20 Mar",
-      "description": "Three projects moved. Property Search hardened crawl smoke source pinning and registry fallback. Tools and Symphony Workspaces saw heavy file churn in documentation and configuration surfaces. Property Search: crawl smoke registry fallback and source pinning",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation. Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
       "href": "/diary/2026-03-20"
     },
     {
       "slug": "2026-03-19",
       "title": "Thu 19 Mar",
-      "description": "Three projects moved. Property Search aligned CI pnpm versions and added initial scaffold. Auto Audit Harness surfaced architecture and quality score documentation. Tools saw heavy churn in workflow guides and CLI surfaces. Property Search: CI pnpm alignment and initial project scaffold",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation. Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
       "href": "/diary/2026-03-19"
     },
     {
       "slug": "2026-03-18",
       "title": "Wed 18 Mar",
-      "description": "Three projects moved. Auto Audit Harness updated environment contracts and security documentation. Rtm Hunt refined its Makefile and readme. Get Estate Agent Urls Uk added dev logs and live data manifests. Auto Audit Harness: Environment contract and security documentation",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Auto Audit Harness led the day with the environment contract and gitignore.",
       "href": "/diary/2026-03-18"
-    },
-    {
-      "slug": "2026-03-17",
-      "title": "Tue 17 Mar",
-      "description": "Two projects moved. Get Estate Agent Urls Uk refined its command surface and validation tools. Get Rtm Flats updated logging and location configuration. Get Estate Agent Urls Uk: Repo command surface and validation prompt",
-      "href": "/diary/2026-03-17"
     }
   ]
 } as const
