@@ -67,9 +67,10 @@ The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the r
 
 - `pnpm activity:refresh` runs the full diary pipeline
 - recent repo activity is gathered from git history first and file mtimes second
-- unchanged fingerprints skip the expensive rewrite step cleanly
+- unchanged fingerprints skip only the expensive diary rewrite step
 - a deterministic base archive is enriched with related project/article/concept links
 - OpenRouter can rewrite the public-facing diary copy when operator auth is available
+- the tracked generated outputs still need to be checked after every refresh, because content and search data can change even when the diary fingerprint does not
 - the app renders the generated JSON statically on Vercel
 
 ## Source of truth
@@ -78,6 +79,7 @@ The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the r
 - Approved visual spec: [.stitch/DESIGN.md](./.stitch/DESIGN.md)
 - Current plan: [plans/workflow-garden-mvp.md](./plans/workflow-garden-mvp.md)
 - Diary operator guide: [docs/ops/diary-pipeline.md](./docs/ops/diary-pipeline.md)
+- Ship loop: [docs/ops/ship-loop.md](./docs/ops/ship-loop.md)
 - Secrets contract: [docs/ops/secrets.md](./docs/ops/secrets.md)
 - Vendor auth checks: [docs/ops/vendor-auth.md](./docs/ops/vendor-auth.md)
 - Proof summaries: [output/acceptance/design-proof.md](./output/acceptance/design-proof.md), [output/acceptance/acceptance-proof.md](./output/acceptance/acceptance-proof.md)

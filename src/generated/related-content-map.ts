@@ -113,6 +113,20 @@ export const relatedContentMap = {
       "url": "/articles/one-issue-one-branch-one-pr"
     }
   ],
+  "openrouter-model-workbook-maintainer-v2": [
+    {
+      "slug": "prd",
+      "url": "/concepts/prd"
+    },
+    {
+      "slug": "proof-vs-acceptance",
+      "url": "/articles/proof-vs-acceptance"
+    },
+    {
+      "slug": "one-issue-one-branch-one-pr",
+      "url": "/articles/one-issue-one-branch-one-pr"
+    }
+  ],
   "proof-pack": [
     {
       "slug": "proof-vs-acceptance",

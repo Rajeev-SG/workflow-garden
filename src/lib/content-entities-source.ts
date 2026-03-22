@@ -140,6 +140,19 @@ export const entitySource: EntitySource[] = [
     href: "/projects/property-search",
     kind: "project",
   },
+  {
+    id: "openrouter-model-workbook-maintainer-v2",
+    label: "OpenRouter Model Workbook Maintainer V2",
+    href: "/projects/openrouter-model-workbook-maintainer-v2",
+    kind: "project",
+    aliases: [
+      "openrouter model workbook maintainer v2",
+      "model intelligence maintainer",
+      "openrouter workbook maintainer",
+      "artificial analysis dashboard",
+      "aa dashboard",
+    ],
+  },
 ]
 
 const entitySourceModule = {
