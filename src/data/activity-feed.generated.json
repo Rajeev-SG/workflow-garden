@@ -1,37 +1,128 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-22T14:28:59.311Z",
+  "generatedAt": "2026-03-22T20:28:59.890Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
   "headline": "10 projects generated public-facing movement with a strong thread of educational content.",
   "subhead": "After scanning the last 7 days of recent repo activity, the diary kept 15 archive-worthy updates and dropped the rest.",
-  "sourceFingerprint": "1ede938dbccb44fc81ec9fbc37afff87baadbc46a2e5a123eacb80354cf22e9b",
+  "sourceFingerprint": "4ba29e47783db7d3e0c8461d70440cc4ed9843300953da3b70ba0beef3ebdb5a",
   "generationMethod": "heuristic",
   "generationModel": null,
   "refreshGate": {
     "decision": "generated",
     "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
-    "aggregateSignalScore": 723,
+    "aggregateSignalScore": 726,
     "meaningfulSnapshotCount": 20,
     "spotlightSignalScore": 56,
-    "previousFingerprint": "b582d00c9b15ea1d8700c004830d0a8381876a9e8d1d0e359c35e4d24b1676f7"
+    "previousFingerprint": "1ede938dbccb44fc81ec9fbc37afff87baadbc46a2e5a123eacb80354cf22e9b"
   },
   "stats": {
     "activeRepoCount": 10,
     "changedFileCount": 4193,
-    "commitCount": 55,
+    "commitCount": 56,
     "curatedEntryCount": 15,
     "topTheme": "educational content",
     "daysScanned": 7,
-    "aggregateSignalScore": 599
+    "aggregateSignalScore": 602
   },
   "days": [
     {
       "date": "2026-03-22",
       "label": "Today",
-      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and workflow setup.",
-      "spotlight": "Openrouter Model Workbook Maintainer V2 led the day with gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
+      "spotlight": "Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
       "entries": [
+        {
+          "id": "workflow-garden-2026-03-22",
+          "kind": "explainer",
+          "title": "Workflow Garden: Refresh diary publishable outputs and Repair diary refresh publish loop",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop.",
+          "narrative": "Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
+          "repoName": "workflow-garden",
+          "repoLabel": "Workflow Garden",
+          "changedFileCount": 21,
+          "commitCount": 3,
+          "signalScore": 49,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "workflow",
+            "automation",
+            "docs",
+            "config"
+          ],
+          "signalReasons": [
+            "3 recent commits",
+            "21 touched files",
+            "7 distinct activity categories",
+            "visitor-facing surface changed"
+          ],
+          "commitSubjects": [
+            "Refresh diary publishable outputs",
+            "Repair diary refresh publish loop",
+            "Deepen diary detail and copy quality"
+          ],
+          "touchedSurfaces": [
+            "the environment contract",
+            "the plain-language README",
+            "the project pages",
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts"
+          ],
+          "highlights": [
+            "the environment contract",
+            "the plain-language README",
+            "the project pages",
+            "the operator docs"
+          ],
+          "notableChanges": [
+            "Refresh diary publishable outputs",
+            "Repair diary refresh publish loop",
+            "Deepen diary detail and copy quality",
+            "the environment contract"
+          ],
+          "relatedSlugs": [
+            "workflow-garden",
+            "what-agent-skills-are",
+            "proof-vs-acceptance",
+            "one-issue-one-branch-one-pr"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "workflow-garden",
+              "title": "Workflow Garden",
+              "href": "/projects/workflow-garden",
+              "kind": "project",
+              "reason": "This diary note comes from the same repo as the project page."
+            },
+            {
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop. Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 3 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        },
         {
           "id": "openrouter-model-workbook-maintainer-v2-2026-03-22",
           "kind": "showcase",
@@ -123,96 +214,6 @@
             }
           ],
           "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 4 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
-        },
-        {
-          "id": "workflow-garden-2026-03-22",
-          "kind": "explainer",
-          "title": "Workflow Garden: Repair diary refresh publish loop and Deepen diary detail and copy quality",
-          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Repair diary refresh publish loop and Deepen diary detail and copy quality.",
-          "narrative": "Workflow Garden spent the day on Repair diary refresh publish loop, Deepen diary detail and copy quality, and the environment contract.",
-          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
-          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
-          "repoName": "workflow-garden",
-          "repoLabel": "Workflow Garden",
-          "changedFileCount": 21,
-          "commitCount": 2,
-          "signalScore": 46,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
-            "automation",
-            "docs",
-            "config"
-          ],
-          "signalReasons": [
-            "2 recent commits",
-            "21 touched files",
-            "7 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "Repair diary refresh publish loop",
-            "Deepen diary detail and copy quality"
-          ],
-          "touchedSurfaces": [
-            "the environment contract",
-            "the plain-language README",
-            "the project pages",
-            "the operator docs",
-            "acceptance proof",
-            "proof artifacts"
-          ],
-          "highlights": [
-            "the environment contract",
-            "the plain-language README",
-            "the project pages",
-            "the operator docs"
-          ],
-          "notableChanges": [
-            "Repair diary refresh publish loop",
-            "Deepen diary detail and copy quality",
-            "the environment contract",
-            "the plain-language README"
-          ],
-          "relatedSlugs": [
-            "workflow-garden",
-            "what-agent-skills-are",
-            "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "workflow-garden",
-              "title": "Workflow Garden",
-              "href": "/projects/workflow-garden",
-              "kind": "project",
-              "reason": "This diary note comes from the same repo as the project page."
-            },
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Repair diary refresh publish loop and Deepen diary detail and copy quality. Workflow Garden spent the day on Repair diary refresh publish loop, Deepen diary detail and copy quality, and the environment contract. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 2 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         },
         {
           "id": "tools-2026-03-22",

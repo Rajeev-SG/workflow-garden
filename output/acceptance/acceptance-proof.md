@@ -42,13 +42,13 @@ Evidence:
 - Article screenshot: [article.png](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/article.png)
 - Project screenshot: [project.png](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/project.png)
 - Search screenshot: [search.png](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/search.png)
-- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-22T14-39-35-260Z.log)
-- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-22T14-39-41-336Z.log)
-- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-22T14-39-47-307Z.log)
-- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-22T14-39-53-533Z.log)
-- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-22T14-39-59-894Z.log)
-- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-22T14-40-06-452Z.log)
-- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-22T14-40-13-991Z.log)
+- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-22T20-56-40-828Z.log)
+- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-22T20-56-46-474Z.log)
+- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-22T20-56-52-624Z.log)
+- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-22T20-56-58-928Z.log)
+- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-22T20-57-05-204Z.log)
+- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-22T20-57-11-149Z.log)
+- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-22T20-57-18-443Z.log)
 
 Residual risk:
 
