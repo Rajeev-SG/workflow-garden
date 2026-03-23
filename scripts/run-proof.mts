@@ -6,7 +6,7 @@ import activityFeed from "../src/data/activity-feed.generated.json" with { type:
 
 const baseUrl = process.env.PROOF_BASE_URL ?? "http://localhost:3001"
 const codexHome = process.env.CODEX_HOME ?? path.join(process.env.HOME ?? "", ".codex")
-const cli = path.join(codexHome, "skills", "playwright", "scripts", "playwright_cli.sh")
+const wrapperCli = path.join(codexHome, "skills", "playwright", "scripts", "playwright_cli.sh")
 
 const outputRoot = path.join(process.cwd(), "output")
 const playwrightRoot = path.join(outputRoot, "playwright")
@@ -22,6 +22,22 @@ const sessions = {
   project: `wgp-${proofRunId}`,
   search: `wgs-${proofRunId}`,
 } as const
+
+function resolveCli() {
+  if (process.env.PLAYWRIGHT_CLI_BIN) {
+    return process.env.PLAYWRIGHT_CLI_BIN
+  }
+
+  try {
+    return execFileSync("which", ["playwright-cli"], {
+      encoding: "utf8",
+    }).trim()
+  } catch {
+    return wrapperCli
+  }
+}
+
+const cli = resolveCli()
 
 function runCli(cwd: string, args: string[]) {
   return execFileSync(cli, args, {
@@ -238,7 +254,7 @@ Evidence:
 Residual risk:
 
 - ${isLocalProof ? "The proof loop still depends on running a local dev server before `pnpm proof`." : "The proof run depends on the production deployment already being live before `pnpm proof` is executed against it."}
-- The shell wrapper still prints repeated npm environment warnings, but those did not surface as browser-console failures in the exercised routes.
+- The proof runner prefers a locally installed \`playwright-cli\` binary and falls back to the Codex wrapper only when the binary is unavailable.
 `
 
   const designProof = `# Design Proof
