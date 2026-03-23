@@ -11,15 +11,16 @@ const cli = path.join(codexHome, "skills", "playwright", "scripts", "playwright_
 const outputRoot = path.join(process.cwd(), "output")
 const playwrightRoot = path.join(outputRoot, "playwright")
 const acceptanceRoot = path.join(outputRoot, "acceptance")
+const proofRunId = Date.now().toString(36)
 
 const sessions = {
-  desktopNormal: "wgd",
-  desktopWide: "wgw",
-  mobile: "wgm",
-  diary: "wgdi",
-  article: "wga",
-  project: "wgp",
-  search: "wgs",
+  desktopNormal: `wgd-${proofRunId}`,
+  desktopWide: `wgw-${proofRunId}`,
+  mobile: `wgm-${proofRunId}`,
+  diary: `wgdi-${proofRunId}`,
+  article: `wga-${proofRunId}`,
+  project: `wgp-${proofRunId}`,
+  search: `wgs-${proofRunId}`,
 } as const
 
 function runCli(cwd: string, args: string[]) {

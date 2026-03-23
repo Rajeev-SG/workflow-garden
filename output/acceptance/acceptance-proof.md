@@ -20,7 +20,7 @@ Observed behavior:
 - the homepage rendered the archive overview with article, project, diary, and search entry points
 - the article route rendered readable long-form content with working internal links
 - the project route exposed repo and live URL context without leaving the archive design system
-- the latest diary detail route `https://workflow-garden.vercel.app/diary/2026-03-22` rendered curated entries from the generated feed
+- the latest diary detail route `https://workflow-garden.vercel.app/diary/2026-03-23` rendered curated entries from the generated feed
 - the search route returned mixed project and concept results for the query `proof`
 - the exercised browser-console captures stayed free of warnings and errors beyond local dev-tooling info logs
 - screenshot review passed at normal desktop, wide desktop, and mobile widths
@@ -42,13 +42,13 @@ Evidence:
 - Article screenshot: [article.png](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/article.png)
 - Project screenshot: [project.png](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/project.png)
 - Search screenshot: [search.png](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/search.png)
-- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-22T20-56-40-828Z.log)
-- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-22T20-56-46-474Z.log)
-- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-22T20-56-52-624Z.log)
-- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-22T20-56-58-928Z.log)
-- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-22T20-57-05-204Z.log)
-- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-22T20-57-11-149Z.log)
-- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-22T20-57-18-443Z.log)
+- Desktop console log: [desktop console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-normal/.playwright-cli/console-2026-03-23T02-46-05-077Z.log)
+- Wide console log: [wide console](/Users/rajeev/Code/workflow-garden/output/playwright/desktop-wide/.playwright-cli/console-2026-03-23T02-46-11-609Z.log)
+- Mobile console log: [mobile console](/Users/rajeev/Code/workflow-garden/output/playwright/mobile/.playwright-cli/console-2026-03-23T02-46-17-877Z.log)
+- Diary console log: [diary console](/Users/rajeev/Code/workflow-garden/output/playwright/diary/.playwright-cli/console-2026-03-23T02-46-24-741Z.log)
+- Article console log: [article console](/Users/rajeev/Code/workflow-garden/output/playwright/article/.playwright-cli/console-2026-03-23T02-46-31-445Z.log)
+- Project console log: [project console](/Users/rajeev/Code/workflow-garden/output/playwright/project/.playwright-cli/console-2026-03-23T02-46-38-259Z.log)
+- Search console log: [search console](/Users/rajeev/Code/workflow-garden/output/playwright/search/.playwright-cli/console-2026-03-23T02-46-46-438Z.log)
 
 Residual risk:
 
