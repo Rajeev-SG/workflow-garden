@@ -234,7 +234,7 @@ export const contentIndex = {
     {
       "slug": "2026-03-23",
       "title": "Today",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Multi Agent Orchestration Demo led the day with Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo.",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
       "href": "/diary/2026-03-23"
     },
     {

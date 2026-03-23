@@ -311,11 +311,11 @@
   },
   {
     "id": "diary:multi-agent-orchestration-demo-2026-03-23",
-    "title": "Multi Agent Orchestration Demo: Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo",
+    "title": "Multi Agent Orchestration Demo: Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane",
     "url": "/diary/2026-03-23",
     "kind": "diary",
-    "description": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo.",
-    "content": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo. Multi Agent Orchestration Demo spent the day on Retry slow generations on a faster model lane, Harden and ship multi-agent orchestration demo, and pull request template. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo. Multi Agent Orchestration Demo spent the day on Retry slow generations on a faster model lane, Harden and ship multi-agent orchestration demo, and pull request template. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. Multi Agent Orchestration Demo 2 recent commits 47 touched files 7 distinct activity categories visitor-facing surface changed Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore infisical the repo workflow guide CLAUDE the plain-language README pull request template gitignore infisical the repo workflow guide Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters",
+    "description": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+    "content": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane. Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane. Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. Multi Agent Orchestration Demo 3 recent commits 48 touched files 7 distinct activity categories visitor-facing surface changed Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore infisical the repo workflow guide CLAUDE the plain-language README pull request template gitignore infisical the repo workflow guide Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters",
     "tags": [
       "interface",
       "content",
@@ -339,7 +339,7 @@
         "proof-vs-acceptance",
         "one-issue-one-branch-one-pr"
       ],
-      "signalScore": 46
+      "signalScore": 49
     }
   },
   {
@@ -366,34 +366,35 @@
     }
   },
   {
-    "id": "diary:research-2026-03-23",
-    "title": "Research: Category shortlists and followed profiles top repos",
+    "id": "diary:workflow-garden-2026-03-23",
+    "title": "Workflow Garden: Gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path",
     "url": "/diary/2026-03-23",
     "kind": "diary",
-    "description": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on category shortlists and followed profiles top repos.",
-    "content": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on category shortlists and followed profiles top repos. Research spent the day on category shortlists, followed profiles top repos, and inventory analysis. It turns workflow claims into something visitors can inspect instead of simply trust. Explore agent skills next to see the public context around this work. The strongest movement landed in interface work, educational content, and proof and validation, with visible work on category shortlists and followed profiles top repos. Research spent the day on category shortlists, followed profiles top repos, and inventory analysis. It turns workflow claims into something visitors can inspect instead of simply trust. Explore agent skills next to see the public context around this work. Research 1819 touched files 7 distinct activity categories category shortlists followed profiles top repos inventory analysis gitignore the repo workflow guide CHANGELOG category shortlists followed profiles top repos inventory analysis gitignore category shortlists followed profiles top repos inventory analysis gitignore agent skills What proof means: design-proof vs acceptance-proof What proof means in this workflow",
+    "description": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path.",
+    "content": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path. Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path. Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 2 recent commits 9 touched files 6 distinct activity categories visitor-facing surface changed gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof proof artifacts the automation scripts globals layout the operator docs acceptance proof proof artifacts the automation scripts gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters",
     "tags": [
       "interface",
-      "content",
       "proof",
       "automation",
-      "testing",
+      "docs",
       "config",
       "styling",
+      "workflow-garden",
       "what-agent-skills-are",
       "proof-vs-acceptance",
-      "proof"
+      "one-issue-one-branch-one-pr"
     ],
     "meta": {
       "date": "2026-03-23",
-      "repoName": "research",
-      "repoLabel": "Research",
+      "repoName": "workflow-garden",
+      "repoLabel": "Workflow Garden",
       "relatedSlugs": [
+        "workflow-garden",
         "what-agent-skills-are",
         "proof-vs-acceptance",
-        "proof"
+        "one-issue-one-branch-one-pr"
       ],
-      "signalScore": 32
+      "signalScore": 35
     }
   },
   {

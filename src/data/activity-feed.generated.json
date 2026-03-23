@@ -1,50 +1,50 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-23T02:36:17.050Z",
+  "generatedAt": "2026-03-23T14:29:44.157Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
-  "headline": "11 projects generated public-facing movement with a strong thread of educational content.",
+  "headline": "10 projects generated public-facing movement with a strong thread of configuration.",
   "subhead": "After scanning the last 7 days of recent repo activity, the diary kept 15 archive-worthy updates and dropped the rest.",
-  "sourceFingerprint": "41b3b0a45c11b98e55cb40fbb6155906dc9908586ccb3821dc2a59f7755a7ed6",
+  "sourceFingerprint": "dfb95990e0117592fee4d6d2e3b049542a3b6bb634265b31111400558caeb09f",
   "generationMethod": "heuristic",
   "generationModel": null,
   "refreshGate": {
     "decision": "generated",
     "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
-    "aggregateSignalScore": 1365,
+    "aggregateSignalScore": 1396,
     "meaningfulSnapshotCount": 39,
     "spotlightSignalScore": 56,
-    "previousFingerprint": "243b8b29acfbe3c3852a57904dafab739b072dc3672539b612c3a8561e2f9d4c"
+    "previousFingerprint": "4ab8dfc8b4a5e99a7d699380d263fe694950dd17afc245f5d6b637c281519b42"
   },
   "stats": {
-    "activeRepoCount": 11,
-    "changedFileCount": 2932,
-    "commitCount": 116,
+    "activeRepoCount": 10,
+    "changedFileCount": 1123,
+    "commitCount": 119,
     "curatedEntryCount": 15,
-    "topTheme": "educational content",
+    "topTheme": "configuration",
     "daysScanned": 7,
-    "aggregateSignalScore": 664
+    "aggregateSignalScore": 670
   },
   "days": [
     {
       "date": "2026-03-23",
       "label": "Today",
       "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
-      "spotlight": "Multi Agent Orchestration Demo led the day with Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo.",
+      "spotlight": "Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
       "entries": [
         {
           "id": "multi-agent-orchestration-demo-2026-03-23",
           "kind": "explainer",
-          "title": "Multi Agent Orchestration Demo: Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo",
-          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo.",
-          "narrative": "Multi Agent Orchestration Demo spent the day on Retry slow generations on a faster model lane, Harden and ship multi-agent orchestration demo, and pull request template.",
+          "title": "Multi Agent Orchestration Demo: Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+          "narrative": "Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo.",
           "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
           "exploreNext": "Explore PRD next to see the public context around this work.",
           "repoName": "multi-agent-orchestration-demo",
           "repoLabel": "Multi Agent Orchestration Demo",
-          "changedFileCount": 47,
-          "commitCount": 2,
-          "signalScore": 46,
+          "changedFileCount": 48,
+          "commitCount": 3,
+          "signalScore": 49,
           "categories": [
             "interface",
             "content",
@@ -55,12 +55,13 @@
             "styling"
           ],
           "signalReasons": [
-            "2 recent commits",
-            "47 touched files",
+            "3 recent commits",
+            "48 touched files",
             "7 distinct activity categories",
             "visitor-facing surface changed"
           ],
           "commitSubjects": [
+            "Redesign the demo into a mission-control interface",
             "Retry slow generations on a faster model lane",
             "Harden and ship multi-agent orchestration demo"
           ],
@@ -79,10 +80,10 @@
             "the repo workflow guide"
           ],
           "notableChanges": [
+            "Redesign the demo into a mission-control interface",
             "Retry slow generations on a faster model lane",
             "Harden and ship multi-agent orchestration demo",
-            "pull request template",
-            "gitignore"
+            "pull request template"
           ],
           "relatedSlugs": [
             "prd",
@@ -120,7 +121,7 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Retry slow generations on a faster model lane and Harden and ship multi-agent orchestration demo. Multi Agent Orchestration Demo spent the day on Retry slow generations on a faster model lane, Harden and ship multi-agent orchestration demo, and pull request template. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. Multi Agent Orchestration Demo 2 recent commits 47 touched files 7 distinct activity categories visitor-facing surface changed Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore infisical the repo workflow guide CLAUDE the plain-language README pull request template gitignore infisical the repo workflow guide Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane. Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. Multi Agent Orchestration Demo 3 recent commits 48 touched files 7 distinct activity categories visitor-facing surface changed Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore infisical the repo workflow guide CLAUDE the plain-language README pull request template gitignore infisical the repo workflow guide Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         },
         {
           "id": "pi-mono-2026-03-23",
@@ -186,64 +187,76 @@
           "searchText": "The strongest movement landed in educational content, testing, and configuration, with visible work on Add [Unreleased] section for next cycle and Release v0.62.0. Pi Mono spent the day on Add [Unreleased] section for next cycle, Release v0.62.0, and complete changelog entries for unreleased changes. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Pi Mono 9 recent commits 58 touched files 3 distinct activity categories Add [Unreleased] section for next cycle Release v0.62.0 complete changelog entries for unreleased changes disambiguate duplicate slash commands, fixes #1061 gitignore CHANGELOG the repo command surface models.generated extensions commands gitignore CHANGELOG the repo command surface models.generated Add [Unreleased] section for next cycle Release v0.62.0 complete changelog entries for unreleased changes disambiguate duplicate slash commands, fixes #1061 agent skills"
         },
         {
-          "id": "research-2026-03-23",
+          "id": "workflow-garden-2026-03-23",
           "kind": "explainer",
-          "title": "Research: Category shortlists and followed profiles top repos",
-          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on category shortlists and followed profiles top repos.",
-          "narrative": "Research spent the day on category shortlists, followed profiles top repos, and inventory analysis.",
+          "title": "Workflow Garden: Gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path",
+          "summary": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path.",
+          "narrative": "Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs.",
           "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
-          "exploreNext": "Explore agent skills next to see the public context around this work.",
-          "repoName": "research",
-          "repoLabel": "Research",
-          "changedFileCount": 1819,
-          "commitCount": 0,
-          "signalScore": 32,
+          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
+          "repoName": "workflow-garden",
+          "repoLabel": "Workflow Garden",
+          "changedFileCount": 9,
+          "commitCount": 2,
+          "signalScore": 35,
           "categories": [
             "interface",
-            "content",
             "proof",
             "automation",
-            "testing",
+            "docs",
             "config",
             "styling"
           ],
           "signalReasons": [
-            "1819 touched files",
-            "7 distinct activity categories"
+            "2 recent commits",
+            "9 touched files",
+            "6 distinct activity categories",
+            "visitor-facing surface changed"
           ],
-          "commitSubjects": [],
+          "commitSubjects": [
+            "gh-16 Harden proof runner fallback",
+            "workflow-garden: harden diary refresh deploy path"
+          ],
           "touchedSurfaces": [
-            "category shortlists",
-            "followed profiles top repos",
-            "inventory analysis",
-            "gitignore",
-            "the repo workflow guide",
-            "CHANGELOG"
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts",
+            "the automation scripts",
+            "globals",
+            "layout"
           ],
           "highlights": [
-            "category shortlists",
-            "followed profiles top repos",
-            "inventory analysis",
-            "gitignore"
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts",
+            "the automation scripts"
           ],
           "notableChanges": [
-            "category shortlists",
-            "followed profiles top repos",
-            "inventory analysis",
-            "gitignore"
+            "gh-16 Harden proof runner fallback",
+            "workflow-garden: harden diary refresh deploy path",
+            "the operator docs",
+            "acceptance proof"
           ],
           "relatedSlugs": [
+            "workflow-garden",
             "what-agent-skills-are",
             "proof-vs-acceptance",
-            "proof"
+            "one-issue-one-branch-one-pr"
           ],
           "relatedLinks": [
             {
+              "slug": "workflow-garden",
+              "title": "Workflow Garden",
+              "href": "/projects/workflow-garden",
+              "kind": "project",
+              "reason": "This diary note comes from the same repo as the project page."
+            },
+            {
               "slug": "what-agent-skills-are",
-              "title": "agent skills",
+              "title": "What agent skills are",
               "href": "/articles/what-agent-skills-are",
               "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
+              "reason": "This article gives the surrounding workflow context."
             },
             {
               "slug": "proof-vs-acceptance",
@@ -253,14 +266,14 @@
               "reason": "This article gives the surrounding workflow context."
             },
             {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on category shortlists and followed profiles top repos. Research spent the day on category shortlists, followed profiles top repos, and inventory analysis. It turns workflow claims into something visitors can inspect instead of simply trust. Explore agent skills next to see the public context around this work. Research 1819 touched files 7 distinct activity categories category shortlists followed profiles top repos inventory analysis gitignore the repo workflow guide CHANGELOG category shortlists followed profiles top repos inventory analysis gitignore category shortlists followed profiles top repos inventory analysis gitignore agent skills What proof means: design-proof vs acceptance-proof What proof means in this workflow"
+          "searchText": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path. Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 2 recent commits 9 touched files 6 distinct activity categories visitor-facing surface changed gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof proof artifacts the automation scripts globals layout the operator docs acceptance proof proof artifacts the automation scripts gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         }
       ]
     },
