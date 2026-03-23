@@ -35,6 +35,8 @@ Workflow Garden ships from committed generated data plus a production Vercel dep
    PROOF_BASE_URL=https://workflow-garden.vercel.app pnpm proof
    ```
 
+   `pnpm proof` prefers the installed `playwright-cli` binary when it is available locally, so proof does not depend on a fresh npm fetch during the deploy loop.
+
 5. Only after deploy and proof both pass should the change be committed and moved through the issue branch and PR workflow.
 
 ## Monitoring and verification

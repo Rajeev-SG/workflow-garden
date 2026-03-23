@@ -49,6 +49,14 @@
 }
 
 :root {
+  --font-inter:
+    "Inter", "Aptos", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+  --font-newsreader:
+    "Newsreader", "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
+    "Georgia", serif;
+  --font-jetbrains-mono:
+    "JetBrains Mono", "SFMono-Regular", "SF Mono", "Menlo", "Monaco",
+    "Consolas", "Liberation Mono", "Courier New", monospace;
   --background: #fcf9f0;
   --foreground: #1c1c17;
   --card: #ffffff;

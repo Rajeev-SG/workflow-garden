@@ -1,34 +1,285 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-22T20:28:59.890Z",
+  "generatedAt": "2026-03-23T14:29:44.157Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
-  "headline": "10 projects generated public-facing movement with a strong thread of educational content.",
+  "headline": "10 projects generated public-facing movement with a strong thread of configuration.",
   "subhead": "After scanning the last 7 days of recent repo activity, the diary kept 15 archive-worthy updates and dropped the rest.",
-  "sourceFingerprint": "4ba29e47783db7d3e0c8461d70440cc4ed9843300953da3b70ba0beef3ebdb5a",
+  "sourceFingerprint": "dfb95990e0117592fee4d6d2e3b049542a3b6bb634265b31111400558caeb09f",
   "generationMethod": "heuristic",
   "generationModel": null,
   "refreshGate": {
     "decision": "generated",
     "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
-    "aggregateSignalScore": 726,
-    "meaningfulSnapshotCount": 20,
+    "aggregateSignalScore": 1396,
+    "meaningfulSnapshotCount": 39,
     "spotlightSignalScore": 56,
-    "previousFingerprint": "1ede938dbccb44fc81ec9fbc37afff87baadbc46a2e5a123eacb80354cf22e9b"
+    "previousFingerprint": "4ab8dfc8b4a5e99a7d699380d263fe694950dd17afc245f5d6b637c281519b42"
   },
   "stats": {
     "activeRepoCount": 10,
-    "changedFileCount": 4193,
-    "commitCount": 56,
+    "changedFileCount": 1123,
+    "commitCount": 119,
     "curatedEntryCount": 15,
-    "topTheme": "educational content",
+    "topTheme": "configuration",
     "daysScanned": 7,
-    "aggregateSignalScore": 602
+    "aggregateSignalScore": 670
   },
   "days": [
     {
-      "date": "2026-03-22",
+      "date": "2026-03-23",
       "label": "Today",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
+      "spotlight": "Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+      "entries": [
+        {
+          "id": "multi-agent-orchestration-demo-2026-03-23",
+          "kind": "explainer",
+          "title": "Multi Agent Orchestration Demo: Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+          "narrative": "Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore PRD next to see the public context around this work.",
+          "repoName": "multi-agent-orchestration-demo",
+          "repoLabel": "Multi Agent Orchestration Demo",
+          "changedFileCount": 48,
+          "commitCount": 3,
+          "signalScore": 49,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "workflow",
+            "docs",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "3 recent commits",
+            "48 touched files",
+            "7 distinct activity categories",
+            "visitor-facing surface changed"
+          ],
+          "commitSubjects": [
+            "Redesign the demo into a mission-control interface",
+            "Retry slow generations on a faster model lane",
+            "Harden and ship multi-agent orchestration demo"
+          ],
+          "touchedSurfaces": [
+            "pull request template",
+            "gitignore",
+            "infisical",
+            "the repo workflow guide",
+            "CLAUDE",
+            "the plain-language README"
+          ],
+          "highlights": [
+            "pull request template",
+            "gitignore",
+            "infisical",
+            "the repo workflow guide"
+          ],
+          "notableChanges": [
+            "Redesign the demo into a mission-control interface",
+            "Retry slow generations on a faster model lane",
+            "Harden and ship multi-agent orchestration demo",
+            "pull request template"
+          ],
+          "relatedSlugs": [
+            "prd",
+            "proof",
+            "proof-vs-acceptance",
+            "one-issue-one-branch-one-pr"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "prd",
+              "title": "PRD",
+              "href": "/concepts/prd",
+              "kind": "concept",
+              "reason": "The recent repo activity mentioned this term directly."
+            },
+            {
+              "slug": "proof",
+              "title": "proof",
+              "href": "/concepts/proof",
+              "kind": "concept",
+              "reason": "The recent repo activity mentioned this term directly."
+            },
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane. Multi Agent Orchestration Demo spent the day on Redesign the demo into a mission-control interface, Retry slow generations on a faster model lane, and Harden and ship multi-agent orchestration demo. It turns workflow claims into something visitors can inspect instead of simply trust. Explore PRD next to see the public context around this work. Multi Agent Orchestration Demo 3 recent commits 48 touched files 7 distinct activity categories visitor-facing surface changed Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template gitignore infisical the repo workflow guide CLAUDE the plain-language README pull request template gitignore infisical the repo workflow guide Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        },
+        {
+          "id": "pi-mono-2026-03-23",
+          "kind": "article",
+          "title": "Pi Mono: Add [Unreleased] section for next cycle and Release v0.62.0",
+          "summary": "The strongest movement landed in educational content, testing, and configuration, with visible work on Add [Unreleased] section for next cycle and Release v0.62.0.",
+          "narrative": "Pi Mono spent the day on Add [Unreleased] section for next cycle, Release v0.62.0, and complete changelog entries for unreleased changes.",
+          "whyItMatters": "It makes the archive more dependable and less reliant on manual cleanup or heroic memory.",
+          "exploreNext": "Explore agent skills next to see the public context around this work.",
+          "repoName": "pi-mono",
+          "repoLabel": "Pi Mono",
+          "changedFileCount": 58,
+          "commitCount": 9,
+          "signalScore": 36,
+          "categories": [
+            "content",
+            "testing",
+            "config"
+          ],
+          "signalReasons": [
+            "9 recent commits",
+            "58 touched files",
+            "3 distinct activity categories"
+          ],
+          "commitSubjects": [
+            "Add [Unreleased] section for next cycle",
+            "Release v0.62.0",
+            "complete changelog entries for unreleased changes",
+            "disambiguate duplicate slash commands, fixes #1061"
+          ],
+          "touchedSurfaces": [
+            "gitignore",
+            "CHANGELOG",
+            "the repo command surface",
+            "models.generated",
+            "extensions",
+            "commands"
+          ],
+          "highlights": [
+            "gitignore",
+            "CHANGELOG",
+            "the repo command surface",
+            "models.generated"
+          ],
+          "notableChanges": [
+            "Add [Unreleased] section for next cycle",
+            "Release v0.62.0",
+            "complete changelog entries for unreleased changes",
+            "disambiguate duplicate slash commands, fixes #1061"
+          ],
+          "relatedSlugs": [
+            "what-agent-skills-are"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "what-agent-skills-are",
+              "title": "agent skills",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "The recent repo activity mentioned this term directly."
+            }
+          ],
+          "searchText": "The strongest movement landed in educational content, testing, and configuration, with visible work on Add [Unreleased] section for next cycle and Release v0.62.0. Pi Mono spent the day on Add [Unreleased] section for next cycle, Release v0.62.0, and complete changelog entries for unreleased changes. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Pi Mono 9 recent commits 58 touched files 3 distinct activity categories Add [Unreleased] section for next cycle Release v0.62.0 complete changelog entries for unreleased changes disambiguate duplicate slash commands, fixes #1061 gitignore CHANGELOG the repo command surface models.generated extensions commands gitignore CHANGELOG the repo command surface models.generated Add [Unreleased] section for next cycle Release v0.62.0 complete changelog entries for unreleased changes disambiguate duplicate slash commands, fixes #1061 agent skills"
+        },
+        {
+          "id": "workflow-garden-2026-03-23",
+          "kind": "explainer",
+          "title": "Workflow Garden: Gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path",
+          "summary": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path.",
+          "narrative": "Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore Workflow Garden next to see the public context around this work.",
+          "repoName": "workflow-garden",
+          "repoLabel": "Workflow Garden",
+          "changedFileCount": 9,
+          "commitCount": 2,
+          "signalScore": 35,
+          "categories": [
+            "interface",
+            "proof",
+            "automation",
+            "docs",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "2 recent commits",
+            "9 touched files",
+            "6 distinct activity categories",
+            "visitor-facing surface changed"
+          ],
+          "commitSubjects": [
+            "gh-16 Harden proof runner fallback",
+            "workflow-garden: harden diary refresh deploy path"
+          ],
+          "touchedSurfaces": [
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts",
+            "the automation scripts",
+            "globals",
+            "layout"
+          ],
+          "highlights": [
+            "the operator docs",
+            "acceptance proof",
+            "proof artifacts",
+            "the automation scripts"
+          ],
+          "notableChanges": [
+            "gh-16 Harden proof runner fallback",
+            "workflow-garden: harden diary refresh deploy path",
+            "the operator docs",
+            "acceptance proof"
+          ],
+          "relatedSlugs": [
+            "workflow-garden",
+            "what-agent-skills-are",
+            "proof-vs-acceptance",
+            "one-issue-one-branch-one-pr"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "workflow-garden",
+              "title": "Workflow Garden",
+              "href": "/projects/workflow-garden",
+              "kind": "project",
+              "reason": "This diary note comes from the same repo as the project page."
+            },
+            {
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, proof and validation, and automation, with visible work on gh-16 Harden proof runner fallback and workflow-garden: harden diary refresh deploy path. Workflow Garden spent the day on gh-16 Harden proof runner fallback, workflow-garden: harden diary refresh deploy path, and the operator docs. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 2 recent commits 9 touched files 6 distinct activity categories visitor-facing surface changed gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof proof artifacts the automation scripts globals layout the operator docs acceptance proof proof artifacts the automation scripts gh-16 Harden proof runner fallback workflow-garden: harden diary refresh deploy path the operator docs acceptance proof Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "label": "Sun 22 Mar",
       "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
       "spotlight": "Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
       "entries": [
@@ -43,8 +294,8 @@
           "repoName": "workflow-garden",
           "repoLabel": "Workflow Garden",
           "changedFileCount": 21,
-          "commitCount": 3,
-          "signalScore": 49,
+          "commitCount": 4,
+          "signalScore": 52,
           "categories": [
             "interface",
             "content",
@@ -55,7 +306,7 @@
             "config"
           ],
           "signalReasons": [
-            "3 recent commits",
+            "4 recent commits",
             "21 touched files",
             "7 distinct activity categories",
             "visitor-facing surface changed"
@@ -121,20 +372,95 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop. Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 3 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on Refresh diary publishable outputs and Repair diary refresh publish loop. Workflow Garden spent the day on Refresh diary publishable outputs, Repair diary refresh publish loop, and Deepen diary detail and copy quality. It turns workflow claims into something visitors can inspect instead of simply trust. Explore Workflow Garden next to see the public context around this work. Workflow Garden 4 recent commits 21 touched files 7 distinct activity categories visitor-facing surface changed Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract the plain-language README the project pages the operator docs acceptance proof proof artifacts the environment contract the plain-language README the project pages the operator docs Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+        },
+        {
+          "id": "rajeevg.com-2026-03-22",
+          "kind": "explainer",
+          "title": "Rajeevg.com: Ui: keep mermaid diagrams readable on narrow screens and content: remove duplicate article h1",
+          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on ui: keep mermaid diagrams readable on narrow screens and content: remove duplicate article h1.",
+          "narrative": "Rajeevg.com spent the day on ui: keep mermaid diagrams readable on narrow screens, content: remove duplicate article h1, and site: simplify public content and refresh about page.",
+          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
+          "exploreNext": "Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work.",
+          "repoName": "rajeevg.com",
+          "repoLabel": "Rajeevg.com",
+          "changedFileCount": 20,
+          "commitCount": 8,
+          "signalScore": 50,
+          "categories": [
+            "interface",
+            "content",
+            "proof",
+            "docs",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "8 recent commits",
+            "20 touched files",
+            "6 distinct activity categories",
+            "visitor-facing surface changed"
+          ],
+          "commitSubjects": [
+            "ui: keep mermaid diagrams readable on narrow screens",
+            "content: remove duplicate article h1",
+            "site: simplify public content and refresh about page",
+            "codex/Fix article top spacing and scroll-triggered progress"
+          ],
+          "touchedSurfaces": [
+            "the plain-language README",
+            "docker gcloud deployment",
+            "from ai pilots to business value",
+            "hello world",
+            "windsurf gpt5 prompts",
+            "next.config"
+          ],
+          "highlights": [
+            "the plain-language README",
+            "docker gcloud deployment",
+            "from ai pilots to business value",
+            "hello world"
+          ],
+          "notableChanges": [
+            "ui: keep mermaid diagrams readable on narrow screens",
+            "content: remove duplicate article h1",
+            "site: simplify public content and refresh about page",
+            "codex/Fix article top spacing and scroll-triggered progress"
+          ],
+          "relatedSlugs": [
+            "proof-vs-acceptance",
+            "proof"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "proof-vs-acceptance",
+              "title": "What proof means: design-proof vs acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "proof",
+              "title": "What proof means in this workflow",
+              "href": "/concepts/proof",
+              "kind": "concept",
+              "reason": "This concept explains a repeated term behind the work."
+            }
+          ],
+          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on ui: keep mermaid diagrams readable on narrow screens and content: remove duplicate article h1. Rajeevg.com spent the day on ui: keep mermaid diagrams readable on narrow screens, content: remove duplicate article h1, and site: simplify public content and refresh about page. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Rajeevg.com 8 recent commits 20 touched files 6 distinct activity categories visitor-facing surface changed ui: keep mermaid diagrams readable on narrow screens content: remove duplicate article h1 site: simplify public content and refresh about page codex/Fix article top spacing and scroll-triggered progress the plain-language README docker gcloud deployment from ai pilots to business value hello world windsurf gpt5 prompts next.config the plain-language README docker gcloud deployment from ai pilots to business value hello world ui: keep mermaid diagrams readable on narrow screens content: remove duplicate article h1 site: simplify public content and refresh about page codex/Fix article top spacing and scroll-triggered progress What proof means: design-proof vs acceptance-proof What proof means in this workflow"
         },
         {
           "id": "openrouter-model-workbook-maintainer-v2-2026-03-22",
           "kind": "showcase",
-          "title": "Openrouter Model Workbook Maintainer V2: Gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical",
-          "summary": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical.",
-          "narrative": "Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide.",
+          "title": "Openrouter Model Workbook Maintainer V2: Gh-3 Relax rate-limit fallback match and gh-3 Add rate-limit fallback for daily refresh",
+          "summary": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Relax rate-limit fallback match and gh-3 Add rate-limit fallback for daily refresh.",
+          "narrative": "Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Relax rate-limit fallback match, gh-3 Add rate-limit fallback for daily refresh, and gh-3 Make daily refresh fall back to repo secrets.",
           "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
           "exploreNext": "Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work.",
           "repoName": "openrouter-model-workbook-maintainer-v2",
           "repoLabel": "Openrouter Model Workbook Maintainer V2",
           "changedFileCount": 83,
-          "commitCount": 4,
+          "commitCount": 7,
           "signalScore": 47,
           "categories": [
             "interface",
@@ -146,16 +472,16 @@
             "styling"
           ],
           "signalReasons": [
-            "4 recent commits",
+            "7 recent commits",
             "83 touched files",
             "7 distinct activity categories",
             "operator workflow changed"
           ],
           "commitSubjects": [
-            "gh-3 Align local bootstrap messaging with Infisical",
-            "gh-3 Route refresh workflow secrets through Infisical",
-            "gh-1: build model intelligence pipeline and guide",
-            "import workbook maintainer baseline"
+            "gh-3 Relax rate-limit fallback match",
+            "gh-3 Add rate-limit fallback for daily refresh",
+            "gh-3 Make daily refresh fall back to repo secrets",
+            "gh-3 Align local bootstrap messaging with Infisical"
           ],
           "touchedSurfaces": [
             "the environment contract",
@@ -172,10 +498,10 @@
             "gitignore"
           ],
           "notableChanges": [
-            "gh-3 Align local bootstrap messaging with Infisical",
-            "gh-3 Route refresh workflow secrets through Infisical",
-            "gh-1: build model intelligence pipeline and guide",
-            "import workbook maintainer baseline"
+            "gh-3 Relax rate-limit fallback match",
+            "gh-3 Add rate-limit fallback for daily refresh",
+            "gh-3 Make daily refresh fall back to repo secrets",
+            "gh-3 Align local bootstrap messaging with Infisical"
           ],
           "relatedSlugs": [
             "openrouter-model-workbook-maintainer-v2",
@@ -213,74 +539,7 @@
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Align local bootstrap messaging with Infisical and gh-3 Route refresh workflow secrets through Infisical. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Align local bootstrap messaging with Infisical, gh-3 Route refresh workflow secrets through Infisical, and gh-1: build model intelligence pipeline and guide. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 4 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Align local bootstrap messaging with Infisical gh-3 Route refresh workflow secrets through Infisical gh-1: build model intelligence pipeline and guide import workbook maintainer baseline OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
-        },
-        {
-          "id": "tools-2026-03-22",
-          "kind": "explainer",
-          "title": "Tools: Gitignore and README",
-          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on gitignore and README.",
-          "narrative": "Tools spent the day on gitignore, README, and agent offload setup recommendation.",
-          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
-          "exploreNext": "Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work.",
-          "repoName": "tools",
-          "repoLabel": "Tools",
-          "changedFileCount": 45,
-          "commitCount": 0,
-          "signalScore": 28,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "45 touched files",
-            "5 distinct activity categories"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "gitignore",
-            "README",
-            "agent offload setup recommendation",
-            "agent offload",
-            "llama3.2 3b cpu",
-            "local coder helper"
-          ],
-          "highlights": [
-            "gitignore",
-            "README",
-            "agent offload setup recommendation",
-            "agent offload"
-          ],
-          "notableChanges": [
-            "gitignore",
-            "README",
-            "agent offload setup recommendation",
-            "agent offload"
-          ],
-          "relatedSlugs": [
-            "proof-vs-acceptance",
-            "proof"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            }
-          ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on gitignore and README. Tools spent the day on gitignore, README, and agent offload setup recommendation. It turns workflow claims into something visitors can inspect instead of simply trust. Explore What proof means: design-proof vs acceptance-proof next to see the public context around this work. Tools 45 touched files 5 distinct activity categories gitignore README agent offload setup recommendation agent offload llama3.2 3b cpu local coder helper gitignore README agent offload setup recommendation agent offload gitignore README agent offload setup recommendation agent offload What proof means: design-proof vs acceptance-proof What proof means in this workflow"
+          "searchText": "The strongest movement landed in interface work, educational content, and workflow setup, with visible work on gh-3 Relax rate-limit fallback match and gh-3 Add rate-limit fallback for daily refresh. Openrouter Model Workbook Maintainer V2 spent the day on gh-3 Relax rate-limit fallback match, gh-3 Add rate-limit fallback for daily refresh, and gh-3 Make daily refresh fall back to repo secrets. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore OpenRouter Model Workbook Maintainer V2 next to see the public context around this work. Openrouter Model Workbook Maintainer V2 7 recent commits 83 touched files 7 distinct activity categories operator workflow changed gh-3 Relax rate-limit fallback match gh-3 Add rate-limit fallback for daily refresh gh-3 Make daily refresh fall back to repo secrets gh-3 Align local bootstrap messaging with Infisical the environment contract ci daily refresh gitignore AGENT TASK Makefile the environment contract ci daily refresh gitignore gh-3 Relax rate-limit fallback match gh-3 Add rate-limit fallback for daily refresh gh-3 Make daily refresh fall back to repo secrets gh-3 Align local bootstrap messaging with Infisical OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
         }
       ]
     },
@@ -670,6 +929,96 @@
           "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on : cover crawl smoke registry fallback and : harden crawl smoke source pinning. Property Search spent the day on : cover crawl smoke registry fallback, : harden crawl smoke source pinning, and Finish RAJ-10 crawl smoke source selection. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Property Search next to see the public context around this work. Property Search 27 recent commits 99 touched files 6 distinct activity categories operator workflow changed : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent the environment contract pull request template ci codeql semgrep gitignore the environment contract pull request template ci codeql : cover crawl smoke registry fallback : harden crawl smoke source pinning Finish RAJ-10 crawl smoke source selection note RAJ-27 openreview rerun intent Property Search How write-a-prd, prd-to-plan, and prd-to-issues fit together Why one issue, one branch, and one PR matters agent skills"
         },
         {
+          "id": "pi-mono-2026-03-20",
+          "kind": "tutorial",
+          "title": "Pi Mono: Add [Unreleased] section for next cycle and Release v0.61.1",
+          "summary": "The strongest movement landed in educational content, workflow setup, and plain-language docs, with visible work on Add [Unreleased] section for next cycle and Release v0.61.1.",
+          "narrative": "Pi Mono spent the day on Add [Unreleased] section for next cycle, Release v0.61.1, and update unreleased changelog entries.",
+          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
+          "exploreNext": "Explore agent skills next to see the public context around this work.",
+          "repoName": "pi-mono",
+          "repoLabel": "Pi Mono",
+          "changedFileCount": 95,
+          "commitCount": 22,
+          "signalScore": 43,
+          "categories": [
+            "content",
+            "workflow",
+            "docs",
+            "testing",
+            "config"
+          ],
+          "signalReasons": [
+            "22 recent commits",
+            "95 touched files",
+            "5 distinct activity categories",
+            "operator workflow changed"
+          ],
+          "commitSubjects": [
+            "Add [Unreleased] section for next cycle",
+            "Release v0.61.1",
+            "update unreleased changelog entries",
+            "packages/ai: ignore null chunks in openai-completions streams"
+          ],
+          "touchedSurfaces": [
+            "oss weekend",
+            "wr",
+            "the plain-language README",
+            "CHANGELOG",
+            "the repo command surface",
+            "generate models"
+          ],
+          "highlights": [
+            "oss weekend",
+            "wr",
+            "the plain-language README",
+            "CHANGELOG"
+          ],
+          "notableChanges": [
+            "Add [Unreleased] section for next cycle",
+            "Release v0.61.1",
+            "update unreleased changelog entries",
+            "packages/ai: ignore null chunks in openai-completions streams"
+          ],
+          "relatedSlugs": [
+            "what-agent-skills-are",
+            "audit-explained",
+            "one-issue-one-branch-one-pr",
+            "issue-branch"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "what-agent-skills-are",
+              "title": "agent skills",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "The recent repo activity mentioned this term directly."
+            },
+            {
+              "slug": "audit-explained",
+              "title": "audit",
+              "href": "/articles/audit-explained",
+              "kind": "article",
+              "reason": "The recent repo activity mentioned this term directly."
+            },
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "issue-branch",
+              "title": "What an issue branch is",
+              "href": "/concepts/issue-branch",
+              "kind": "concept",
+              "reason": "This concept explains a repeated term behind the work."
+            }
+          ],
+          "searchText": "The strongest movement landed in educational content, workflow setup, and plain-language docs, with visible work on Add [Unreleased] section for next cycle and Release v0.61.1. Pi Mono spent the day on Add [Unreleased] section for next cycle, Release v0.61.1, and update unreleased changelog entries. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore agent skills next to see the public context around this work. Pi Mono 22 recent commits 95 touched files 5 distinct activity categories operator workflow changed Add [Unreleased] section for next cycle Release v0.61.1 update unreleased changelog entries packages/ai: ignore null chunks in openai-completions streams oss weekend wr the plain-language README CHANGELOG the repo command surface generate models oss weekend wr the plain-language README CHANGELOG Add [Unreleased] section for next cycle Release v0.61.1 update unreleased changelog entries packages/ai: ignore null chunks in openai-completions streams agent skills audit Why one issue, one branch, and one PR matters What an issue branch is"
+        },
+        {
           "id": "tools-2026-03-20",
           "kind": "showcase",
           "title": "Tools: The plain-language README and CLAUDE",
@@ -730,73 +1079,88 @@
             }
           ],
           "searchText": "The strongest movement landed in interface work, educational content, and automation, with visible work on the plain-language README and CLAUDE. Tools spent the day on the plain-language README, CLAUDE, and gitignore. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore agent skills next to see the public context around this work. Tools 297 touched files 7 distinct activity categories operator workflow changed the plain-language README CLAUDE gitignore the repo workflow guide CHANGELOG CONTRIBUTING the plain-language README CLAUDE gitignore the repo workflow guide the plain-language README CLAUDE gitignore the repo workflow guide agent skills"
-        },
-        {
-          "id": "symphony-workspaces-2026-03-20",
-          "kind": "article",
-          "title": "Symphony Workspaces: The environment contract and gitignore",
-          "summary": "The strongest movement landed in educational content, automation, and testing, with visible work on the environment contract and gitignore.",
-          "narrative": "Symphony Workspaces spent the day on the environment contract, gitignore, and the repo workflow guide.",
-          "whyItMatters": "It makes the archive more dependable and less reliant on manual cleanup or heroic memory.",
-          "exploreNext": "Explore agent skills next to see the public context around this work.",
-          "repoName": "symphony-workspaces",
-          "repoLabel": "Symphony Workspaces",
-          "changedFileCount": 1653,
-          "commitCount": 0,
-          "signalScore": 26,
-          "categories": [
-            "content",
-            "automation",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "1653 touched files",
-            "4 distinct activity categories"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "ARCHITECTURE",
-            "README",
-            "REVIEW"
-          ],
-          "highlights": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "ARCHITECTURE"
-          ],
-          "notableChanges": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "ARCHITECTURE"
-          ],
-          "relatedSlugs": [
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "what-agent-skills-are",
-              "title": "agent skills",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            }
-          ],
-          "searchText": "The strongest movement landed in educational content, automation, and testing, with visible work on the environment contract and gitignore. Symphony Workspaces spent the day on the environment contract, gitignore, and the repo workflow guide. It makes the archive more dependable and less reliant on manual cleanup or heroic memory. Explore agent skills next to see the public context around this work. Symphony Workspaces 1653 touched files 4 distinct activity categories the environment contract gitignore the repo workflow guide ARCHITECTURE README REVIEW the environment contract gitignore the repo workflow guide ARCHITECTURE the environment contract gitignore the repo workflow guide ARCHITECTURE agent skills"
         }
       ]
     },
     {
       "date": "2026-03-19",
       "label": "Thu 19 Mar",
-      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation.",
-      "spotlight": "Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
+      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and testing.",
+      "spotlight": "Pi Mono led the day with /model shows stale scoped models and approve contributor zmberber.",
       "entries": [
+        {
+          "id": "pi-mono-2026-03-19",
+          "kind": "showcase",
+          "title": "Pi Mono: /model shows stale scoped models and approve contributor zmberber",
+          "summary": "The strongest movement landed in educational content, workflow setup, and testing, with visible work on /model shows stale scoped models and approve contributor zmberber.",
+          "narrative": "Pi Mono spent the day on /model shows stale scoped models, approve contributor zmberber, and add resizable share sidebar.",
+          "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
+          "exploreNext": "Explore Why one issue, one branch, and one PR matters next to see the public context around this work.",
+          "repoName": "pi-mono",
+          "repoLabel": "Pi Mono",
+          "changedFileCount": 32,
+          "commitCount": 15,
+          "signalScore": 40,
+          "categories": [
+            "content",
+            "workflow",
+            "testing",
+            "config",
+            "styling"
+          ],
+          "signalReasons": [
+            "15 recent commits",
+            "32 touched files",
+            "5 distinct activity categories"
+          ],
+          "commitSubjects": [
+            "/model shows stale scoped models",
+            "approve contributor zmberber",
+            "add resizable share sidebar",
+            "skip AJV validation in restricted runtimes closes #2395"
+          ],
+          "touchedSurfaces": [
+            "APPROVED CONTRIBUTORS",
+            "config",
+            "is",
+            "pr",
+            "CHANGELOG",
+            "models.generated"
+          ],
+          "highlights": [
+            "APPROVED CONTRIBUTORS",
+            "config",
+            "is",
+            "pr"
+          ],
+          "notableChanges": [
+            "/model shows stale scoped models",
+            "approve contributor zmberber",
+            "add resizable share sidebar",
+            "skip AJV validation in restricted runtimes closes #2395"
+          ],
+          "relatedSlugs": [
+            "one-issue-one-branch-one-pr",
+            "issue-branch"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "one-issue-one-branch-one-pr",
+              "title": "Why one issue, one branch, and one PR matters",
+              "href": "/articles/one-issue-one-branch-one-pr",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            },
+            {
+              "slug": "issue-branch",
+              "title": "What an issue branch is",
+              "href": "/concepts/issue-branch",
+              "kind": "concept",
+              "reason": "This concept explains a repeated term behind the work."
+            }
+          ],
+          "searchText": "The strongest movement landed in educational content, workflow setup, and testing, with visible work on /model shows stale scoped models and approve contributor zmberber. Pi Mono spent the day on /model shows stale scoped models, approve contributor zmberber, and add resizable share sidebar. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Pi Mono 15 recent commits 32 touched files 5 distinct activity categories /model shows stale scoped models approve contributor zmberber add resizable share sidebar skip AJV validation in restricted runtimes closes #2395 APPROVED CONTRIBUTORS config is pr CHANGELOG models.generated APPROVED CONTRIBUTORS config is pr /model shows stale scoped models approve contributor zmberber add resizable share sidebar skip AJV validation in restricted runtimes closes #2395 Why one issue, one branch, and one PR matters What an issue branch is"
+        },
         {
           "id": "property-search-2026-03-19",
           "kind": "tutorial",
@@ -963,315 +1327,6 @@
             }
           ],
           "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on ARCHITECTURE and QUALITY SCORE. Auto Audit Harness spent the day on ARCHITECTURE, QUALITY SCORE, and the plain-language README. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness 70 touched files 7 distinct activity categories operator workflow changed ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY globals page ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY ARCHITECTURE QUALITY SCORE the plain-language README RELIABILITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow"
-        },
-        {
-          "id": "tools-2026-03-19",
-          "kind": "showcase",
-          "title": "Tools: The repo workflow guide and cli tools",
-          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the repo workflow guide and cli tools.",
-          "narrative": "Tools spent the day on the repo workflow guide, cli tools, and the operator docs.",
-          "whyItMatters": "It makes the workflow easier to understand at a glance, which is where public trust starts.",
-          "exploreNext": "Explore Why one issue, one branch, and one PR matters next to see the public context around this work.",
-          "repoName": "tools",
-          "repoLabel": "Tools",
-          "changedFileCount": 1347,
-          "commitCount": 0,
-          "signalScore": 33,
-          "categories": [
-            "content",
-            "workflow",
-            "automation",
-            "docs",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "1347 touched files",
-            "6 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the repo workflow guide",
-            "cli tools",
-            "the operator docs",
-            "the automation scripts",
-            "LICENSE",
-            "NOTICE"
-          ],
-          "highlights": [
-            "the repo workflow guide",
-            "cli tools",
-            "the operator docs",
-            "the automation scripts"
-          ],
-          "notableChanges": [
-            "the repo workflow guide",
-            "cli tools",
-            "the operator docs",
-            "the automation scripts"
-          ],
-          "relatedSlugs": [
-            "one-issue-one-branch-one-pr",
-            "issue-branch",
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "issue-branch",
-              "title": "What an issue branch is",
-              "href": "/concepts/issue-branch",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the repo workflow guide and cli tools. Tools spent the day on the repo workflow guide, cli tools, and the operator docs. It makes the workflow easier to understand at a glance, which is where public trust starts. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Tools 1347 touched files 6 distinct activity categories operator workflow changed the repo workflow guide cli tools the operator docs the automation scripts LICENSE NOTICE the repo workflow guide cli tools the operator docs the automation scripts the repo workflow guide cli tools the operator docs the automation scripts Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "label": "Wed 18 Mar",
-      "summary": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation.",
-      "spotlight": "Auto Audit Harness led the day with the environment contract and gitignore.",
-      "entries": [
-        {
-          "id": "auto-audit-harness-2026-03-18",
-          "kind": "explainer",
-          "title": "Auto Audit Harness: The environment contract and gitignore",
-          "summary": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on the environment contract and gitignore.",
-          "narrative": "Auto Audit Harness spent the day on the environment contract, gitignore, and the repo workflow guide.",
-          "whyItMatters": "It turns workflow claims into something visitors can inspect instead of simply trust.",
-          "exploreNext": "Explore audit next to see the public context around this work.",
-          "repoName": "auto-audit-harness",
-          "repoLabel": "Auto Audit Harness",
-          "changedFileCount": 172,
-          "commitCount": 0,
-          "signalScore": 39,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
-            "automation",
-            "docs",
-            "testing",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "172 touched files",
-            "9 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "SECURITY",
-            "WORKFLOW",
-            "layout"
-          ],
-          "highlights": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "SECURITY"
-          ],
-          "notableChanges": [
-            "the environment contract",
-            "gitignore",
-            "the repo workflow guide",
-            "SECURITY"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "proof-vs-acceptance",
-            "proof",
-            "one-issue-one-branch-one-pr"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "searchText": "The strongest movement landed in interface work, educational content, and proof and validation, with visible work on the environment contract and gitignore. Auto Audit Harness spent the day on the environment contract, gitignore, and the repo workflow guide. It turns workflow claims into something visitors can inspect instead of simply trust. Explore audit next to see the public context around this work. Auto Audit Harness 172 touched files 9 distinct activity categories operator workflow changed the environment contract gitignore the repo workflow guide SECURITY WORKFLOW layout the environment contract gitignore the repo workflow guide SECURITY the environment contract gitignore the repo workflow guide SECURITY audit What proof means: design-proof vs acceptance-proof What proof means in this workflow Why one issue, one branch, and one PR matters"
-        },
-        {
-          "id": "rtm-hunt-2026-03-18",
-          "kind": "tutorial",
-          "title": "Rtm Hunt: The environment contract and Makefile",
-          "summary": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the environment contract and Makefile.",
-          "narrative": "Rtm Hunt spent the day on the environment contract, Makefile, and the plain-language README.",
-          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
-          "exploreNext": "Explore Why one issue, one branch, and one PR matters next to see the public context around this work.",
-          "repoName": "rtm-hunt",
-          "repoLabel": "Rtm Hunt",
-          "changedFileCount": 84,
-          "commitCount": 0,
-          "signalScore": 31,
-          "categories": [
-            "content",
-            "workflow",
-            "automation",
-            "docs",
-            "config"
-          ],
-          "signalReasons": [
-            "84 touched files",
-            "5 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the environment contract",
-            "Makefile",
-            "the plain-language README",
-            "london",
-            "pyproject",
-            "init"
-          ],
-          "highlights": [
-            "the environment contract",
-            "Makefile",
-            "the plain-language README",
-            "london"
-          ],
-          "notableChanges": [
-            "the environment contract",
-            "Makefile",
-            "the plain-language README",
-            "london"
-          ],
-          "relatedSlugs": [
-            "one-issue-one-branch-one-pr",
-            "issue-branch",
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "issue-branch",
-              "title": "What an issue branch is",
-              "href": "/concepts/issue-branch",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "searchText": "The strongest movement landed in educational content, workflow setup, and automation, with visible work on the environment contract and Makefile. Rtm Hunt spent the day on the environment contract, Makefile, and the plain-language README. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore Why one issue, one branch, and one PR matters next to see the public context around this work. Rtm Hunt 84 touched files 5 distinct activity categories operator workflow changed the environment contract Makefile the plain-language README london pyproject init the environment contract Makefile the plain-language README london the environment contract Makefile the plain-language README london Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
-        },
-        {
-          "id": "get-estate-agent-urls-uk-2026-03-18",
-          "kind": "tutorial",
-          "title": "Get Estate Agent Urls Uk: The plain-language README and dev log",
-          "summary": "The strongest movement landed in educational content, automation, and plain-language docs, with visible work on the plain-language README and dev log.",
-          "narrative": "Get Estate Agent Urls Uk spent the day on the plain-language README, dev log, and croydon live v2.",
-          "whyItMatters": "It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling.",
-          "exploreNext": "Explore What agent skills are next to see the public context around this work.",
-          "repoName": "get-estate-agent-urls-uk",
-          "repoLabel": "Get Estate Agent Urls Uk",
-          "changedFileCount": 31,
-          "commitCount": 0,
-          "signalScore": 31,
-          "categories": [
-            "content",
-            "automation",
-            "docs",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "31 touched files",
-            "5 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [],
-          "touchedSurfaces": [
-            "the plain-language README",
-            "dev log",
-            "croydon live v2",
-            "croydon live v2.csv.manifest",
-            "croydon live v2.csv.merged",
-            "croydon live v2.csv.raw"
-          ],
-          "highlights": [
-            "the plain-language README",
-            "dev log",
-            "croydon live v2",
-            "croydon live v2.csv.manifest"
-          ],
-          "notableChanges": [
-            "the plain-language README",
-            "dev log",
-            "croydon live v2",
-            "croydon live v2.csv.manifest"
-          ],
-          "relatedSlugs": [
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "searchText": "The strongest movement landed in educational content, automation, and plain-language docs, with visible work on the plain-language README and dev log. Get Estate Agent Urls Uk spent the day on the plain-language README, dev log, and croydon live v2. It lowers the barrier for someone who is curious about the workflow but not yet fluent in developer tooling. Explore What agent skills are next to see the public context around this work. Get Estate Agent Urls Uk 31 touched files 5 distinct activity categories operator workflow changed the plain-language README dev log croydon live v2 croydon live v2.csv.manifest croydon live v2.csv.merged croydon live v2.csv.raw the plain-language README dev log croydon live v2 croydon live v2.csv.manifest the plain-language README dev log croydon live v2 croydon live v2.csv.manifest What agent skills are"
         }
       ]
     }

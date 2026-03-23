@@ -232,8 +232,14 @@ export const contentIndex = {
   ],
   "diary": [
     {
-      "slug": "2026-03-22",
+      "slug": "2026-03-23",
       "title": "Today",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+      "href": "/diary/2026-03-23"
+    },
+    {
+      "slug": "2026-03-22",
+      "title": "Sun 22 Mar",
       "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
       "href": "/diary/2026-03-22"
     },
@@ -252,14 +258,8 @@ export const contentIndex = {
     {
       "slug": "2026-03-19",
       "title": "Thu 19 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation. Property Search led the day with Align CI pnpm version with packageManager and Add initial project scaffold, docs, and fixtures.",
+      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and testing. Pi Mono led the day with /model shows stale scoped models and approve contributor zmberber.",
       "href": "/diary/2026-03-19"
-    },
-    {
-      "slug": "2026-03-18",
-      "title": "Wed 18 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Auto Audit Harness led the day with the environment contract and gitignore.",
-      "href": "/diary/2026-03-18"
     }
   ]
 } as const
