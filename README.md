@@ -1,10 +1,10 @@
 # Workflow Garden
 
-Workflow Garden is a public educational site that explains an issue-driven AI development workflow in plain language. It is designed for curious non-developers and motivated newcomers who want to understand the workflow, browse related articles and projects, search across concepts without leaving the site, and read curated diary entries generated from meaningful local repo activity.
+Workflow Garden is a public educational site that explains an issue-driven AI development workflow in plain language. It is designed for curious non-developers and motivated newcomers who want to understand the workflow, inspect related projects, search across concepts without leaving the site, and read automated diary entries generated from meaningful local repo activity.
 
 Live URL: [workflow-garden.vercel.app](https://workflow-garden.vercel.app)
 
-Current visual direction: the approved Stitch `B` archive treatment, extended into a multi-page archive with repo-native React and Next components rather than copied export markup.
+Current visual direction: a calm editorial archive with tighter above-the-fold hierarchy, collapsible workflow lanes, and route-level side rails for source links and next steps.
 
 ## Screenshots
 
@@ -16,7 +16,7 @@ Current visual direction: the approved Stitch `B` archive treatment, extended in
 
 ![Workflow Garden article overview](./public/readme/article-overview.png)
 
-### Curated diary state
+### Automated diary overview
 
 ![Workflow Garden daily diary](./public/readme/daily-diary.png)
 
@@ -32,9 +32,9 @@ Current visual direction: the approved Stitch `B` archive treatment, extended in
 
 - a route-driven homepage that points visitors into deeper reading instead of forcing one long scroll
 - evergreen articles for skills, workflow concepts, and proof expectations
-- project pages that connect repos, live URLs, and related diary evidence
+- project pages that connect repos, GitHub links, live URLs, and related diary evidence
 - concept pages for repeated terms like `PRD`, `proof`, and `issue branch`
-- a curated daily diary generated from meaningful file activity under `/Users/rajeev/Code`
+- an automated diary generated from meaningful file activity under `/Users/rajeev/Code`
 - cross-content search across articles, projects, concepts, and diary entries
 
 ## Local commands
@@ -68,8 +68,8 @@ The deployed site cannot read `/Users/rajeev/Code` directly at runtime, so the r
 - `pnpm activity:refresh` runs the full diary pipeline
 - recent repo activity is gathered from git history first and file mtimes second
 - unchanged fingerprints skip only the expensive diary rewrite step
-- a deterministic base archive is enriched with related project/article/concept links
-- OpenRouter can rewrite the public-facing diary copy when operator auth is available
+- a deterministic base archive is enriched with related project/article/concept links plus source trails
+- OpenRouter rewrites the public-facing diary copy with `anthropic/claude-sonnet-4.5` when operator auth is available
 - the tracked generated outputs still need to be checked after every refresh, because content and search data can change even when the diary fingerprint does not
 - the app renders the generated JSON statically on Vercel
 

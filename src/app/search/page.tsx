@@ -14,8 +14,8 @@ export default function SearchPage() {
     <SiteFrame>
       <PageHero
         eyebrow="Cross-content search"
-        title="Search the archive instead of leaving to google the missing context."
-        description="This search blends evergreen articles, project pages, diary entries, and concept pages so recurring names and terms resolve inside the site."
+        title="Search the archive when a name or workflow term shows up without enough context."
+        description="This search blends articles, projects, diary entries, and concept pages so recurring names can resolve inside the site instead of sending visitors elsewhere."
         links={[
           { href: "/articles", label: "Browse articles" },
           { href: "/projects", label: "Browse projects" },

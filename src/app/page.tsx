@@ -5,8 +5,6 @@ import {
   toolLenses,
   workflowBeats,
 } from "@/data/site-content"
-import { DiaryArchiveSection } from "@/components/archive/diary-archive-section"
-import { FeaturedArticlesSection } from "@/components/archive/featured-articles-section"
 import { LandingHero } from "@/components/archive/landing-hero"
 import { ProjectsShowcaseSection } from "@/components/archive/projects-showcase-section"
 import { SetupPathSection } from "@/components/archive/setup-path-section"
@@ -19,18 +17,26 @@ import { getFeaturedArticles, getFeaturedProjects } from "@/lib/content"
 const feed = activityFeed as ActivityFeed
 
 export default function Home() {
-  const featuredArticles = getFeaturedArticles()
+  const featuredArticle = getFeaturedArticles(1)[0]
   const featuredProjects = getFeaturedProjects()
+  const featuredProject = featuredProjects[0]
+
+  if (!featuredArticle || !featuredProject) {
+    return null
+  }
 
   return (
     <SiteFrame>
-      <LandingHero feed={feed} reassuranceNotes={reassuranceNotes} />
+      <LandingHero
+        feed={feed}
+        reassuranceNotes={reassuranceNotes}
+        featuredArticle={featuredArticle}
+        featuredProject={featuredProject}
+      />
       <WorkflowBeatsSection workflowBeats={workflowBeats} />
       <ToolMapSection toolLenses={toolLenses} />
-      <FeaturedArticlesSection articles={featuredArticles} />
       <ProjectsShowcaseSection projects={featuredProjects} />
       <SetupPathSection setupSteps={setupSteps} />
-      <DiaryArchiveSection feed={feed} />
     </SiteFrame>
   )
 }

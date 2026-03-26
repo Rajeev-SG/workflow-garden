@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { MDXContent } from "@/lib/mdx"
@@ -9,9 +8,11 @@ import {
   getProjects,
   relatedContentFor,
 } from "@/lib/content"
+import { DiaryEchoesPanel } from "@/components/archive/diary-echoes-panel"
 import { PageHero } from "@/components/archive/page-hero"
 import { RelatedLinks } from "@/components/archive/related-links"
 import { SiteFrame } from "@/components/archive/site-frame"
+import { SourceLinksPanel } from "@/components/archive/source-links-panel"
 
 export const dynamicParams = false
 
@@ -65,7 +66,7 @@ export default async function ProjectPage({
         ]}
       />
 
-      <section className="mx-auto grid w-full max-w-[96rem] gap-10 px-5 pb-20 md:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:px-10">
+      <section className="mx-auto grid w-full max-w-[96rem] gap-10 px-5 pb-20 md:px-8 lg:grid-cols-[minmax(0,1.1fr)_22rem] lg:px-10">
         <article className="archive-card archive-prose p-6 md:p-8">
           <div className="flex flex-wrap gap-3 text-[0.72rem] uppercase tracking-[0.2em] text-secondary">
             <span>{project.status}</span>
@@ -77,37 +78,53 @@ export default async function ProjectPage({
           </div>
         </article>
 
-        <div className="space-y-6">
+        <div className="space-y-6 lg:sticky lg:top-28 lg:self-start">
           <div className="archive-surface-high border border-border/70 p-6">
-            <p className="archive-kicker">Project links</p>
-            <div className="mt-4 space-y-3">
-              <Link href={project.repoUrl} className="archive-inline-link block" target="_blank" rel="noreferrer">
-                Repository
-              </Link>
-              {project.liveUrl ? (
-                <Link href={project.liveUrl} className="archive-inline-link block" target="_blank" rel="noreferrer">
-                  Live URL
-                </Link>
-              ) : null}
+            <p className="archive-kicker">At a glance</p>
+            <h2 className="mt-4 text-3xl leading-tight font-medium tracking-[-0.04em] text-primary">
+              What you can inspect here
+            </h2>
+            <p className="mt-4 text-base leading-8 text-muted-foreground">
+              This page ties the public explanation to the repo, the live
+              surface when one exists, and the diary trail that shows how the
+              implementation changed over time.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-2 text-[0.72rem] uppercase tracking-[0.18em] text-secondary">
+              <span>{project.status}</span>
+              <span>{project.projectType}</span>
+              <span>{project.repoName}</span>
             </div>
           </div>
 
-          {diaryEntries.length > 0 ? (
-            <div className="archive-card p-6">
-              <p className="archive-kicker text-primary/45">Latest diary echoes</p>
-              <div className="mt-4 space-y-4">
-                {diaryEntries.map((entry) => (
-                  <Link key={entry.id} href={`/diary/${entry.daySlug}`} className="block transition-colors hover:text-tertiary">
-                    <p className="text-sm uppercase tracking-[0.2em] text-secondary">{entry.dayLabel}</p>
-                    <p className="mt-2 text-xl leading-tight font-medium text-primary">{entry.title}</p>
-                    <p className="mt-2 text-sm leading-7 text-muted-foreground">{entry.summary}</p>
-                    <p className="mt-2 text-sm leading-7 text-foreground/80">{entry.exploreNext}</p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ) : null}
-
+          <SourceLinksPanel
+            links={[
+              {
+                label: "GitHub repository",
+                href: project.repoUrl,
+                description: "Inspect the actual code and commit history behind this project.",
+              },
+              ...(project.liveUrl
+                ? [
+                    {
+                      label: "Live site",
+                      href: project.liveUrl,
+                      description: "See the public surface as visitors experience it.",
+                    },
+                  ]
+                : []),
+              ...(project.proofUrl
+                ? [
+                    {
+                      label: "Proof trail",
+                      href: project.proofUrl,
+                      description: "Follow the acceptance and design evidence connected to this work.",
+                    },
+                  ]
+                : []),
+              ...project.externalLinks,
+            ]}
+          />
+          <DiaryEchoesPanel title="Latest diary echoes" items={diaryEntries} />
           <RelatedLinks title="Related archive paths" items={relatedContentFor(project.relatedSlugs)} />
         </div>
       </section>
