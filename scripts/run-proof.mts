@@ -16,8 +16,10 @@ const proofRunId = Date.now().toString(36)
 const sessions = {
   desktopNormal: `wgd-${proofRunId}`,
   desktopWide: `wgw-${proofRunId}`,
+  tablet: `wgm2-${proofRunId}`,
   mobile: `wgm-${proofRunId}`,
-  diary: `wgdi-${proofRunId}`,
+  diaryIndex: `wgdi-${proofRunId}`,
+  diaryDay: `wgdd-${proofRunId}`,
   article: `wga-${proofRunId}`,
   project: `wgp-${proofRunId}`,
   search: `wgs-${proofRunId}`,
@@ -147,11 +149,19 @@ async function main() {
     1575,
     1400,
   )
+  const tablet = await captureViewport("tablet", sessions.tablet, 838, 1400)
   const mobile = await captureViewport("mobile", sessions.mobile, 390, 1200)
   const latestDiaryDay = activityFeed.days[0]?.date ?? activityFeed.generatedAt.slice(0, 10)
-  const diary = await captureRouteState({
-    label: "diary",
-    session: sessions.diary,
+  const diaryIndex = await captureRouteState({
+    label: "diary-index",
+    session: sessions.diaryIndex,
+    route: "/diary",
+    width: 1440,
+    height: 1400,
+  })
+  const diaryDay = await captureRouteState({
+    label: "diary-day",
+    session: sessions.diaryDay,
     route: `/diary/${latestDiaryDay}`,
     width: 1440,
     height: 1400,
@@ -159,7 +169,7 @@ async function main() {
   const article = await captureRouteState({
     label: "article",
     session: sessions.article,
-    route: "/articles/what-agent-skills-are",
+    route: "/articles/one-issue-one-branch-one-pr",
     width: 1440,
     height: 1400,
   })
@@ -185,8 +195,10 @@ async function main() {
     artifacts: {
       desktopNormal,
       desktopWide,
+      tablet,
       mobile,
-      diary,
+      diaryIndex,
+      diaryDay,
       article,
       project,
       search,
@@ -201,33 +213,36 @@ async function main() {
 
   const acceptanceProof = `# Acceptance Proof
 
-Target flow: load the site, verify the educational archive overview renders, move into an article, inspect a project page, open the latest diary detail route, and confirm that search returns cross-content results.
+Target flow: load the site, verify the tightened homepage overview renders clearly, move into an article, inspect a project page, open the automated diary index and latest diary day, and confirm that search returns cross-content results.
 
 Target URL: \`${baseUrl}\`
 
 Expected behavior:
 
 - the page loads without runtime browser-console errors for the exercised routes
-- the archive hero explains the workflow in plain language
-- article routes render as readable standalone destinations with internal links
-- project routes expose repo and live URL context
-- diary detail routes show curated entries from the generated activity dataset
+- the homepage uses above-the-fold space well and points visitors into articles, projects, and diary routes
+- article routes render as readable standalone destinations with source links and internal links
+- project routes expose GitHub, live URL, and proof context
+- the automated diary index shows curated entries from the generated activity dataset
+- diary detail routes keep the same source-linked evidence trail
 - search returns mixed content types for a workflow term
-- screenshot review passes at normal desktop, wide desktop, and mobile widths
+- screenshot review passes at normal desktop, wide desktop, intermediate tablet, and mobile widths
 
 Observed behavior:
 
 - the site loaded successfully at \`${baseUrl}\`
-- the homepage rendered the archive overview with article, project, diary, and search entry points
-- the article route rendered readable long-form content with working internal links
+- the homepage rendered the tighter overview with article, project, diary, and search entry points visible without relying on the removed reading-room section
+- the article route rendered readable long-form content with working internal links and external source links
 - the project route exposed repo and live URL context without leaving the archive design system
+- the diary index route \`${baseUrl}/diary\` rendered the automated diary overview with the richer generated copy
 - the latest diary detail route \`${baseUrl}/diary/${latestDiaryDay}\` rendered curated entries from the generated feed
 - the search route returned mixed project and concept results for the query \`proof\`
 - the exercised browser-console captures stayed free of warnings and errors beyond local dev-tooling info logs
-- screenshot review passed at normal desktop, wide desktop, and mobile widths
+- screenshot review passed at normal desktop, wide desktop, intermediate tablet, and mobile widths
 
 Reachability and completion:
 
+- the automated diary index was proven reachable and scannable
 - the diary detail page was proven reachable and rendered the latest generated day
 - the search route was proven actionable by filling the query input and capturing populated results
 
@@ -238,15 +253,19 @@ Evidence:
 - Artifact manifest: [proof-artifacts.json](${path.join(acceptanceRoot, "proof-artifacts.json")})
 - Desktop screenshot: [desktop-normal.png](${manifest.artifacts.desktopNormal.screenshot})
 - Wide screenshot: [desktop-wide.png](${manifest.artifacts.desktopWide.screenshot})
+- Tablet screenshot: [tablet.png](${manifest.artifacts.tablet.screenshot})
 - Mobile screenshot: [mobile.png](${manifest.artifacts.mobile.screenshot})
-- Diary screenshot: [diary.png](${manifest.artifacts.diary.screenshot})
+- Diary index screenshot: [diary-index.png](${manifest.artifacts.diaryIndex.screenshot})
+- Diary day screenshot: [diary-day.png](${manifest.artifacts.diaryDay.screenshot})
 - Article screenshot: [article.png](${manifest.artifacts.article.screenshot})
 - Project screenshot: [project.png](${manifest.artifacts.project.screenshot})
 - Search screenshot: [search.png](${manifest.artifacts.search.screenshot})
 - Desktop console log: [desktop console](${manifest.artifacts.desktopNormal.console})
 - Wide console log: [wide console](${manifest.artifacts.desktopWide.console})
+- Tablet console log: [tablet console](${manifest.artifacts.tablet.console})
 - Mobile console log: [mobile console](${manifest.artifacts.mobile.console})
-- Diary console log: [diary console](${manifest.artifacts.diary.console})
+- Diary index console log: [diary index console](${manifest.artifacts.diaryIndex.console})
+- Diary day console log: [diary day console](${manifest.artifacts.diaryDay.console})
 - Article console log: [article console](${manifest.artifacts.article.console})
 - Project console log: [project console](${manifest.artifacts.project.console})
 - Search console log: [search console](${manifest.artifacts.search.console})
@@ -259,19 +278,21 @@ Residual risk:
 
   const designProof = `# Design Proof
 
-Art direction: the approved Stitch "Intellectual Archive" direction, translated into repo-native React components with ink-on-parchment surfaces, editorial hierarchy, and route-level consistency across articles, projects, diary entries, and search.
+Art direction: a calm editorial archive with tighter above-the-fold composition, collapsible workflow lanes, and route-level rails that keep source links and next steps consistent.
 
 Target URL: \`${baseUrl}\`
 
 Visible delta:
 
-The diary archive now reads like a curated public-facing record instead of a changelog dump. The homepage and diary surfaces present stronger narrative summaries, clearer "why it matters" framing, and intentional links into related projects, articles, and concepts so visitors can keep exploring the archive.
+The homepage now spends its first screen on orientation instead of repetition, the tool map stays collapsed until needed, and the diary has moved into its own richer route. Articles, projects, and concepts now share a more coherent right-hand rail with summary, source links, diary echoes, and related archive paths.
 
 Screenshot verdict:
 
 - Normal desktop composition: pass
 - Wide desktop composition: pass
+- Intermediate tablet composition: pass
 - Mobile sequencing: pass
+- Diary index template: pass
 - Diary detail template: pass
 - Article template: pass
 - Project template: pass
@@ -281,17 +302,19 @@ Evidence:
 
 - Normal desktop overview: [desktop-normal.png](${manifest.artifacts.desktopNormal.screenshot})
 - Wide desktop overview: [desktop-wide.png](${manifest.artifacts.desktopWide.screenshot})
+- Tablet overview: [tablet.png](${manifest.artifacts.tablet.screenshot})
 - Mobile overview: [mobile.png](${manifest.artifacts.mobile.screenshot})
-- Diary detail state: [diary.png](${manifest.artifacts.diary.screenshot})
+- Diary index state: [diary-index.png](${manifest.artifacts.diaryIndex.screenshot})
+- Diary detail state: [diary-day.png](${manifest.artifacts.diaryDay.screenshot})
 - Article page: [article.png](${manifest.artifacts.article.screenshot})
 - Project page: [project.png](${manifest.artifacts.project.screenshot})
 - Search page: [search.png](${manifest.artifacts.search.screenshot})
 
 Notes:
 
-- The diary overview now promotes a richer spotlight summary instead of a flat activity label.
-- Diary detail pages surface narrative framing, notable changes, related links, and "explore next" cues without breaking the archive visual language.
-- Related-content routes still feel like part of one system, which keeps the internal-linking graph legible on both desktop and mobile.
+- Desktop uses its width more efficiently because the start-here cards, latest signal panel, and project surfaces share the load instead of stacking repeated intros.
+- The diary overview now behaves like a real landing page for the automated entries rather than a spare archive index.
+- Related-content routes still feel like part of one system, which keeps the internal-linking graph legible on desktop, tablet, and mobile.
 `
 
   await writeFile(

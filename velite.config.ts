@@ -9,6 +9,15 @@ const commonFields = {
   eyebrow: s.string(),
   tags: s.array(s.string()).default([]),
   relatedSlugs: s.array(s.string()).default([]),
+  externalLinks: s
+    .array(
+      s.object({
+        label: s.string(),
+        href: s.string().url(),
+        description: s.string().optional(),
+      }),
+    )
+    .default([]),
   featured: s.boolean().default(false),
   publishedAt: s.isodate(),
   updatedAt: s.isodate(),

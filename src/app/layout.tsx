@@ -5,7 +5,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Workflow Garden",
   description:
-    "A calm, plain-language guide to an issue-driven AI development workflow, with curated daily coding diary entries generated from local activity.",
+    "A plain-language guide to an issue-driven AI workflow, with real projects, short guides, and an automated diary built from meaningful repository activity.",
 }
 
 export default function RootLayout({

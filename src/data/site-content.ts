@@ -3,9 +3,9 @@ export const toolLenses = [
     id: "understand",
     label: "Understand",
     eyebrow: "When the work is still fuzzy",
-    headline: "Start by turning the idea into something everyone can agree on.",
+    headline: "Turn the idea into something concrete before the code starts.",
     summary:
-      "This lane is for turning a vague idea into a plan. It keeps the work from jumping straight into code before anyone knows what success looks like.",
+      "This lane is for turning a vague idea into a plan. It keeps the work from rushing into code before anyone knows what success should look like.",
     tools: [
       {
         name: "repo-bootstrap",
@@ -33,9 +33,9 @@ export const toolLenses = [
     id: "build",
     label: "Build",
     eyebrow: "When the shape is clear",
-    headline: "Use reliable primitives, then spend creativity on composition and clarity.",
+    headline: "Use reliable primitives, then spend the creativity on clarity.",
     summary:
-      "Build mode is about small, reversible changes. Mature primitives reduce risk. Strong page composition keeps the work from looking like a stack of generic cards.",
+      "Build mode is about small, reversible changes. Mature primitives reduce risk. Strong composition keeps the work from looking like a stack of generic cards.",
     tools: [
       {
         name: "shadcn-ui",
@@ -63,9 +63,9 @@ export const toolLenses = [
     id: "prove",
     label: "Prove",
     eyebrow: "When the page works",
-    headline: "Passing code checks is useful. Visible evidence is what builds trust.",
+    headline: "Passing checks is useful. Visible evidence is what builds trust.",
     summary:
-      "Proof mode asks a simple question: can another person see that this actually works and actually looks right? If the answer is unclear, the proof is not done yet.",
+      "Proof mode asks a simple question: can another person see that this works and looks right? If the answer is unclear, the proof is not done yet.",
     tools: [
       {
         name: "audit",
@@ -93,9 +93,9 @@ export const toolLenses = [
     id: "ship",
     label: "Ship",
     eyebrow: "When the evidence is strong",
-    headline: "Close the loop all the way through deploy, merge, and cleanup.",
+    headline: "Close the loop through deploy, merge, and cleanup.",
     summary:
-      "Shipping is not just pushing code. It means the work is live, the issue state is accurate, the proof exists, and the implementation branch is no longer lingering around.",
+      "Shipping is not just pushing code. It means the work is live, the issue state is accurate, the proof exists, and the branch is no longer lingering around.",
     tools: [
       {
         name: "vercel",
@@ -121,10 +121,10 @@ export const toolLenses = [
 ] as const
 
 export const workflowBeats = [
-  "Clarify the work before implementation starts.",
-  "Build on a ticket branch that maps cleanly to one issue.",
+  "Clarify the job before implementation starts.",
+  "Build on one ticket branch so the change still has a readable shape.",
   "Treat proof as evidence, not as a polite summary.",
-  "Only call it done once deploy, merge, and cleanup line up.",
+  "Only call it done when deploy, merge, and cleanup all line up.",
 ] as const
 
 export const setupSteps = [
@@ -132,7 +132,7 @@ export const setupSteps = [
     number: "01",
     title: "Bootstrap a clean repo",
     summary:
-      "Create the folder, set the repo rules, and make the README useful from the first day.",
+      "Set the repo rules and make the README useful from the first day.",
     details:
       "A good bootstrap keeps the repo easy for future agents to inspect. It should name the workflow, the commands, the proof bar, and the exact next step.",
     commands: ["repo-bootstrap", "gh repo create", "git init -b main"],
@@ -141,7 +141,7 @@ export const setupSteps = [
     number: "02",
     title: "Write the plan in normal language",
     summary:
-      "Turn a rough product idea into a PRD, then slice it into independently shippable work.",
+      "Turn a rough product idea into a PRD, then slice it into shippable work.",
     details:
       "This is where the workflow gets friendlier. Instead of burying intent in chat history, it stores requirements in GitHub and planning state in Linear.",
     commands: ["write-a-prd", "prd-to-plan", "prd-to-issues"],
@@ -190,7 +190,7 @@ export const learningCards = [
 ] as const
 
 export const reassuranceNotes = [
-  "Minimal jargon, because the goal is understanding.",
-  "Short sections, because attention is precious.",
-  "Visible proof, because trust should be earned.",
+  "Minimal jargon",
+  "Short sections",
+  "Visible proof",
 ] as const

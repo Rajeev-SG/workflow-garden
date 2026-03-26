@@ -232,34 +232,34 @@ export const contentIndex = {
   ],
   "diary": [
     {
-      "slug": "2026-03-23",
+      "slug": "2026-03-26",
       "title": "Today",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
+      "description": "Rajeevg.com audited dashboard denominators and published production proof, Openrouter Model Workbook Maintainer V2 masked workflow secrets after Infisical fetch, and Analytics Stack Forensics Archive polished the README and added release tooling. Rajeevg.com closed a no-ticket audit that clarified dashboard denominators and moved the calibrated badge off backend copy, then published production proof to GitHub.",
+      "href": "/diary/2026-03-26"
+    },
+    {
+      "slug": "2026-03-25",
+      "title": "Wed 25 Mar",
+      "description": "Rajeevg.com proved BigQuery export state and simplified hackathon dashboards, Hackathon Voting Prototype exposed a public vote summary and hardened mobile scoreboard interactions, and Automation Hub implemented a codification action tracking loop. Rajeevg.com reconciled persisted votes against the live source of truth, then published BigQuery export proof and simplified hackathon reporting dashboards.",
+      "href": "/diary/2026-03-25"
+    },
+    {
+      "slug": "2026-03-24",
+      "title": "Tue 24 Mar",
+      "description": "Rajeevg.com aligned hackathon reporting shells and published a GA4 site dashboard, Hackathon Voting Prototype synced post-deploy risk evidence and finalized event-day hardening, and Automation Hub ran a full UI audit and tightened task-first layouts. Rajeevg.com published the hackathon engineering post alongside a GA4 site dashboard, then built a fallback for hackathon analytics and aligned reporting shells.",
+      "href": "/diary/2026-03-24"
+    },
+    {
+      "slug": "2026-03-23",
+      "title": "Mon 23 Mar",
+      "description": "Rajeevg.com published the analytics stack implementation article and completed the end-to-end GA4 and GTM stack, Hackathon Voting Prototype shielded public load and hardened event-day readiness, and Multi Agent Orchestration Demo redesigned the interface into a mission-control layout. Rajeevg.com published the analytics stack implementation article, completed the GA4 and GTM stack, and added a public portfolio route with a project article.",
       "href": "/diary/2026-03-23"
     },
     {
       "slug": "2026-03-22",
       "title": "Sun 22 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
+      "description": "Workflow Garden refreshed diary publishable outputs and repaired the publish loop, Rajeevg.com kept mermaid diagrams readable on narrow screens and simplified public content, and Openrouter Model Workbook Maintainer V2 relaxed rate-limit fallback matching and aligned local bootstrap messaging. Workflow Garden refreshed diary publishable outputs, repaired the publish loop, and deepened diary detail and copy quality.",
       "href": "/diary/2026-03-22"
-    },
-    {
-      "slug": "2026-03-21",
-      "title": "Sat 21 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Implement selective linked diary pipeline and Build the project content hub.",
-      "href": "/diary/2026-03-21"
-    },
-    {
-      "slug": "2026-03-20",
-      "title": "Fri 20 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation. Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
-      "href": "/diary/2026-03-20"
-    },
-    {
-      "slug": "2026-03-19",
-      "title": "Thu 19 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and testing. Pi Mono led the day with /model shows stale scoped models and approve contributor zmberber.",
-      "href": "/diary/2026-03-19"
     }
   ]
 } as const
