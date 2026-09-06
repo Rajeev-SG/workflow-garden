@@ -1,1000 +1,86 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-03-26T20:03:02.209Z",
+  "generatedAt": "2026-07-28T12:30:11.208Z",
   "scanRoot": "/Users/rajeev/Code",
   "meaningfulActivityDetected": true,
-  "headline": "Seven repos shipped interface polish, proof artifacts, and workflow hardening across 15 archive-worthy updates.",
-  "subhead": "Rajeevg.com led with dashboard audits and analytics reporting, while Hackathon Voting Prototype hardened event-day readiness and Workflow Garden refreshed diary outputs.",
-  "sourceFingerprint": "0b8f95682461a18b1b382a8a3e64328d3588f643ea1c7ba79568c2b4a7d0a493",
+  "headline": "System Memory and Automation Reports shipped educational content, validation proofs, and automated diary intelligence across five days.",
+  "subhead": "Six entries survived the seven-day filter, documenting 1,767 file changes across memory snapshots, final reports, and scheduled automation runs.",
+  "sourceFingerprint": "85558a82e1f29a826c2280307631306ee8eca02acb7395b71b27e71664c3f63a",
   "generationMethod": "llm",
   "generationModel": "anthropic/claude-sonnet-4.5",
   "refreshGate": {
     "decision": "generated",
-    "reason": "A forced refresh was requested for the diary archive.",
-    "aggregateSignalScore": 1738,
-    "meaningfulSnapshotCount": 47,
-    "spotlightSignalScore": 56,
-    "previousFingerprint": "68a56de438b412520d657b41cebed234790ceb3828f2d0dc5d1e52dd9d225b6f"
+    "reason": "Recent repo activity cleared the refresh gate for a full diary regeneration.",
+    "aggregateSignalScore": 119,
+    "meaningfulSnapshotCount": 6,
+    "spotlightSignalScore": 26,
+    "previousFingerprint": "028de5bb88622eca787644d0bdc0866623b55d88dca6eeda383d40a5d7b3e357"
   },
   "stats": {
-    "activeRepoCount": 7,
-    "changedFileCount": 766,
-    "commitCount": 166,
-    "curatedEntryCount": 15,
-    "topTheme": "interface work",
+    "activeRepoCount": 2,
+    "changedFileCount": 1767,
+    "commitCount": 0,
+    "curatedEntryCount": 6,
+    "topTheme": "educational content",
     "daysScanned": 7,
-    "aggregateSignalScore": 723
+    "aggregateSignalScore": 119
   },
   "days": [
     {
-      "date": "2026-03-26",
+      "date": "2026-07-28",
       "label": "Today",
-      "summary": "Rajeevg.com audited dashboard denominators and published production proof, Openrouter Model Workbook Maintainer V2 masked workflow secrets after Infisical fetch, and Analytics Stack Forensics Archive polished the README and added release tooling.",
-      "spotlight": "Rajeevg.com closed a no-ticket audit that clarified dashboard denominators and moved the calibrated badge off backend copy, then published production proof to GitHub.",
+      "summary": "System Memory published 1,681 file changes spanning latest snapshots, memory records, and final reports, while Automation Reports ran watchdog checks and daily summaries.",
+      "spotlight": "System Memory updated latest and memory records alongside final reports and Google Ads UI notes, touching four activity categories in a single push.",
       "entries": [
         {
-          "id": "rajeevg.com-2026-03-26",
+          "id": "system-memory-2026-07-28",
           "kind": "explainer",
-          "title": "Dashboard denominator audit closes with production proof and label clarification",
-          "summary": "Rajeevg.com finished a no-ticket audit that hardened dashboard denominators, clarified labels, and moved the calibrated badge off backend copy. Production proof now lives on GitHub alongside the plain-language README and operator docs.",
-          "narrative": "Nineteen commits touched 33 files, including the README, the marketing-measurement explainer, operator docs, and proof artifacts. The audit tightened dashboard denominators, clarified labels, and relocated the calibrated badge so backend copy no longer carries interface weight.",
-          "whyItMatters": "Visitors can now inspect the dashboard logic and proof trail instead of trusting undocumented claims, and operators inherit clearer labels that reduce interpretation risk.",
-          "exploreNext": "Visit the audit concept page to understand how responsiveness, accessibility, and quality checks combine into a single gate.",
-          "repoName": "rajeevg.com",
-          "repoLabel": "Rajeevg.com",
-          "changedFileCount": 33,
-          "commitCount": 19,
-          "signalScore": 52,
+          "title": "System Memory published latest snapshots, memory records, and final reports with Google Ads UI notes",
+          "summary": "System Memory pushed 1,681 file changes covering latest snapshots, memory records, final reports, and Google Ads UI notes. The update spanned educational content, proof validation, automation, and configuration.",
+          "narrative": "The repo updated latest, memory, final report, and Google Ads UI notes files, with additional changes to skills and run logs. The 1,681 touched files crossed four activity categories, signaling a broad refresh of workflow state and documentation.",
+          "whyItMatters": "Publishing memory snapshots and final reports lets visitors inspect workflow state instead of taking claims on faith, turning process into auditable proof.",
+          "exploreNext": "Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without relying on one-off chat context.",
+          "repoName": "system-memory",
+          "repoLabel": "System Memory",
+          "changedFileCount": 1681,
+          "commitCount": 0,
+          "signalScore": 26,
           "categories": [
-            "interface",
-            "content",
-            "proof",
-            "docs",
-            "testing",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "19 recent commits",
-            "33 touched files",
-            "7 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "no-ticket update post-audit with production proof",
-            "no-ticket finish dashboard denominator audit hardening",
-            "no-ticket clarify dashboard denominators and labels",
-            "move calibrated badge off backend copy"
-          ],
-          "touchedSurfaces": [
-            "gitignore",
-            "the plain-language README",
-            "why browser consent and source blending make marketing measurement harder",
-            "the operator docs",
-            "proof",
-            "local proof"
-          ],
-          "highlights": [
-            "gitignore",
-            "the plain-language README",
-            "why browser consent and source blending make marketing measurement harder",
-            "the operator docs"
-          ],
-          "notableChanges": [
-            "no-ticket update post-audit with production proof",
-            "no-ticket finish dashboard denominator audit hardening",
-            "no-ticket clarify dashboard denominators and labels",
-            "move calibrated badge off backend copy"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "proof",
-            "proof-vs-acceptance"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Rajeevg.com finished a no-ticket audit that hardened dashboard denominators, clarified labels, and moved the calibrated badge off backend copy. Production proof now lives on GitHub alongside the plain-language README and operator docs. Nineteen commits touched 33 files, including the README, the marketing-measurement explainer, operator docs, and proof artifacts. The audit tightened dashboard denominators, clarified labels, and relocated the calibrated badge so backend copy no longer carries interface weight. Visitors can now inspect the dashboard logic and proof trail instead of trusting undocumented claims, and operators inherit clearer labels that reduce interpretation risk. Visit the audit concept page to understand how responsiveness, accessibility, and quality checks combine into a single gate. Rajeevg.com gitignore the plain-language README why browser consent and source blending make marketing measurement harder the operator docs no-ticket update post-audit with production proof no-ticket finish dashboard denominator audit hardening no-ticket clarify dashboard denominators and labels move calibrated badge off backend copy audit proof What proof means: design-proof vs acceptance-proof"
-        },
-        {
-          "id": "openrouter-model-workbook-maintainer-v2-2026-03-26",
-          "kind": "explainer",
-          "title": "Workflow secrets now masked after Infisical fetch, deprecated action removed",
-          "summary": "Openrouter Model Workbook Maintainer V2 recorded Vercel hardening proof, masked workflow secrets immediately after Infisical fetch, and removed the deprecated Infisical action from the daily refresh. The latest commit and GitHub repo link document the changes.",
-          "narrative": "Eighteen commits touched 57 files, including CI config, the daily refresh workflow, the README, default profiles, and mapping diagnostics. The team fixed deploy verification, aligned Infisical runtime behavior, and ensured secrets never leak into logs.",
-          "whyItMatters": "Operators can now trace secret handling from fetch to mask in the public workflow, and the deprecated action removal prevents future runtime drift.",
-          "exploreNext": "Read the OpenRouter Model Workbook Maintainer V2 project page to see how deterministic pipelines join pricing, coverage, and benchmark data.",
-          "repoName": "openrouter-model-workbook-maintainer-v2",
-          "repoLabel": "Openrouter Model Workbook Maintainer V2",
-          "changedFileCount": 57,
-          "commitCount": 18,
-          "signalScore": 47,
-          "categories": [
-            "interface",
             "content",
             "proof",
             "automation",
-            "docs",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "18 recent commits",
-            "57 touched files",
-            "7 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "record Vercel hardening proof",
-            "mask workflow secrets after Infisical fetch",
-            "remove deprecated Infisical action from refresh",
-            "fix deploy verification and Infisical runtime"
-          ],
-          "touchedSurfaces": [
-            "ci",
-            "daily refresh",
-            "the plain-language README",
-            "default profiles",
-            "guide cohort",
-            "mapping diagnostics"
-          ],
-          "highlights": [
-            "ci",
-            "daily refresh",
-            "the plain-language README",
-            "default profiles"
-          ],
-          "notableChanges": [
-            "record Vercel hardening proof",
-            "mask workflow secrets after Infisical fetch",
-            "remove deprecated Infisical action from refresh",
-            "fix deploy verification and Infisical runtime"
-          ],
-          "relatedSlugs": [
-            "openrouter-model-workbook-maintainer-v2",
-            "prd",
-            "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "openrouter-model-workbook-maintainer-v2",
-              "title": "OpenRouter Model Workbook Maintainer V2",
-              "href": "/projects/openrouter-model-workbook-maintainer-v2",
-              "kind": "project",
-              "reason": "This diary note comes from the same repo as the project page."
-            },
-            {
-              "slug": "prd",
-              "title": "What a PRD is",
-              "href": "/concepts/prd",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [
-            {
-              "label": "Openrouter Model Workbook Maintainer V2 on GitHub",
-              "href": "https://github.com/Rajeev-SG/openrouter-model-workbook-maintainer-v2",
-              "kind": "github"
-            },
-            {
-              "label": "Latest commit",
-              "href": "https://github.com/Rajeev-SG/openrouter-model-workbook-maintainer-v2/commit/70c2dd9d84ae44f6e990a77d43c73efe91a69448",
-              "kind": "commit"
-            }
-          ],
-          "searchText": "Openrouter Model Workbook Maintainer V2 recorded Vercel hardening proof, masked workflow secrets immediately after Infisical fetch, and removed the deprecated Infisical action from the daily refresh. The latest commit and GitHub repo link document the changes. Eighteen commits touched 57 files, including CI config, the daily refresh workflow, the README, default profiles, and mapping diagnostics. The team fixed deploy verification, aligned Infisical runtime behavior, and ensured secrets never leak into logs. Operators can now trace secret handling from fetch to mask in the public workflow, and the deprecated action removal prevents future runtime drift. Read the OpenRouter Model Workbook Maintainer V2 project page to see how deterministic pipelines join pricing, coverage, and benchmark data. Openrouter Model Workbook Maintainer V2 ci daily refresh the plain-language README default profiles record Vercel hardening proof mask workflow secrets after Infisical fetch remove deprecated Infisical action from refresh fix deploy verification and Infisical runtime OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters Openrouter Model Workbook Maintainer V2 on GitHub Latest commit"
-        },
-        {
-          "id": "analytics-stack-forensics-archive-2026-03-26",
-          "kind": "explainer",
-          "title": "Archive README polished, release bundle tooling added for v0.1.0",
-          "summary": "Analytics Stack Forensics Archive polished the README, added release bundle tooling, and archived the analytics stack forensics evidence pack. The pull request template, gitignore, and v0.1.0 manifest now live in the repo.",
-          "narrative": "Two commits touched 44 files, including the pull request template, gitignore, README, v0.1.0 release folder, automation scripts, and manifest. The polish pass tightened language, and the new tooling automates bundle creation for future releases.",
-          "whyItMatters": "Visitors can now download a versioned evidence pack with a single command, and the polished README removes ambiguity about what the archive contains.",
-          "exploreNext": "Visit the audit concept page to see how polish fits into the final quality gate before a page ships.",
-          "repoName": "analytics-stack-forensics-archive",
-          "repoLabel": "Analytics Stack Forensics Archive",
-          "changedFileCount": 44,
-          "commitCount": 2,
-          "signalScore": 43,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
-            "automation",
-            "docs",
-            "testing",
             "config"
           ],
           "signalReasons": [
-            "2 recent commits",
-            "44 touched files",
-            "8 distinct activity categories",
-            "operator workflow changed"
+            "1681 touched files",
+            "4 distinct activity categories"
           ],
-          "commitSubjects": [
-            "gh-1: polish archive README and add release bundle tooling",
-            "archive: add analytics stack forensics evidence pack"
-          ],
+          "commitSubjects": [],
           "touchedSurfaces": [
-            "pull request template",
-            "gitignore",
-            "the plain-language README",
-            "v0.1.0",
-            "the automation scripts",
-            "MANIFEST"
+            "latest",
+            "memory",
+            "final report",
+            "google ads ui notes",
+            "skills",
+            "run log"
           ],
           "highlights": [
-            "pull request template",
-            "gitignore",
-            "the plain-language README",
-            "v0.1.0"
+            "latest",
+            "memory",
+            "final report",
+            "google ads ui notes"
           ],
           "notableChanges": [
-            "gh-1: polish archive README and add release bundle tooling",
-            "archive: add analytics stack forensics evidence pack",
-            "pull request template",
-            "gitignore"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "polish-explained",
-            "proof",
-            "proof-vs-acceptance"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "polish-explained",
-              "title": "polish",
-              "href": "/articles/polish-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Analytics Stack Forensics Archive polished the README, added release bundle tooling, and archived the analytics stack forensics evidence pack. The pull request template, gitignore, and v0.1.0 manifest now live in the repo. Two commits touched 44 files, including the pull request template, gitignore, README, v0.1.0 release folder, automation scripts, and manifest. The polish pass tightened language, and the new tooling automates bundle creation for future releases. Visitors can now download a versioned evidence pack with a single command, and the polished README removes ambiguity about what the archive contains. Visit the audit concept page to see how polish fits into the final quality gate before a page ships. Analytics Stack Forensics Archive pull request template gitignore the plain-language README v0.1.0 gh-1: polish archive README and add release bundle tooling archive: add analytics stack forensics evidence pack pull request template gitignore audit polish proof What proof means: design-proof vs acceptance-proof"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-25",
-      "label": "Wed 25 Mar",
-      "summary": "Rajeevg.com proved BigQuery export state and simplified hackathon dashboards, Hackathon Voting Prototype exposed a public vote summary and hardened mobile scoreboard interactions, and Automation Hub implemented a codification action tracking loop.",
-      "spotlight": "Rajeevg.com reconciled persisted votes against the live source of truth, then published BigQuery export proof and simplified hackathon reporting dashboards.",
-      "entries": [
-        {
-          "id": "rajeevg.com-2026-03-25",
-          "kind": "explainer",
-          "title": "BigQuery export state proved, hackathon dashboards simplified and reconciled",
-          "summary": "Rajeevg.com proved BigQuery export state, simplified hackathon dashboards, aligned the fallback entry readout, and reconciled persisted votes against the live source of truth. Live evidence and proof artifacts now document the reporting repair.",
-          "narrative": "Eight commits touched 31 files, including the README, operator docs, live evidence, proof artifacts, project detail pages, and reusable interface pieces. The team repaired hackathon reporting dashboards, aligned BigQuery fallback logic, and published proof that persisted votes match the live source.",
-          "whyItMatters": "Visitors can now inspect the BigQuery export state and vote reconciliation proof instead of trusting backend claims, and operators inherit simpler dashboards that reduce cognitive load.",
-          "exploreNext": "Visit the audit concept page to understand how proof and validation combine into a single quality gate.",
-          "repoName": "rajeevg.com",
-          "repoLabel": "Rajeevg.com",
-          "changedFileCount": 31,
-          "commitCount": 8,
-          "signalScore": 48,
-          "categories": [
-            "interface",
-            "proof",
-            "docs",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "8 recent commits",
-            "31 touched files",
-            "5 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "reporting: prove BigQuery export state and simplify hackathon dashboards",
-            "reporting repair align BigQuery fallback entry readout",
-            "reporting repair hackathon reporting dashboards",
-            "reporting Reconcile persisted votes against live source of truth"
-          ],
-          "touchedSurfaces": [
-            "the plain-language README",
-            "the operator docs",
-            "live evidence",
-            "proof",
-            "the project detail pages",
-            "the reusable interface pieces"
-          ],
-          "highlights": [
-            "the plain-language README",
-            "the operator docs",
-            "live evidence",
-            "proof"
-          ],
-          "notableChanges": [
-            "reporting: prove BigQuery export state and simplify hackathon dashboards",
-            "reporting repair align BigQuery fallback entry readout",
-            "reporting repair hackathon reporting dashboards",
-            "reporting Reconcile persisted votes against live source of truth"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "proof",
-            "proof-vs-acceptance"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Rajeevg.com proved BigQuery export state, simplified hackathon dashboards, aligned the fallback entry readout, and reconciled persisted votes against the live source of truth. Live evidence and proof artifacts now document the reporting repair. Eight commits touched 31 files, including the README, operator docs, live evidence, proof artifacts, project detail pages, and reusable interface pieces. The team repaired hackathon reporting dashboards, aligned BigQuery fallback logic, and published proof that persisted votes match the live source. Visitors can now inspect the BigQuery export state and vote reconciliation proof instead of trusting backend claims, and operators inherit simpler dashboards that reduce cognitive load. Visit the audit concept page to understand how proof and validation combine into a single quality gate. Rajeevg.com the plain-language README the operator docs live evidence proof reporting: prove BigQuery export state and simplify hackathon dashboards reporting repair align BigQuery fallback entry readout reporting repair hackathon reporting dashboards reporting Reconcile persisted votes against live source of truth audit proof What proof means: design-proof vs acceptance-proof"
-        },
-        {
-          "id": "hackathon-voting-prototype-2026-03-25",
-          "kind": "showcase",
-          "title": "Public vote summary exposed, mobile scoreboard interactions hardened",
-          "summary": "Hackathon Voting Prototype exposed a public vote summary, removed scoreboard initial tiles, hardened mobile scoreboard interactions, and redirected proof tickets when a session already exists. The environment contract and README document the changes.",
-          "narrative": "Eight commits touched 26 files, including the environment contract, README, route config, page components, consent manager, and results dashboard. The team removed initial tiles that confused mobile users, hardened tap interactions, and added a redirect so proof tickets never collide with active sessions.",
-          "whyItMatters": "Visitors can now see vote summaries without logging in, and mobile users inherit a scoreboard that responds predictably to taps instead of requiring guesswork.",
-          "exploreNext": "Read the proof concept page to see how inspectable evidence replaces trust-based claims.",
-          "repoName": "hackathon-voting-prototype",
-          "repoLabel": "Hackathon Voting Prototype",
-          "changedFileCount": 26,
-          "commitCount": 8,
-          "signalScore": 45,
-          "categories": [
-            "interface",
-            "workflow",
-            "automation",
-            "docs",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "8 recent commits",
-            "26 touched files",
-            "6 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "gh-49 Expose public vote summary",
-            "gh-47 Remove scoreboard initial tiles",
-            "gh-47 Harden mobile scoreboard interactions and proof",
-            "gh-47 Redirect proof tickets when a session already exists"
-          ],
-          "touchedSurfaces": [
-            "the environment contract",
-            "the plain-language README",
-            "route",
-            "page",
-            "consent manager",
-            "results dashboard"
-          ],
-          "highlights": [
-            "the environment contract",
-            "the plain-language README",
-            "route",
-            "page"
-          ],
-          "notableChanges": [
-            "gh-49 Expose public vote summary",
-            "gh-47 Remove scoreboard initial tiles",
-            "gh-47 Harden mobile scoreboard interactions and proof",
-            "gh-47 Redirect proof tickets when a session already exists"
-          ],
-          "relatedSlugs": [
-            "proof",
-            "one-issue-one-branch-one-pr",
-            "issue-branch",
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "issue-branch",
-              "title": "What an issue branch is",
-              "href": "/concepts/issue-branch",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Hackathon Voting Prototype exposed a public vote summary, removed scoreboard initial tiles, hardened mobile scoreboard interactions, and redirected proof tickets when a session already exists. The environment contract and README document the changes. Eight commits touched 26 files, including the environment contract, README, route config, page components, consent manager, and results dashboard. The team removed initial tiles that confused mobile users, hardened tap interactions, and added a redirect so proof tickets never collide with active sessions. Visitors can now see vote summaries without logging in, and mobile users inherit a scoreboard that responds predictably to taps instead of requiring guesswork. Read the proof concept page to see how inspectable evidence replaces trust-based claims. Hackathon Voting Prototype the environment contract the plain-language README route page gh-49 Expose public vote summary gh-47 Remove scoreboard initial tiles gh-47 Harden mobile scoreboard interactions and proof gh-47 Redirect proof tickets when a session already exists proof Why one issue, one branch, and one PR matters What an issue branch is What agent skills are"
-        },
-        {
-          "id": "automation-hub-2026-03-25",
-          "kind": "showcase",
-          "title": "Codification action tracking loop implemented, operator context collapsed by default",
-          "summary": "Automation Hub implemented a codification action tracking loop, collapsed operator context by default, clarified sidebar hierarchy for automation views, and ran a full UI audit. The README, operator docs, automation scripts, and CLI now reflect the changes.",
-          "narrative": "Twelve commits touched 21 files, including the README, operator docs, automation scripts, CLI, codification tracking module, and dashboard. The team limited collapsed operator context to one sentence, clarified sidebar hierarchy, and tightened task-first layouts after the audit.",
-          "whyItMatters": "Operators can now track codification actions in a loop instead of manually polling logs, and the collapsed context keeps the interface scannable without hiding critical detail.",
-          "exploreNext": "Read the agent skills article to see how reusable instruction packs keep workflows consistent across sessions.",
-          "repoName": "automation-hub",
-          "repoLabel": "Automation Hub",
-          "changedFileCount": 21,
-          "commitCount": 12,
-          "signalScore": 43,
-          "categories": [
-            "interface",
-            "content",
-            "automation",
-            "docs",
-            "config"
-          ],
-          "signalReasons": [
-            "12 recent commits",
-            "21 touched files",
-            "5 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "Implement codification action tracking loop",
-            "Force output tab rail to contain active pill",
-            "Fix output tab rail height clipping",
-            "Simplify output tab pill styling"
-          ],
-          "touchedSurfaces": [
-            "the plain-language README",
-            "the operator docs",
-            "the automation scripts",
-            "cli",
-            "codification tracking",
-            "dashboard"
-          ],
-          "highlights": [
-            "the plain-language README",
-            "the operator docs",
-            "the automation scripts",
-            "cli"
-          ],
-          "notableChanges": [
-            "Implement codification action tracking loop",
-            "Force output tab rail to contain active pill",
-            "Fix output tab rail height clipping",
-            "Simplify output tab pill styling"
-          ],
-          "relatedSlugs": [
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Automation Hub implemented a codification action tracking loop, collapsed operator context by default, clarified sidebar hierarchy for automation views, and ran a full UI audit. The README, operator docs, automation scripts, and CLI now reflect the changes. Twelve commits touched 21 files, including the README, operator docs, automation scripts, CLI, codification tracking module, and dashboard. The team limited collapsed operator context to one sentence, clarified sidebar hierarchy, and tightened task-first layouts after the audit. Operators can now track codification actions in a loop instead of manually polling logs, and the collapsed context keeps the interface scannable without hiding critical detail. Read the agent skills article to see how reusable instruction packs keep workflows consistent across sessions. Automation Hub the plain-language README the operator docs the automation scripts cli Implement codification action tracking loop Force output tab rail to contain active pill Fix output tab rail height clipping Simplify output tab pill styling What agent skills are"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "label": "Tue 24 Mar",
-      "summary": "Rajeevg.com aligned hackathon reporting shells and published a GA4 site dashboard, Hackathon Voting Prototype synced post-deploy risk evidence and finalized event-day hardening, and Automation Hub ran a full UI audit and tightened task-first layouts.",
-      "spotlight": "Rajeevg.com published the hackathon engineering post alongside a GA4 site dashboard, then built a fallback for hackathon analytics and aligned reporting shells.",
-      "entries": [
-        {
-          "id": "rajeevg.com-2026-03-24",
-          "kind": "explainer",
-          "title": "Hackathon reporting shells aligned, GA4 site dashboard and engineering post published",
-          "summary": "Rajeevg.com aligned hackathon reporting shells, added a GA API-backed reporting surface, published the hackathon engineering post and GA4 site dashboard, and built a fallback for hackathon analytics. The README and operator docs now document the stack.",
-          "narrative": "Twenty-seven commits touched 70 files, including gitignore, the README, three new engineering articles, and operator docs. The team published the consented first-party analytics stack article, the hackathon voting app article, and the GA4 property setup article, then aligned reporting shells and built a BigQuery fallback.",
-          "whyItMatters": "Visitors can now read the full analytics stack implementation story and inspect the GA4 dashboard, while operators inherit a fallback that keeps reporting alive when the API rate-limits.",
-          "exploreNext": "Visit the polish concept page to see how the final pass makes a page feel considered instead of merely functional.",
-          "repoName": "rajeevg.com",
-          "repoLabel": "Rajeevg.com",
-          "changedFileCount": 70,
-          "commitCount": 27,
-          "signalScore": 50,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "docs",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "27 recent commits",
-            "70 touched files",
-            "6 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "gh-7: align hackathon reporting shells",
-            "gh-4 Add GA API-backed hackathon reporting surface",
-            "gh-4 Publish hackathon engineering post and GA4 site dashboard",
-            "gh-2 Build hackathon analytics dashboard fallback"
-          ],
-          "touchedSurfaces": [
-            "gitignore",
-            "the plain-language README",
-            "how we built a consented first party analytics stack",
-            "how we built the hackathon voting app",
-            "how we finished the ga4 property setup on rajeevg com",
-            "the operator docs"
-          ],
-          "highlights": [
-            "gitignore",
-            "the plain-language README",
-            "how we built a consented first party analytics stack",
-            "how we built the hackathon voting app"
-          ],
-          "notableChanges": [
-            "gh-7: align hackathon reporting shells",
-            "gh-4 Add GA API-backed hackathon reporting surface",
-            "gh-4 Publish hackathon engineering post and GA4 site dashboard",
-            "gh-2 Build hackathon analytics dashboard fallback"
-          ],
-          "relatedSlugs": [
-            "polish-explained",
-            "proof",
-            "proof-vs-acceptance"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "polish-explained",
-              "title": "polish",
-              "href": "/articles/polish-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Rajeevg.com aligned hackathon reporting shells, added a GA API-backed reporting surface, published the hackathon engineering post and GA4 site dashboard, and built a fallback for hackathon analytics. The README and operator docs now document the stack. Twenty-seven commits touched 70 files, including gitignore, the README, three new engineering articles, and operator docs. The team published the consented first-party analytics stack article, the hackathon voting app article, and the GA4 property setup article, then aligned reporting shells and built a BigQuery fallback. Visitors can now read the full analytics stack implementation story and inspect the GA4 dashboard, while operators inherit a fallback that keeps reporting alive when the API rate-limits. Visit the polish concept page to see how the final pass makes a page feel considered instead of merely functional. Rajeevg.com gitignore the plain-language README how we built a consented first party analytics stack how we built the hackathon voting app gh-7: align hackathon reporting shells gh-4 Add GA API-backed hackathon reporting surface gh-4 Publish hackathon engineering post and GA4 site dashboard gh-2 Build hackathon analytics dashboard fallback polish proof What proof means: design-proof vs acceptance-proof"
-        },
-        {
-          "id": "hackathon-voting-prototype-2026-03-24",
-          "kind": "explainer",
-          "title": "Post-deploy risk evidence synced, event-day hardening finalized",
-          "summary": "Hackathon Voting Prototype synced post-deploy risk evidence, finalized event-day risk hardening, hardened mobile scoreboard disclosures, and removed the floating privacy control. The environment contract and README document the changes.",
-          "narrative": "Twenty commits touched 55 files, including the environment contract, README, route config, layout, not-found page, and main page component. The team hardened mobile scoreboard disclosures, removed the floating privacy control that obscured content, and redirected proof tickets when a session already exists.",
-          "whyItMatters": "Visitors can now inspect the post-deploy risk evidence on GitHub, and mobile users inherit a scoreboard that never hides content behind a floating control.",
-          "exploreNext": "Visit the audit concept page to see how responsiveness, accessibility, and quality checks combine into a single gate.",
-          "repoName": "hackathon-voting-prototype",
-          "repoLabel": "Hackathon Voting Prototype",
-          "changedFileCount": 55,
-          "commitCount": 20,
-          "signalScore": 49,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
-            "automation",
-            "docs",
-            "testing",
-            "config"
-          ],
-          "signalReasons": [
-            "20 recent commits",
-            "55 touched files",
-            "8 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "gh-43 Sync post-deploy risk evidence",
-            "gh-41 Finalize event-day risk hardening",
-            "gh-39 Harden mobile scoreboard disclosures",
-            "gh-37 Remove floating privacy control"
-          ],
-          "touchedSurfaces": [
-            "the environment contract",
-            "the plain-language README",
-            "route",
-            "layout",
-            "not found",
-            "page"
-          ],
-          "highlights": [
-            "the environment contract",
-            "the plain-language README",
-            "route",
-            "layout"
-          ],
-          "notableChanges": [
-            "gh-43 Sync post-deploy risk evidence",
-            "gh-41 Finalize event-day risk hardening",
-            "gh-39 Harden mobile scoreboard disclosures",
-            "gh-37 Remove floating privacy control"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "polish-explained",
-            "proof",
-            "proof-vs-acceptance"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "polish-explained",
-              "title": "polish",
-              "href": "/articles/polish-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Hackathon Voting Prototype synced post-deploy risk evidence, finalized event-day risk hardening, hardened mobile scoreboard disclosures, and removed the floating privacy control. The environment contract and README document the changes. Twenty commits touched 55 files, including the environment contract, README, route config, layout, not-found page, and main page component. The team hardened mobile scoreboard disclosures, removed the floating privacy control that obscured content, and redirected proof tickets when a session already exists. Visitors can now inspect the post-deploy risk evidence on GitHub, and mobile users inherit a scoreboard that never hides content behind a floating control. Visit the audit concept page to see how responsiveness, accessibility, and quality checks combine into a single gate. Hackathon Voting Prototype the environment contract the plain-language README route layout gh-43 Sync post-deploy risk evidence gh-41 Finalize event-day risk hardening gh-39 Harden mobile scoreboard disclosures gh-37 Remove floating privacy control audit polish proof What proof means: design-proof vs acceptance-proof"
-        },
-        {
-          "id": "automation-hub-2026-03-24",
-          "kind": "showcase",
-          "title": "Full UI audit run, task-first layouts tightened, operator context collapsed",
-          "summary": "Automation Hub ran a full UI audit, tightened task-first layouts, collapsed operator context by default, and clarified sidebar hierarchy for automation views. The pull request template, gitignore, repo workflow guide, and README now reflect the changes.",
-          "narrative": "Twenty commits touched 81 files, including the pull request template, gitignore, repo workflow guide, README, operator docs, and pyproject config. The team limited collapsed operator context to one sentence, clarified sidebar hierarchy, and tightened task-first layouts after the audit.",
-          "whyItMatters": "Operators can now scan the interface without expanding context blocks, and the clarified sidebar hierarchy reduces navigation guesswork.",
-          "exploreNext": "Visit the audit concept page to see how the final quality gate checks responsiveness, accessibility, and obvious risks.",
-          "repoName": "automation-hub",
-          "repoLabel": "Automation Hub",
-          "changedFileCount": 81,
-          "commitCount": 20,
-          "signalScore": 45,
-          "categories": [
-            "interface",
-            "content",
-            "workflow",
-            "automation",
-            "docs",
-            "styling"
-          ],
-          "signalReasons": [
-            "20 recent commits",
-            "81 touched files",
-            "6 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "Limit collapsed operator context to one sentence",
-            "Clarify sidebar hierarchy for automation views",
-            "Collapse operator context by default",
-            "Run full UI audit and tighten task-first layouts"
-          ],
-          "touchedSurfaces": [
-            "pull request template",
-            "gitignore",
-            "the repo workflow guide",
-            "the plain-language README",
-            "the operator docs",
-            "pyproject"
-          ],
-          "highlights": [
-            "pull request template",
-            "gitignore",
-            "the repo workflow guide",
-            "the plain-language README"
-          ],
-          "notableChanges": [
-            "Limit collapsed operator context to one sentence",
-            "Clarify sidebar hierarchy for automation views",
-            "Collapse operator context by default",
-            "Run full UI audit and tighten task-first layouts"
-          ],
-          "relatedSlugs": [
-            "audit-explained",
-            "proof",
-            "one-issue-one-branch-one-pr",
-            "issue-branch"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "audit-explained",
-              "title": "audit",
-              "href": "/articles/audit-explained",
-              "kind": "article",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "issue-branch",
-              "title": "What an issue branch is",
-              "href": "/concepts/issue-branch",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Automation Hub ran a full UI audit, tightened task-first layouts, collapsed operator context by default, and clarified sidebar hierarchy for automation views. The pull request template, gitignore, repo workflow guide, and README now reflect the changes. Twenty commits touched 81 files, including the pull request template, gitignore, repo workflow guide, README, operator docs, and pyproject config. The team limited collapsed operator context to one sentence, clarified sidebar hierarchy, and tightened task-first layouts after the audit. Operators can now scan the interface without expanding context blocks, and the clarified sidebar hierarchy reduces navigation guesswork. Visit the audit concept page to see how the final quality gate checks responsiveness, accessibility, and obvious risks. Automation Hub pull request template gitignore the repo workflow guide the plain-language README Limit collapsed operator context to one sentence Clarify sidebar hierarchy for automation views Collapse operator context by default Run full UI audit and tighten task-first layouts audit proof Why one issue, one branch, and one PR matters What an issue branch is"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-23",
-      "label": "Mon 23 Mar",
-      "summary": "Rajeevg.com published the analytics stack implementation article and completed the end-to-end GA4 and GTM stack, Hackathon Voting Prototype shielded public load and hardened event-day readiness, and Multi Agent Orchestration Demo redesigned the interface into a mission-control layout.",
-      "spotlight": "Rajeevg.com published the analytics stack implementation article, completed the GA4 and GTM stack, and added a public portfolio route with a project article.",
-      "entries": [
-        {
-          "id": "rajeevg.com-2026-03-23",
-          "kind": "explainer",
-          "title": "Analytics stack implementation article published, end-to-end GA4 and GTM stack completed",
-          "summary": "Rajeevg.com published the analytics stack implementation article, completed the end-to-end GA4 and GTM stack, preserved deployed portfolio and mermaid updates, and added a public portfolio route with a project article. The README and operator docs now document the stack.",
-          "narrative": "Four commits touched 37 files, including gitignore, the README, the Git workflow for beginners article, the analytics stack article, the projects portfolio page, and operator docs. The team completed the GA4 property setup, GTM container config, and consent manager integration, then published the full implementation story.",
-          "whyItMatters": "Visitors can now read the complete analytics stack implementation story and inspect the GA4 property setup, while operators inherit a documented stack that removes guesswork from future changes.",
-          "exploreNext": "Visit the proof concept page to see how inspectable evidence replaces trust-based claims.",
-          "repoName": "rajeevg.com",
-          "repoLabel": "Rajeevg.com",
-          "changedFileCount": 37,
-          "commitCount": 4,
-          "signalScore": 52,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "automation",
-            "docs",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "4 recent commits",
-            "37 touched files",
-            "7 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "content: publish analytics stack implementation article",
-            "analytics: complete end-to-end GA4 and GTM stack",
-            "site: preserve deployed portfolio and mermaid updates",
-            "site: add public portfolio route and project article"
-          ],
-          "touchedSurfaces": [
-            "gitignore",
-            "the plain-language README",
-            "git workflow for beginners",
-            "how we built a consented first party analytics stack",
-            "the projects behind this portfolio",
-            "the operator docs"
-          ],
-          "highlights": [
-            "gitignore",
-            "the plain-language README",
-            "git workflow for beginners",
-            "how we built a consented first party analytics stack"
-          ],
-          "notableChanges": [
-            "content: publish analytics stack implementation article",
-            "analytics: complete end-to-end GA4 and GTM stack",
-            "site: preserve deployed portfolio and mermaid updates",
-            "site: add public portfolio route and project article"
-          ],
-          "relatedSlugs": [
-            "proof",
-            "proof-vs-acceptance",
-            "what-agent-skills-are"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "what-agent-skills-are",
-              "title": "What agent skills are",
-              "href": "/articles/what-agent-skills-are",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Rajeevg.com published the analytics stack implementation article, completed the end-to-end GA4 and GTM stack, preserved deployed portfolio and mermaid updates, and added a public portfolio route with a project article. The README and operator docs now document the stack. Four commits touched 37 files, including gitignore, the README, the Git workflow for beginners article, the analytics stack article, the projects portfolio page, and operator docs. The team completed the GA4 property setup, GTM container config, and consent manager integration, then published the full implementation story. Visitors can now read the complete analytics stack implementation story and inspect the GA4 property setup, while operators inherit a documented stack that removes guesswork from future changes. Visit the proof concept page to see how inspectable evidence replaces trust-based claims. Rajeevg.com gitignore the plain-language README git workflow for beginners how we built a consented first party analytics stack content: publish analytics stack implementation article analytics: complete end-to-end GA4 and GTM stack site: preserve deployed portfolio and mermaid updates site: add public portfolio route and project article proof What proof means: design-proof vs acceptance-proof What agent skills are"
-        },
-        {
-          "id": "hackathon-voting-prototype-2026-03-23",
-          "kind": "explainer",
-          "title": "Public load shielded, event-day readiness hardened, GitHub runbook added",
-          "summary": "Hackathon Voting Prototype shielded public load and transient database spikes, hardened event-day readiness, added a GitHub runbook for event operations, and hardened voting readiness with production auth proof. The environment contract and README document the changes.",
-          "narrative": "Six commits touched 139 files, including the environment contract, gitignore, README, code modules, layout, and page components. The team added rate-limiting middleware, connection pooling, and a GitHub runbook that documents event-day operations, then published production auth proof.",
-          "whyItMatters": "Visitors can now inspect the event-day runbook and production auth proof on GitHub, and operators inherit a system that survives transient load spikes without manual intervention.",
-          "exploreNext": "Visit the agent skills article to see how reusable instruction packs keep workflows consistent across sessions.",
-          "repoName": "hackathon-voting-prototype",
-          "repoLabel": "Hackathon Voting Prototype",
-          "changedFileCount": 139,
-          "commitCount": 6,
-          "signalScore": 51,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
-            "automation",
-            "docs",
-            "testing",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "6 recent commits",
-            "139 touched files",
-            "9 distinct activity categories",
-            "operator workflow changed"
-          ],
-          "commitSubjects": [
-            "gh-3 Shield public load and transient db spikes",
-            "gh-3 Harden event-day readiness",
-            "Add GitHub runbook for event operations",
-            "Harden voting readiness and production auth proof"
-          ],
-          "touchedSurfaces": [
-            "the environment contract",
-            "gitignore",
-            "the plain-language README",
-            "code",
-            "layout",
-            "page"
-          ],
-          "highlights": [
-            "the environment contract",
-            "gitignore",
-            "the plain-language README",
-            "code"
-          ],
-          "notableChanges": [
-            "gh-3 Shield public load and transient db spikes",
-            "gh-3 Harden event-day readiness",
-            "Add GitHub runbook for event operations",
-            "Harden voting readiness and production auth proof"
+            "latest",
+            "memory",
+            "final report",
+            "google ads ui notes"
           ],
           "relatedSlugs": [
             "what-agent-skills-are",
-            "proof",
             "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
+            "audit-explained",
+            "polish-explained"
           ],
           "relatedLinks": [
             {
@@ -1005,196 +91,84 @@
               "reason": "The recent repo activity mentioned this term directly."
             },
             {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
+              "slug": "proof-vs-acceptance",
+              "title": "acceptance-proof",
+              "href": "/articles/proof-vs-acceptance",
+              "kind": "article",
               "reason": "The recent repo activity mentioned this term directly."
             },
             {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
+              "slug": "audit-explained",
+              "title": "audit",
+              "href": "/articles/audit-explained",
               "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
+              "reason": "The recent repo activity mentioned this term directly."
             },
             {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
+              "slug": "polish-explained",
+              "title": "polish",
+              "href": "/articles/polish-explained",
               "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
+              "reason": "The recent repo activity mentioned this term directly."
             }
           ],
           "sourceLinks": [],
-          "searchText": "Hackathon Voting Prototype shielded public load and transient database spikes, hardened event-day readiness, added a GitHub runbook for event operations, and hardened voting readiness with production auth proof. The environment contract and README document the changes. Six commits touched 139 files, including the environment contract, gitignore, README, code modules, layout, and page components. The team added rate-limiting middleware, connection pooling, and a GitHub runbook that documents event-day operations, then published production auth proof. Visitors can now inspect the event-day runbook and production auth proof on GitHub, and operators inherit a system that survives transient load spikes without manual intervention. Visit the agent skills article to see how reusable instruction packs keep workflows consistent across sessions. Hackathon Voting Prototype the environment contract gitignore the plain-language README code gh-3 Shield public load and transient db spikes gh-3 Harden event-day readiness Add GitHub runbook for event operations Harden voting readiness and production auth proof agent skills proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
+          "searchText": "System Memory pushed 1,681 file changes covering latest snapshots, memory records, final reports, and Google Ads UI notes. The update spanned educational content, proof validation, automation, and configuration. The repo updated latest, memory, final report, and Google Ads UI notes files, with additional changes to skills and run logs. The 1,681 touched files crossed four activity categories, signaling a broad refresh of workflow state and documentation. Publishing memory snapshots and final reports lets visitors inspect workflow state instead of taking claims on faith, turning process into auditable proof. Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without relying on one-off chat context. System Memory latest memory final report google ads ui notes latest memory final report google ads ui notes agent skills acceptance-proof audit polish"
         },
         {
-          "id": "multi-agent-orchestration-demo-2026-03-23",
-          "kind": "explainer",
-          "title": "Demo redesigned into mission-control interface, slow generations retried on faster lane",
-          "summary": "Multi Agent Orchestration Demo redesigned the interface into a mission-control layout, retried slow generations on a faster model lane, and hardened the demo for public shipment. The pull request template, gitignore, Infisical config, and README now reflect the changes.",
-          "narrative": "Three commits touched 48 files, including the pull request template, gitignore, Infisical config, repo workflow guide, CLAUDE instructions, and README. The team redesigned the demo into a mission-control interface that shows agent state in real time, then added a retry mechanism that switches to a faster model lane when generations stall.",
-          "whyItMatters": "Visitors can now watch agent orchestration unfold in a mission-control interface instead of reading logs, and the retry mechanism keeps the demo responsive when slow models stall.",
-          "exploreNext": "Visit the PRD concept page to see how product intent gets documented before implementation starts.",
-          "repoName": "multi-agent-orchestration-demo",
-          "repoLabel": "Multi Agent Orchestration Demo",
-          "changedFileCount": 48,
-          "commitCount": 3,
-          "signalScore": 49,
+          "id": "automation-reports-2026-07-28",
+          "kind": "article",
+          "title": "Automation Reports ran watchdog checks, daily summaries, and delivery intelligence alongside diary refresh",
+          "summary": "Automation Reports touched 29 files across automation watchdog, daily summary, delivery intelligence, and diary refresh. The work spanned educational content, automation, and configuration.",
+          "narrative": "The repo updated automation watchdog, daily summary, delivery intelligence, and diary refresh files, with additional changes to QMD sync and rig audit surfaces. The 29 touched files covered three activity categories, reflecting scheduled automation runs and content synchronization.",
+          "whyItMatters": "Automated watchdog checks and daily summaries reduce manual cleanup and memory load, making the archive more reliable without heroic intervention.",
+          "exploreNext": "Read the audit article to see how the workflow checks page robustness and trustworthiness across responsiveness, accessibility, and quality risks.",
+          "repoName": "automation-reports",
+          "repoLabel": "Automation Reports",
+          "changedFileCount": 29,
+          "commitCount": 0,
+          "signalScore": 24,
           "categories": [
-            "interface",
             "content",
-            "proof",
-            "workflow",
-            "docs",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "3 recent commits",
-            "48 touched files",
-            "7 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "Redesign the demo into a mission-control interface",
-            "Retry slow generations on a faster model lane",
-            "Harden and ship multi-agent orchestration demo"
-          ],
-          "touchedSurfaces": [
-            "pull request template",
-            "gitignore",
-            "infisical",
-            "the repo workflow guide",
-            "CLAUDE",
-            "the plain-language README"
-          ],
-          "highlights": [
-            "pull request template",
-            "gitignore",
-            "infisical",
-            "the repo workflow guide"
-          ],
-          "notableChanges": [
-            "Redesign the demo into a mission-control interface",
-            "Retry slow generations on a faster model lane",
-            "Harden and ship multi-agent orchestration demo",
-            "pull request template"
-          ],
-          "relatedSlugs": [
-            "prd",
-            "proof",
-            "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "prd",
-              "title": "PRD",
-              "href": "/concepts/prd",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof",
-              "title": "proof",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "The recent repo activity mentioned this term directly."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [],
-          "searchText": "Multi Agent Orchestration Demo redesigned the interface into a mission-control layout, retried slow generations on a faster model lane, and hardened the demo for public shipment. The pull request template, gitignore, Infisical config, and README now reflect the changes. Three commits touched 48 files, including the pull request template, gitignore, Infisical config, repo workflow guide, CLAUDE instructions, and README. The team redesigned the demo into a mission-control interface that shows agent state in real time, then added a retry mechanism that switches to a faster model lane when generations stall. Visitors can now watch agent orchestration unfold in a mission-control interface instead of reading logs, and the retry mechanism keeps the demo responsive when slow models stall. Visit the PRD concept page to see how product intent gets documented before implementation starts. Multi Agent Orchestration Demo pull request template gitignore infisical the repo workflow guide Redesign the demo into a mission-control interface Retry slow generations on a faster model lane Harden and ship multi-agent orchestration demo pull request template PRD proof What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-22",
-      "label": "Sun 22 Mar",
-      "summary": "Workflow Garden refreshed diary publishable outputs and repaired the publish loop, Rajeevg.com kept mermaid diagrams readable on narrow screens and simplified public content, and Openrouter Model Workbook Maintainer V2 relaxed rate-limit fallback matching and aligned local bootstrap messaging.",
-      "spotlight": "Workflow Garden refreshed diary publishable outputs, repaired the publish loop, and deepened diary detail and copy quality.",
-      "entries": [
-        {
-          "id": "workflow-garden-2026-03-22",
-          "kind": "explainer",
-          "title": "Diary publishable outputs refreshed, publish loop repaired, detail deepened",
-          "summary": "Workflow Garden refreshed diary publishable outputs, repaired the publish loop, and deepened diary detail and copy quality. The environment contract, README, project pages, operator docs, and proof artifacts now document the changes, and the GitHub repo, latest commit, live site, and proof trail link to the evidence.",
-          "narrative": "Four commits touched 21 files, including the environment contract, README, project pages, operator docs, acceptance proof, and proof artifacts. The team repaired the publish loop that broke when the diary schema changed, then deepened diary detail and tightened copy quality.",
-          "whyItMatters": "Visitors can now inspect the diary publish loop and proof trail on GitHub, and operators inherit a system that publishes diary updates without manual intervention.",
-          "exploreNext": "Visit the Workflow Garden project page to see how an issue-driven AI workflow becomes something a visitor can understand.",
-          "repoName": "workflow-garden",
-          "repoLabel": "Workflow Garden",
-          "changedFileCount": 21,
-          "commitCount": 4,
-          "signalScore": 52,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "workflow",
             "automation",
-            "docs",
             "config"
           ],
           "signalReasons": [
-            "4 recent commits",
-            "21 touched files",
-            "7 distinct activity categories",
-            "visitor-facing surface changed"
+            "29 touched files",
+            "3 distinct activity categories"
           ],
-          "commitSubjects": [
-            "Refresh diary publishable outputs",
-            "Repair diary refresh publish loop",
-            "Deepen diary detail and copy quality"
-          ],
+          "commitSubjects": [],
           "touchedSurfaces": [
-            "the environment contract",
-            "the plain-language README",
-            "the project pages",
-            "the operator docs",
-            "acceptance proof",
-            "proof artifacts"
+            "automation watchdog",
+            "daily summary",
+            "delivery intelligence",
+            "diary refresh",
+            "qmd sync",
+            "rig audit"
           ],
           "highlights": [
-            "the environment contract",
-            "the plain-language README",
-            "the project pages",
-            "the operator docs"
+            "automation watchdog",
+            "daily summary",
+            "delivery intelligence",
+            "diary refresh"
           ],
           "notableChanges": [
-            "Refresh diary publishable outputs",
-            "Repair diary refresh publish loop",
-            "Deepen diary detail and copy quality",
-            "the environment contract"
+            "automation watchdog",
+            "daily summary",
+            "delivery intelligence",
+            "diary refresh"
           ],
           "relatedSlugs": [
-            "workflow-garden",
-            "what-agent-skills-are",
-            "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
+            "audit-explained",
+            "what-agent-skills-are"
           ],
           "relatedLinks": [
             {
-              "slug": "workflow-garden",
-              "title": "Workflow Garden",
-              "href": "/projects/workflow-garden",
-              "kind": "project",
-              "reason": "This diary note comes from the same repo as the project page."
+              "slug": "audit-explained",
+              "title": "audit",
+              "href": "/articles/audit-explained",
+              "kind": "article",
+              "reason": "The recent repo activity mentioned this term directly."
             },
             {
               "slug": "what-agent-skills-are",
@@ -1202,225 +176,271 @@
               "href": "/articles/what-agent-skills-are",
               "kind": "article",
               "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            }
-          ],
-          "sourceLinks": [
-            {
-              "label": "Workflow Garden on GitHub",
-              "href": "https://github.com/Rajeev-SG/workflow-garden",
-              "kind": "github"
-            },
-            {
-              "label": "Latest commit",
-              "href": "https://github.com/Rajeev-SG/workflow-garden/commit/cc87f5f1f39b483b97386c4fc78acf61f6c939b4",
-              "kind": "commit"
-            },
-            {
-              "label": "Live site",
-              "href": "https://workflow-garden.vercel.app",
-              "kind": "live"
-            },
-            {
-              "label": "Proof trail",
-              "href": "/diary/2026-03-21",
-              "kind": "proof"
-            }
-          ],
-          "searchText": "Workflow Garden refreshed diary publishable outputs, repaired the publish loop, and deepened diary detail and copy quality. The environment contract, README, project pages, operator docs, and proof artifacts now document the changes, and the GitHub repo, latest commit, live site, and proof trail link to the evidence. Four commits touched 21 files, including the environment contract, README, project pages, operator docs, acceptance proof, and proof artifacts. The team repaired the publish loop that broke when the diary schema changed, then deepened diary detail and tightened copy quality. Visitors can now inspect the diary publish loop and proof trail on GitHub, and operators inherit a system that publishes diary updates without manual intervention. Visit the Workflow Garden project page to see how an issue-driven AI workflow becomes something a visitor can understand. Workflow Garden the environment contract the plain-language README the project pages the operator docs Refresh diary publishable outputs Repair diary refresh publish loop Deepen diary detail and copy quality the environment contract Workflow Garden What agent skills are What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters Workflow Garden on GitHub Latest commit Live site Proof trail"
-        },
-        {
-          "id": "rajeevg.com-2026-03-22",
-          "kind": "explainer",
-          "title": "Mermaid diagrams kept readable on narrow screens, public content simplified",
-          "summary": "Rajeevg.com kept mermaid diagrams readable on narrow screens, removed a duplicate article h1, simplified public content, and refreshed the about page. The README and four article pages now reflect the changes.",
-          "narrative": "Eight commits touched 20 files, including the README, Docker gcloud deployment article, AI pilots to business value article, hello world article, Windsurf GPT-5 prompts article, and next.config. The team added responsive styles that keep mermaid diagrams readable on narrow screens, removed a duplicate h1 that broke semantic structure, and simplified public content.",
-          "whyItMatters": "Visitors can now read mermaid diagrams on mobile without horizontal scrolling, and the simplified content removes ambiguity about what the site offers.",
-          "exploreNext": "Visit the proof concept page to see how design-proof and acceptance-proof combine into a single quality gate.",
-          "repoName": "rajeevg.com",
-          "repoLabel": "Rajeevg.com",
-          "changedFileCount": 20,
-          "commitCount": 8,
-          "signalScore": 50,
-          "categories": [
-            "interface",
-            "content",
-            "proof",
-            "docs",
-            "config",
-            "styling"
-          ],
-          "signalReasons": [
-            "8 recent commits",
-            "20 touched files",
-            "6 distinct activity categories",
-            "visitor-facing surface changed"
-          ],
-          "commitSubjects": [
-            "ui: keep mermaid diagrams readable on narrow screens",
-            "content: remove duplicate article h1",
-            "site: simplify public content and refresh about page",
-            "codex/Fix article top spacing and scroll-triggered progress"
-          ],
-          "touchedSurfaces": [
-            "the plain-language README",
-            "docker gcloud deployment",
-            "from ai pilots to business value",
-            "hello world",
-            "windsurf gpt5 prompts",
-            "next.config"
-          ],
-          "highlights": [
-            "the plain-language README",
-            "docker gcloud deployment",
-            "from ai pilots to business value",
-            "hello world"
-          ],
-          "notableChanges": [
-            "ui: keep mermaid diagrams readable on narrow screens",
-            "content: remove duplicate article h1",
-            "site: simplify public content and refresh about page",
-            "codex/Fix article top spacing and scroll-triggered progress"
-          ],
-          "relatedSlugs": [
-            "proof-vs-acceptance",
-            "proof"
-          ],
-          "relatedLinks": [
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "proof",
-              "title": "What proof means in this workflow",
-              "href": "/concepts/proof",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
             }
           ],
           "sourceLinks": [],
-          "searchText": "Rajeevg.com kept mermaid diagrams readable on narrow screens, removed a duplicate article h1, simplified public content, and refreshed the about page. The README and four article pages now reflect the changes. Eight commits touched 20 files, including the README, Docker gcloud deployment article, AI pilots to business value article, hello world article, Windsurf GPT-5 prompts article, and next.config. The team added responsive styles that keep mermaid diagrams readable on narrow screens, removed a duplicate h1 that broke semantic structure, and simplified public content. Visitors can now read mermaid diagrams on mobile without horizontal scrolling, and the simplified content removes ambiguity about what the site offers. Visit the proof concept page to see how design-proof and acceptance-proof combine into a single quality gate. Rajeevg.com the plain-language README docker gcloud deployment from ai pilots to business value hello world ui: keep mermaid diagrams readable on narrow screens content: remove duplicate article h1 site: simplify public content and refresh about page codex/Fix article top spacing and scroll-triggered progress What proof means: design-proof vs acceptance-proof What proof means in this workflow"
-        },
+          "searchText": "Automation Reports touched 29 files across automation watchdog, daily summary, delivery intelligence, and diary refresh. The work spanned educational content, automation, and configuration. The repo updated automation watchdog, daily summary, delivery intelligence, and diary refresh files, with additional changes to QMD sync and rig audit surfaces. The 29 touched files covered three activity categories, reflecting scheduled automation runs and content synchronization. Automated watchdog checks and daily summaries reduce manual cleanup and memory load, making the archive more reliable without heroic intervention. Read the audit article to see how the workflow checks page robustness and trustworthiness across responsiveness, accessibility, and quality risks. Automation Reports automation watchdog daily summary delivery intelligence diary refresh automation watchdog daily summary delivery intelligence diary refresh audit What agent skills are"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "label": "Mon 27 Jul",
+      "summary": "Automation Reports ran codex session analysis and docs freshness checks alongside rig research, touching 24 files across three activity categories.",
+      "spotlight": "Automation Reports updated codex session analysis, docs freshness, and rig research files, with timestamped snapshots from July 26 and 27.",
+      "entries": [
         {
-          "id": "openrouter-model-workbook-maintainer-v2-2026-03-22",
-          "kind": "showcase",
-          "title": "Rate-limit fallback match relaxed, daily refresh falls back to repo secrets",
-          "summary": "Openrouter Model Workbook Maintainer V2 relaxed rate-limit fallback matching, added a rate-limit fallback for daily refresh, made daily refresh fall back to repo secrets, and aligned local bootstrap messaging with Infisical. The environment contract, CI config, daily refresh workflow, and gitignore now document the changes, and the GitHub repo and latest commit link to the evidence.",
-          "narrative": "Seven commits touched 83 files, including the environment contract, CI config, daily refresh workflow, gitignore, agent task instructions, and Makefile. The team relaxed rate-limit fallback matching so the workflow survives transient API errors, then made daily refresh fall back to repo secrets when Infisical is unavailable.",
-          "whyItMatters": "Operators can now trace fallback logic from rate-limit detection to repo secret usage in the public workflow, and the aligned bootstrap messaging removes confusion about when Infisical is required.",
-          "exploreNext": "Visit the OpenRouter Model Workbook Maintainer V2 project page to see how deterministic pipelines join pricing, coverage, and benchmark data.",
-          "repoName": "openrouter-model-workbook-maintainer-v2",
-          "repoLabel": "Openrouter Model Workbook Maintainer V2",
-          "changedFileCount": 83,
-          "commitCount": 7,
-          "signalScore": 47,
+          "id": "automation-reports-2026-07-27",
+          "kind": "article",
+          "title": "Automation Reports analyzed codex sessions, checked docs freshness, and logged rig research",
+          "summary": "Automation Reports touched 24 files covering codex session analysis, docs freshness, and rig research. The work spanned educational content, automation, and configuration.",
+          "narrative": "The repo updated codex session analysis, docs freshness, and rig research files, with timestamped snapshots from 2026-07-27 1300, 2026-07-26, and 2026-07-27. The 24 touched files reflected scheduled automation runs and research logging.",
+          "whyItMatters": "Session analysis and freshness checks keep documentation current and reduce the risk of stale instructions drifting out of sync with live workflow.",
+          "exploreNext": "Read the agent skills article to see how reusable instruction packs maintain workflow consistency without depending on one-off chat context.",
+          "repoName": "automation-reports",
+          "repoLabel": "Automation Reports",
+          "changedFileCount": 24,
+          "commitCount": 0,
+          "signalScore": 24,
           "categories": [
-            "interface",
             "content",
-            "workflow",
             "automation",
-            "docs",
-            "config",
-            "styling"
+            "config"
           ],
           "signalReasons": [
-            "7 recent commits",
-            "83 touched files",
-            "7 distinct activity categories",
-            "operator workflow changed"
+            "24 touched files",
+            "3 distinct activity categories"
           ],
-          "commitSubjects": [
-            "gh-3 Relax rate-limit fallback match",
-            "gh-3 Add rate-limit fallback for daily refresh",
-            "gh-3 Make daily refresh fall back to repo secrets",
-            "gh-3 Align local bootstrap messaging with Infisical"
-          ],
+          "commitSubjects": [],
           "touchedSurfaces": [
-            "the environment contract",
-            "ci",
-            "daily refresh",
-            "gitignore",
-            "AGENT TASK",
-            "Makefile"
+            "codex session analysis",
+            "docs freshness",
+            "rig research",
+            "2026 07 27 1300",
+            "2026 07 26",
+            "2026 07 27"
           ],
           "highlights": [
-            "the environment contract",
-            "ci",
-            "daily refresh",
-            "gitignore"
+            "codex session analysis",
+            "docs freshness",
+            "rig research",
+            "2026 07 27 1300"
           ],
           "notableChanges": [
-            "gh-3 Relax rate-limit fallback match",
-            "gh-3 Add rate-limit fallback for daily refresh",
-            "gh-3 Make daily refresh fall back to repo secrets",
-            "gh-3 Align local bootstrap messaging with Infisical"
+            "codex session analysis",
+            "docs freshness",
+            "rig research",
+            "2026 07 27 1300"
           ],
           "relatedSlugs": [
-            "openrouter-model-workbook-maintainer-v2",
-            "prd",
-            "proof-vs-acceptance",
-            "one-issue-one-branch-one-pr"
+            "what-agent-skills-are"
           ],
           "relatedLinks": [
             {
-              "slug": "openrouter-model-workbook-maintainer-v2",
-              "title": "OpenRouter Model Workbook Maintainer V2",
-              "href": "/projects/openrouter-model-workbook-maintainer-v2",
-              "kind": "project",
-              "reason": "This diary note comes from the same repo as the project page."
-            },
-            {
-              "slug": "prd",
-              "title": "What a PRD is",
-              "href": "/concepts/prd",
-              "kind": "concept",
-              "reason": "This concept explains a repeated term behind the work."
-            },
-            {
-              "slug": "proof-vs-acceptance",
-              "title": "What proof means: design-proof vs acceptance-proof",
-              "href": "/articles/proof-vs-acceptance",
-              "kind": "article",
-              "reason": "This article gives the surrounding workflow context."
-            },
-            {
-              "slug": "one-issue-one-branch-one-pr",
-              "title": "Why one issue, one branch, and one PR matters",
-              "href": "/articles/one-issue-one-branch-one-pr",
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
               "kind": "article",
               "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "sourceLinks": [
+          "sourceLinks": [],
+          "searchText": "Automation Reports touched 24 files covering codex session analysis, docs freshness, and rig research. The work spanned educational content, automation, and configuration. The repo updated codex session analysis, docs freshness, and rig research files, with timestamped snapshots from 2026-07-27 1300, 2026-07-26, and 2026-07-27. The 24 touched files reflected scheduled automation runs and research logging. Session analysis and freshness checks keep documentation current and reduce the risk of stale instructions drifting out of sync with live workflow. Read the agent skills article to see how reusable instruction packs maintain workflow consistency without depending on one-off chat context. Automation Reports codex session analysis docs freshness rig research 2026 07 27 1300 codex session analysis docs freshness rig research 2026 07 27 1300 What agent skills are"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "label": "Fri 24 Jul",
+      "summary": "Automation Reports logged timestamped snapshots from July 23 and 24, touching 12 files across educational content and automation.",
+      "spotlight": "Automation Reports updated timestamped snapshots from 2026-07-24 1300, 2026-07-23, and three additional July 24 timestamps.",
+      "entries": [
+        {
+          "id": "automation-reports-2026-07-24",
+          "kind": "article",
+          "title": "Automation Reports logged timestamped snapshots from July 23 and 24 across four time windows",
+          "summary": "Automation Reports touched 12 files covering timestamped snapshots from 2026-07-24 1300, 2026-07-23, and three additional July 24 timestamps. The work spanned educational content and automation.",
+          "narrative": "The repo updated timestamped snapshot files from 2026-07-24 1300, 2026-07-23, 2026-07-24, and 2026-07-24 0130, with additional changes to 0731 and 1330 timestamps. The 12 touched files reflected scheduled automation runs across four time windows.",
+          "whyItMatters": "Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes.",
+          "exploreNext": "Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context.",
+          "repoName": "automation-reports",
+          "repoLabel": "Automation Reports",
+          "changedFileCount": 12,
+          "commitCount": 0,
+          "signalScore": 16,
+          "categories": [
+            "content",
+            "automation"
+          ],
+          "signalReasons": [
+            "12 touched files",
+            "2 distinct activity categories"
+          ],
+          "commitSubjects": [],
+          "touchedSurfaces": [
+            "2026 07 24 1300",
+            "2026 07 23",
+            "2026 07 24",
+            "2026 07 24 0130",
+            "2026 07 24 0731",
+            "2026 07 24 1330"
+          ],
+          "highlights": [
+            "2026 07 24 1300",
+            "2026 07 23",
+            "2026 07 24",
+            "2026 07 24 0130"
+          ],
+          "notableChanges": [
+            "2026 07 24 1300",
+            "2026 07 23",
+            "2026 07 24",
+            "2026 07 24 0130"
+          ],
+          "relatedSlugs": [
+            "what-agent-skills-are"
+          ],
+          "relatedLinks": [
             {
-              "label": "Openrouter Model Workbook Maintainer V2 on GitHub",
-              "href": "https://github.com/Rajeev-SG/openrouter-model-workbook-maintainer-v2",
-              "kind": "github"
-            },
-            {
-              "label": "Latest commit",
-              "href": "https://github.com/Rajeev-SG/openrouter-model-workbook-maintainer-v2/commit/241fbc4129b70230b08b319cce9febfcd8c76ba1",
-              "kind": "commit"
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
             }
           ],
-          "searchText": "Openrouter Model Workbook Maintainer V2 relaxed rate-limit fallback matching, added a rate-limit fallback for daily refresh, made daily refresh fall back to repo secrets, and aligned local bootstrap messaging with Infisical. The environment contract, CI config, daily refresh workflow, and gitignore now document the changes, and the GitHub repo and latest commit link to the evidence. Seven commits touched 83 files, including the environment contract, CI config, daily refresh workflow, gitignore, agent task instructions, and Makefile. The team relaxed rate-limit fallback matching so the workflow survives transient API errors, then made daily refresh fall back to repo secrets when Infisical is unavailable. Operators can now trace fallback logic from rate-limit detection to repo secret usage in the public workflow, and the aligned bootstrap messaging removes confusion about when Infisical is required. Visit the OpenRouter Model Workbook Maintainer V2 project page to see how deterministic pipelines join pricing, coverage, and benchmark data. Openrouter Model Workbook Maintainer V2 the environment contract ci daily refresh gitignore gh-3 Relax rate-limit fallback match gh-3 Add rate-limit fallback for daily refresh gh-3 Make daily refresh fall back to repo secrets gh-3 Align local bootstrap messaging with Infisical OpenRouter Model Workbook Maintainer V2 What a PRD is What proof means: design-proof vs acceptance-proof Why one issue, one branch, and one PR matters Openrouter Model Workbook Maintainer V2 on GitHub Latest commit"
+          "sourceLinks": [],
+          "searchText": "Automation Reports touched 12 files covering timestamped snapshots from 2026-07-24 1300, 2026-07-23, and three additional July 24 timestamps. The work spanned educational content and automation. The repo updated timestamped snapshot files from 2026-07-24 1300, 2026-07-23, 2026-07-24, and 2026-07-24 0130, with additional changes to 0731 and 1330 timestamps. The 12 touched files reflected scheduled automation runs across four time windows. Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes. Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context. Automation Reports 2026 07 24 1300 2026 07 23 2026 07 24 2026 07 24 0130 2026 07 24 1300 2026 07 23 2026 07 24 2026 07 24 0130 What agent skills are"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "label": "Thu 23 Jul",
+      "summary": "Automation Reports logged timestamped snapshots from July 22 and 23, touching 9 files across educational content and automation.",
+      "spotlight": "Automation Reports updated timestamped snapshots from 2026-07-23 1300, 2026-07-22, and three additional July 23 timestamps.",
+      "entries": [
+        {
+          "id": "automation-reports-2026-07-23",
+          "kind": "article",
+          "title": "Automation Reports logged timestamped snapshots from July 22 and 23 across four time windows",
+          "summary": "Automation Reports touched 9 files covering timestamped snapshots from 2026-07-23 1300, 2026-07-22, and three additional July 23 timestamps. The work spanned educational content and automation.",
+          "narrative": "The repo updated timestamped snapshot files from 2026-07-23 1300, 2026-07-22, 2026-07-23, and 2026-07-23 0730, with additional changes to 1330 and 0615 timestamps. The 9 touched files reflected scheduled automation runs across four time windows.",
+          "whyItMatters": "Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes.",
+          "exploreNext": "Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context.",
+          "repoName": "automation-reports",
+          "repoLabel": "Automation Reports",
+          "changedFileCount": 9,
+          "commitCount": 0,
+          "signalScore": 13,
+          "categories": [
+            "content",
+            "automation"
+          ],
+          "signalReasons": [
+            "9 touched files",
+            "2 distinct activity categories"
+          ],
+          "commitSubjects": [],
+          "touchedSurfaces": [
+            "2026 07 23 1300",
+            "2026 07 22",
+            "2026 07 23",
+            "2026 07 23 0730",
+            "2026 07 23 1330",
+            "2026 07 23 0615"
+          ],
+          "highlights": [
+            "2026 07 23 1300",
+            "2026 07 22",
+            "2026 07 23",
+            "2026 07 23 0730"
+          ],
+          "notableChanges": [
+            "2026 07 23 1300",
+            "2026 07 22",
+            "2026 07 23",
+            "2026 07 23 0730"
+          ],
+          "relatedSlugs": [
+            "what-agent-skills-are"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "sourceLinks": [],
+          "searchText": "Automation Reports touched 9 files covering timestamped snapshots from 2026-07-23 1300, 2026-07-22, and three additional July 23 timestamps. The work spanned educational content and automation. The repo updated timestamped snapshot files from 2026-07-23 1300, 2026-07-22, 2026-07-23, and 2026-07-23 0730, with additional changes to 1330 and 0615 timestamps. The 9 touched files reflected scheduled automation runs across four time windows. Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes. Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context. Automation Reports 2026 07 23 1300 2026 07 22 2026 07 23 2026 07 23 0730 2026 07 23 1300 2026 07 22 2026 07 23 2026 07 23 0730 What agent skills are"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "label": "Wed 22 Jul",
+      "summary": "Automation Reports logged timestamped snapshots from July 21 and 22, touching 12 files across educational content and automation.",
+      "spotlight": "Automation Reports updated timestamped snapshots from 2026-07-22 1300, 2026-07-21, and three additional July 22 timestamps.",
+      "entries": [
+        {
+          "id": "automation-reports-2026-07-22",
+          "kind": "article",
+          "title": "Automation Reports logged timestamped snapshots from July 21 and 22 across four time windows",
+          "summary": "Automation Reports touched 12 files covering timestamped snapshots from 2026-07-22 1300, 2026-07-21, and three additional July 22 timestamps. The work spanned educational content and automation.",
+          "narrative": "The repo updated timestamped snapshot files from 2026-07-22 1300, 2026-07-21, 2026-07-22, and 2026-07-22 0139, with additional changes to 0730 and 1330 timestamps. The 12 touched files reflected scheduled automation runs across four time windows.",
+          "whyItMatters": "Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes.",
+          "exploreNext": "Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context.",
+          "repoName": "automation-reports",
+          "repoLabel": "Automation Reports",
+          "changedFileCount": 12,
+          "commitCount": 0,
+          "signalScore": 16,
+          "categories": [
+            "content",
+            "automation"
+          ],
+          "signalReasons": [
+            "12 touched files",
+            "2 distinct activity categories"
+          ],
+          "commitSubjects": [],
+          "touchedSurfaces": [
+            "2026 07 22 1300",
+            "2026 07 21",
+            "2026 07 22",
+            "2026 07 22 0139",
+            "2026 07 22 0730",
+            "2026 07 22 1330"
+          ],
+          "highlights": [
+            "2026 07 22 1300",
+            "2026 07 21",
+            "2026 07 22",
+            "2026 07 22 0139"
+          ],
+          "notableChanges": [
+            "2026 07 22 1300",
+            "2026 07 21",
+            "2026 07 22",
+            "2026 07 22 0139"
+          ],
+          "relatedSlugs": [
+            "what-agent-skills-are"
+          ],
+          "relatedLinks": [
+            {
+              "slug": "what-agent-skills-are",
+              "title": "What agent skills are",
+              "href": "/articles/what-agent-skills-are",
+              "kind": "article",
+              "reason": "This article gives the surrounding workflow context."
+            }
+          ],
+          "sourceLinks": [],
+          "searchText": "Automation Reports touched 12 files covering timestamped snapshots from 2026-07-22 1300, 2026-07-21, and three additional July 22 timestamps. The work spanned educational content and automation. The repo updated timestamped snapshot files from 2026-07-22 1300, 2026-07-21, 2026-07-22, and 2026-07-22 0139, with additional changes to 0730 and 1330 timestamps. The 12 touched files reflected scheduled automation runs across four time windows. Timestamped snapshots create a chronological audit trail, making it possible to trace workflow state changes without relying on memory or manual notes. Read the agent skills article to understand how reusable instruction packs keep the workflow consistent without depending on one-off chat context. Automation Reports 2026 07 22 1300 2026 07 21 2026 07 22 2026 07 22 0139 2026 07 22 1300 2026 07 21 2026 07 22 2026 07 22 0139 What agent skills are"
         }
       ]
     }

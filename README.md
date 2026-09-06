@@ -46,20 +46,15 @@ pnpm activity:refresh
 pnpm dev
 ```
 
-## Validation and proof
+## Validation
 
 ```bash
 pnpm lint
 pnpm test
 pnpm build
-pnpm proof
-PROOF_BASE_URL=https://workflow-garden.vercel.app pnpm proof
 ```
 
-Proof outputs live in:
-
-- `output/acceptance/`
-- `output/playwright/`
+Automated browser validation is paused while the release process is redesigned.
 
 ## Activity diary model
 

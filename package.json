@@ -11,8 +11,7 @@
     "build": "pnpm content:build && next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run",
-    "proof": "node --import tsx scripts/run-proof.mts"
+    "test": "vitest run"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

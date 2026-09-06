@@ -15,7 +15,6 @@ This repo ships `Workflow Garden`, a public educational site that explains an is
 
 - Prefer `pnpm` for package management.
 - Prefer `gh` for GitHub operations.
-- Prefer `playwright-cli` or repo Playwright commands over browser MCP for proof.
 - Use `context7` for current framework or component-library docs.
 - Use `web` only when a referenced external site or current fact needs verification.
 
@@ -26,15 +25,12 @@ This repo ships `Workflow Garden`, a public educational site that explains an is
 - `pnpm build` builds the production app.
 - `pnpm activity:refresh` regenerates the curated activity feed from `/Users/rajeev/Code`.
 - `pnpm test` runs the targeted automated checks.
-- `pnpm proof` runs the browser proof flow and stores artifacts.
 
-## Proof contract
+## Browser validation
 
-- User-facing work is not complete without both design proof and acceptance proof.
-- Screenshot review must pass at normal desktop, wide desktop, and mobile widths.
-- Acceptance proof fails if screenshot review fails, even when behavior works.
-- Keep proof summaries in `output/acceptance/` and browser artifacts in `output/playwright/`.
-- Update `README.md` with current screenshots copied from proof artifacts when the UI changes.
+- Automated browser validation is paused while the release process is redesigned.
+- Do not start browser sessions from scheduled or background jobs.
+- If the user explicitly asks for browser validation, use one browser process and one session, then close it when the check is complete.
 
 ## Activity feed contract
 
@@ -54,4 +50,3 @@ If local shell inspection stops paying off after roughly `8-10` commands, switch
 - `plans/workflow-garden-mvp.md`
 - `docs/ops/secrets.md`
 - `docs/ops/vendor-auth.md`
-- proof summaries under `output/acceptance/`

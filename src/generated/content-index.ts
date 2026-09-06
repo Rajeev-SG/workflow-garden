@@ -232,34 +232,34 @@ export const contentIndex = {
   ],
   "diary": [
     {
-      "slug": "2026-03-26",
+      "slug": "2026-07-28",
       "title": "Today",
-      "description": "Rajeevg.com audited dashboard denominators and published production proof, Openrouter Model Workbook Maintainer V2 masked workflow secrets after Infisical fetch, and Analytics Stack Forensics Archive polished the README and added release tooling. Rajeevg.com closed a no-ticket audit that clarified dashboard denominators and moved the calibrated badge off backend copy, then published production proof to GitHub.",
-      "href": "/diary/2026-03-26"
+      "description": "System Memory published 1,681 file changes spanning latest snapshots, memory records, and final reports, while Automation Reports ran watchdog checks and daily summaries. System Memory updated latest and memory records alongside final reports and Google Ads UI notes, touching four activity categories in a single push.",
+      "href": "/diary/2026-07-28"
     },
     {
-      "slug": "2026-03-25",
-      "title": "Wed 25 Mar",
-      "description": "Rajeevg.com proved BigQuery export state and simplified hackathon dashboards, Hackathon Voting Prototype exposed a public vote summary and hardened mobile scoreboard interactions, and Automation Hub implemented a codification action tracking loop. Rajeevg.com reconciled persisted votes against the live source of truth, then published BigQuery export proof and simplified hackathon reporting dashboards.",
-      "href": "/diary/2026-03-25"
+      "slug": "2026-07-27",
+      "title": "Mon 27 Jul",
+      "description": "Automation Reports ran codex session analysis and docs freshness checks alongside rig research, touching 24 files across three activity categories. Automation Reports updated codex session analysis, docs freshness, and rig research files, with timestamped snapshots from July 26 and 27.",
+      "href": "/diary/2026-07-27"
     },
     {
-      "slug": "2026-03-24",
-      "title": "Tue 24 Mar",
-      "description": "Rajeevg.com aligned hackathon reporting shells and published a GA4 site dashboard, Hackathon Voting Prototype synced post-deploy risk evidence and finalized event-day hardening, and Automation Hub ran a full UI audit and tightened task-first layouts. Rajeevg.com published the hackathon engineering post alongside a GA4 site dashboard, then built a fallback for hackathon analytics and aligned reporting shells.",
-      "href": "/diary/2026-03-24"
+      "slug": "2026-07-24",
+      "title": "Fri 24 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 23 and 24, touching 12 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-24 1300, 2026-07-23, and three additional July 24 timestamps.",
+      "href": "/diary/2026-07-24"
     },
     {
-      "slug": "2026-03-23",
-      "title": "Mon 23 Mar",
-      "description": "Rajeevg.com published the analytics stack implementation article and completed the end-to-end GA4 and GTM stack, Hackathon Voting Prototype shielded public load and hardened event-day readiness, and Multi Agent Orchestration Demo redesigned the interface into a mission-control layout. Rajeevg.com published the analytics stack implementation article, completed the GA4 and GTM stack, and added a public portfolio route with a project article.",
-      "href": "/diary/2026-03-23"
+      "slug": "2026-07-23",
+      "title": "Thu 23 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 22 and 23, touching 9 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-23 1300, 2026-07-22, and three additional July 23 timestamps.",
+      "href": "/diary/2026-07-23"
     },
     {
-      "slug": "2026-03-22",
-      "title": "Sun 22 Mar",
-      "description": "Workflow Garden refreshed diary publishable outputs and repaired the publish loop, Rajeevg.com kept mermaid diagrams readable on narrow screens and simplified public content, and Openrouter Model Workbook Maintainer V2 relaxed rate-limit fallback matching and aligned local bootstrap messaging. Workflow Garden refreshed diary publishable outputs, repaired the publish loop, and deepened diary detail and copy quality.",
-      "href": "/diary/2026-03-22"
+      "slug": "2026-07-22",
+      "title": "Wed 22 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 21 and 22, touching 12 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-22 1300, 2026-07-21, and three additional July 22 timestamps.",
+      "href": "/diary/2026-07-22"
     }
   ]
 } as const
