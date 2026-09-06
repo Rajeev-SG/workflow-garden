@@ -232,34 +232,34 @@ export const contentIndex = {
   ],
   "diary": [
     {
-      "slug": "2026-03-23",
+      "slug": "2026-07-28",
       "title": "Today",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Multi Agent Orchestration Demo led the day with Redesign the demo into a mission-control interface and Retry slow generations on a faster model lane.",
-      "href": "/diary/2026-03-23"
+      "description": "System Memory published 1,681 file changes spanning latest snapshots, memory records, and final reports, while Automation Reports ran watchdog checks and daily summaries. System Memory updated latest and memory records alongside final reports and Google Ads UI notes, touching four activity categories in a single push.",
+      "href": "/diary/2026-07-28"
     },
     {
-      "slug": "2026-03-22",
-      "title": "Sun 22 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Refresh diary publishable outputs and Repair diary refresh publish loop.",
-      "href": "/diary/2026-03-22"
+      "slug": "2026-07-27",
+      "title": "Mon 27 Jul",
+      "description": "Automation Reports ran codex session analysis and docs freshness checks alongside rig research, touching 24 files across three activity categories. Automation Reports updated codex session analysis, docs freshness, and rig research files, with timestamped snapshots from July 26 and 27.",
+      "href": "/diary/2026-07-27"
     },
     {
-      "slug": "2026-03-21",
-      "title": "Sat 21 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in interface work, educational content, and proof and validation. Workflow Garden led the day with Implement selective linked diary pipeline and Build the project content hub.",
-      "href": "/diary/2026-03-21"
+      "slug": "2026-07-24",
+      "title": "Fri 24 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 23 and 24, touching 12 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-24 1300, 2026-07-23, and three additional July 24 timestamps.",
+      "href": "/diary/2026-07-24"
     },
     {
-      "slug": "2026-03-20",
-      "title": "Fri 20 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and automation. Property Search led the day with : cover crawl smoke registry fallback and : harden crawl smoke source pinning.",
-      "href": "/diary/2026-03-20"
+      "slug": "2026-07-23",
+      "title": "Thu 23 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 22 and 23, touching 9 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-23 1300, 2026-07-22, and three additional July 23 timestamps.",
+      "href": "/diary/2026-07-23"
     },
     {
-      "slug": "2026-03-19",
-      "title": "Thu 19 Mar",
-      "description": "3 projects produced archive-worthy movement, with the strongest signals landing in educational content, workflow setup, and testing. Pi Mono led the day with /model shows stale scoped models and approve contributor zmberber.",
-      "href": "/diary/2026-03-19"
+      "slug": "2026-07-22",
+      "title": "Wed 22 Jul",
+      "description": "Automation Reports logged timestamped snapshots from July 21 and 22, touching 12 files across educational content and automation. Automation Reports updated timestamped snapshots from 2026-07-22 1300, 2026-07-21, and three additional July 22 timestamps.",
+      "href": "/diary/2026-07-22"
     }
   ]
 } as const

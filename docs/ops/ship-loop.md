@@ -32,12 +32,11 @@ Workflow Garden ships from committed generated data plus a production Vercel dep
    pnpm build
    vercel deploy --prod --yes
    vercel inspect workflow-garden.vercel.app --wait
-   PROOF_BASE_URL=https://workflow-garden.vercel.app pnpm proof
    ```
 
-   `pnpm proof` prefers the installed `playwright-cli` binary when it is available locally, so proof does not depend on a fresh npm fetch during the deploy loop.
+   Automated browser validation is paused while this release process is redesigned.
 
-5. Only after deploy and proof both pass should the change be committed and moved through the issue branch and PR workflow.
+5. Only after the checks and deployment inspection pass should the change be committed and moved through the issue branch and PR workflow.
 
 ## Monitoring and verification
 
@@ -53,11 +52,6 @@ Workflow Garden ships from committed generated data plus a production Vercel dep
   ```bash
   vercel ls workflow-garden --yes
   ```
-
-- Proof artifacts:
-  - `output/acceptance/acceptance-proof.md`
-  - `output/acceptance/design-proof.md`
-  - `output/acceptance/proof-artifacts.json`
 
 ## Rollback
 

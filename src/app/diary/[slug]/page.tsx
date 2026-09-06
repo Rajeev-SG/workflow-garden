@@ -52,7 +52,7 @@ export default async function DiaryDayPage({
     <SiteFrame>
       <PageHero
         eyebrow="Diary day"
-        title={`${day.label} became worth archiving.`}
+        title={`${day.label} produced updates worth publishing.`}
         description={day.summary}
         links={[
           { href: "/diary", label: "Back to diary archive" },
@@ -64,6 +64,7 @@ export default async function DiaryDayPage({
         <div className="grid gap-4">
           {day.entries.map((entry, index) => {
             const project = getProjectByRepoName(entry.repoName)
+            const sourceLinks = entry.sourceLinks ?? []
 
             return (
               <article
@@ -106,6 +107,24 @@ export default async function DiaryDayPage({
                     </p>
                   </div>
                 </div>
+                {sourceLinks.length > 0 ? (
+                  <div className="mt-6 border border-border/70 bg-white/72 p-5">
+                    <p className="archive-kicker text-primary/38">Source trail</p>
+                    <div className="mt-4 flex flex-wrap gap-3">
+                      {sourceLinks.map((link) => (
+                        <Link
+                          key={link.href}
+                          href={link.href}
+                          className="archive-inline-link text-sm"
+                          target={link.href.startsWith("/") ? undefined : "_blank"}
+                          rel={link.href.startsWith("/") ? undefined : "noreferrer"}
+                        >
+                          {link.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
                 <div className="mt-6 flex flex-wrap gap-2">
                   {entry.categories.map((category) => (
                     <span key={category} className="bg-white/72 px-3 py-1.5 text-[0.68rem] uppercase tracking-[0.18em] text-primary/72">

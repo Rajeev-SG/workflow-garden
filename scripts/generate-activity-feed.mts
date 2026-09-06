@@ -28,7 +28,7 @@ const MIN_MEANINGFUL_SNAPSHOTS = Number(
   process.env.WORKFLOW_GARDEN_MIN_MEANINGFUL_SNAPSHOTS ?? "2",
 )
 const OPENROUTER_MODEL =
-  process.env.WORKFLOW_GARDEN_DIARY_MODEL ?? "moonshotai/kimi-k2.5"
+  process.env.WORKFLOW_GARDEN_DIARY_MODEL ?? "anthropic/claude-sonnet-4.5"
 const OPENROUTER_TIMEOUT_MS = Number(
   process.env.WORKFLOW_GARDEN_OPENROUTER_TIMEOUT_MS ?? "45000",
 )
@@ -92,6 +92,9 @@ type ProjectRecord = {
   title: string
   description: string
   repoName: string
+  repoUrl: string
+  liveUrl?: string
+  proofUrl?: string
   relatedSlugs: string[]
   tags: string[]
 }
@@ -495,6 +498,7 @@ function mergeEditorialRewrite(baseFeed: ActivityFeed, candidate: unknown, model
           ...entry.highlights,
           ...entry.notableChanges,
           ...entry.relatedLinks.map((link) => link.title),
+          ...(entry.sourceLinks ?? []).map((link) => link.label),
         ].join(" ")
       }
     }
@@ -578,6 +582,7 @@ async function rewriteFeedWithOpenRouter(
           reason: link.reason,
           description: relatedDescriptionForLink(context, link),
         })),
+        sourceLinks: entry.sourceLinks ?? [],
       })),
     })),
   }
@@ -612,7 +617,7 @@ async function rewriteFeedWithOpenRouter(
           {
             role: "system",
             content:
-              "You are editing a public-facing coding diary for curious non-developers. Keep every factual relationship, date, repo label, counts, and related link intact. Rewrite only for specificity, clarity, warmth, and editorial interest. Write like an observant editor, not a changelog formatter. Name concrete moves, explain the payoff in plain language, vary the phrasing across entries, and avoid hype, vagueness, repetition, and jargon. Return JSON only.",
+              "You are editing a public-facing coding diary for curious non-developers. Keep every factual relationship, date, repo label, counts, source link, and related link intact. Rewrite only for specificity, clarity, warmth, and editorial interest. Write like an observant editor assembling compact article abstracts, not a changelog formatter. Name concrete moves, explain the payoff in plain language, vary the phrasing across entries, and avoid hype, vagueness, repetition, and jargon. When relevant, mention GitHub or live-site source links naturally so readers know where the evidence lives. Return JSON only.",
           },
           {
             role: "user",
@@ -620,11 +625,12 @@ async function rewriteFeedWithOpenRouter(
 
 Rules:
 - Titles must be specific to that repo-day, not reusable templates.
-- Each entry summary should be 1 to 2 sentences and mention the most concrete public-facing or workflow-facing moves.
+- Each entry summary should read like the standfirst of a short article: 1 to 2 sentences, concrete, specific, and worth clicking.
 - Each narrative should be 2 sentences that explain what actually changed using the supplied evidence.
 - Each whyItMatters should connect the work to visitor understanding, trust, or operator reliability in plain language.
 - Each exploreNext should point toward the most relevant next page and explain why that page is the next click.
 - Day summaries and spotlights should mention named repos and real changes, not abstract momentum.
+- If source links include GitHub, latest commit, live site, or proof trail, you may refer to that evidence in the prose, but do not invent new URLs.
 - Avoid phrases like "public context around this work", "made the cut", "stood out", or "turned recent work into proof people can inspect" unless the evidence truly demands them.
 
 Return JSON with this shape only: { "headline": string, "subhead": string, "days": [{ "date": string, "summary": string, "spotlight": string, "entries": [{ "id": string, "title": string, "summary": string, "narrative": string, "whyItMatters": string, "exploreNext": string, "notableChanges": string[] }] }] }.

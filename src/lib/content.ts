@@ -1,6 +1,7 @@
 import { articles, concepts, projects } from "../../.velite"
 
 import activityFeed from "@/data/activity-feed.generated.json"
+import type { DiaryEntry } from "@/lib/activity-intelligence"
 
 export type Article = (typeof articles)[number]
 export type Project = (typeof projects)[number]
@@ -12,7 +13,7 @@ export interface DiaryDay {
   summary: string
   spotlight: string
   slug: string
-  entries: (typeof activityFeed.days)[number]["entries"]
+  entries: DiaryEntry[]
 }
 
 export interface RelatedContentItem {
@@ -72,7 +73,7 @@ export function getDiaryDays(): DiaryDay[] {
   return activityFeed.days.map((day) => ({
     ...day,
     slug: day.date,
-  }))
+  })) as DiaryDay[]
 }
 
 export function getDiaryDayBySlug(slug: string) {

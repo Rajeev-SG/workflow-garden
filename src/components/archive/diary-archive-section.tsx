@@ -70,6 +70,7 @@ function groupedDays(feed: ActivityFeed) {
 
 export interface DiaryArchiveSectionProps {
   feed: ActivityFeed
+  showArchiveLink?: boolean
 }
 
 interface FeaturedEntryPanelProps {
@@ -83,6 +84,8 @@ function FeaturedEntryPanel({
   entry,
   feed,
 }: Readonly<FeaturedEntryPanelProps>) {
+  const sourceLinks = entry.sourceLinks ?? []
+
   return (
     <article className="grid gap-10 border border-border/70 bg-white/78 p-6 md:p-8 xl:grid-cols-[1.15fr_0.85fr]">
       <div className="space-y-8">
@@ -167,6 +170,24 @@ function FeaturedEntryPanel({
                 {feed.scanRoot}
               </p>
             </div>
+            {sourceLinks.length > 0 ? (
+              <div>
+                <p className="archive-kicker text-primary/35">Source links</p>
+                <div className="mt-3 space-y-2">
+                  {sourceLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="archive-inline-link block text-sm"
+                      target={link.href.startsWith("/") ? undefined : "_blank"}
+                      rel={link.href.startsWith("/") ? undefined : "noreferrer"}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null}
           </div>
         </div>
 
@@ -194,6 +215,8 @@ interface DiaryEntryCardProps {
 }
 
 function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
+  const sourceLinks = entry.sourceLinks ?? []
+
   return (
     <article className={`${accentClass(index)} p-6 md:p-8`}>
       <div className="flex items-start justify-between gap-4">
@@ -245,6 +268,24 @@ function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
             ))}
           </ul>
         </div>
+        {sourceLinks.length > 0 ? (
+          <div>
+            <p className="archive-kicker text-primary/38">Source trail</p>
+            <div className="mt-3 flex flex-wrap gap-3">
+              {sourceLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="archive-inline-link text-sm"
+                  target={link.href.startsWith("/") ? undefined : "_blank"}
+                  rel={link.href.startsWith("/") ? undefined : "noreferrer"}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        ) : null}
       </div>
 
       <div className="mt-8 flex flex-wrap gap-2">
@@ -263,6 +304,7 @@ function DiaryEntryCard({ entry, index }: Readonly<DiaryEntryCardProps>) {
 
 export function DiaryArchiveSection({
   feed,
+  showArchiveLink = true,
 }: Readonly<DiaryArchiveSectionProps>) {
   const featuredDay = feed.days[0]
   const featuredEntry = featuredDay?.entries[0]
@@ -278,19 +320,23 @@ export function DiaryArchiveSection({
           <div className="space-y-5">
             <p className="archive-kicker">Automated diary</p>
             <h2 className="text-4xl leading-tight font-medium tracking-[-0.04em] text-primary md:text-5xl">
-              Daily coding activity, filtered until it becomes worth reading.
+              Daily development notes, filtered until they read like real updates.
             </h2>
             <p className="text-base leading-8 text-muted-foreground md:text-lg">
               The diary generator scans file changes under{" "}
               <span className="font-mono text-sm text-foreground">
                 /Users/rajeev/Code
               </span>
-              , looks for a meaningful signal, and only then creates entries.
-              That keeps the public story curated and readable.
+              , looks for a meaningful signal, and only then writes a public
+              entry. Each note keeps its GitHub and project trail close by so a
+              visitor can inspect the evidence instead of taking the copy on
+              faith.
             </p>
-            <Link href="/diary" className="archive-inline-link text-sm">
-              Open the full diary archive
-            </Link>
+            {showArchiveLink ? (
+              <Link href="/diary" className="archive-inline-link text-sm">
+                Open the full diary archive
+              </Link>
+            ) : null}
           </div>
 
           <div className="border border-border/70 bg-white/74 p-6">
@@ -299,8 +345,8 @@ export function DiaryArchiveSection({
             </p>
             <p className="mt-4 text-base leading-8 text-foreground">
               Tiny one-file nudges, noisy build output, and other low-signal
-              churn do not become diary entries. The site would rather be quiet
-              than noisy.
+              churn do not become diary entries. The diary would rather stay
+              quiet than publish dressed-up noise.
             </p>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import Link from "next/link"
 import { notFound } from "next/navigation"
 
 import { MDXContent } from "@/lib/mdx"
@@ -9,9 +8,11 @@ import {
   getConcepts,
   relatedContentFor,
 } from "@/lib/content"
+import { DiaryEchoesPanel } from "@/components/archive/diary-echoes-panel"
 import { PageHero } from "@/components/archive/page-hero"
 import { RelatedLinks } from "@/components/archive/related-links"
 import { SiteFrame } from "@/components/archive/site-frame"
+import { SourceLinksPanel } from "@/components/archive/source-links-panel"
 
 export const dynamicParams = false
 
@@ -63,14 +64,14 @@ export default async function ConceptPage({
         ]}
       />
 
-      <section className="mx-auto grid w-full max-w-[96rem] gap-10 px-5 pb-20 md:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:px-10">
+      <section className="mx-auto grid w-full max-w-[96rem] gap-10 px-5 pb-20 md:px-8 lg:grid-cols-[minmax(0,1.1fr)_22rem] lg:px-10">
         <article className="archive-card archive-prose p-6 md:p-8">
           <div className="mt-2">
             <MDXContent code={concept.content} />
           </div>
         </article>
 
-        <div className="space-y-6">
+        <div className="space-y-6 lg:sticky lg:top-28 lg:self-start">
           <div className="archive-surface-low border border-border/70 p-6">
             <p className="archive-kicker">Canonical term</p>
             <h2 className="mt-4 text-3xl leading-tight font-medium tracking-[-0.04em] text-primary">
@@ -82,30 +83,12 @@ export default async function ConceptPage({
               </p>
             ) : null}
           </div>
-          {diaryEntries.length > 0 ? (
-            <div className="archive-card p-6">
-              <p className="archive-kicker text-primary/45">Diary echoes</p>
-              <div className="mt-4 space-y-4">
-                {diaryEntries.map((entry) => (
-                  <Link
-                    key={entry.id}
-                    href={`/diary/${entry.daySlug}`}
-                    className="block transition-colors hover:text-tertiary"
-                  >
-                    <p className="text-sm uppercase tracking-[0.2em] text-secondary">
-                      {entry.dayLabel}
-                    </p>
-                    <p className="mt-2 text-xl leading-tight font-medium text-primary">
-                      {entry.title}
-                    </p>
-                    <p className="mt-2 text-sm leading-7 text-muted-foreground">
-                      {entry.summary}
-                    </p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ) : null}
+          <SourceLinksPanel
+            title="Further reading"
+            kicker="External links"
+            links={concept.externalLinks}
+          />
+          <DiaryEchoesPanel items={diaryEntries} />
           <RelatedLinks items={relatedContentFor(concept.relatedSlugs)} />
         </div>
       </section>

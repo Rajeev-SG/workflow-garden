@@ -51,11 +51,12 @@ Each repo-day snapshot captures:
 
 When a full refresh runs and `OPENROUTER_API_KEY` is available, the pipeline tries an OpenRouter rewrite with a detailed JSON-friendly model.
 
-- current default model: `moonshotai/kimi-k2.5`
+- current default model: `anthropic/claude-sonnet-4.5`
 - optional provider pinning via `WORKFLOW_GARDEN_OPENROUTER_PROVIDER_ORDER`
 - default timeout: `45000` ms
 - the model only rewrites copy fields
 - structure, relationships, slugs, and search metadata stay deterministic
+- generated entries now carry source links such as GitHub repo URLs, live URLs, proof trails, and latest commit links when the project metadata exists
 
 If the request times out or returns invalid JSON, the pipeline keeps the deterministic heuristic archive and completes successfully.
 
@@ -93,4 +94,5 @@ The diary feed now includes:
 - signal scores
 - richer narrative copy fields
 - related archive slugs and links
+- source links for GitHub, proof, or live surfaces when available
 - search-ready text

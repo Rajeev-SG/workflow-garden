@@ -32,6 +32,12 @@ export type DiaryRelatedLink = {
   reason: string
 }
 
+export type DiarySourceLink = {
+  label: string
+  href: string
+  kind: "github" | "live" | "proof" | "commit"
+}
+
 export type DiaryEntry = {
   id: string
   kind: EntryKind
@@ -53,6 +59,7 @@ export type DiaryEntry = {
   notableChanges: string[]
   relatedSlugs: string[]
   relatedLinks: DiaryRelatedLink[]
+  sourceLinks?: DiarySourceLink[]
   searchText: string
 }
 
@@ -125,6 +132,9 @@ export type DiaryContentContext = {
     title: string
     description: string
     repoName: string
+    repoUrl: string
+    liveUrl?: string
+    proofUrl?: string
     relatedSlugs: string[]
     tags: string[]
   }>
@@ -805,6 +815,7 @@ function buildEntrySearchText(entry: DiaryEntry) {
     ...entry.highlights,
     ...entry.notableChanges,
     ...entry.relatedLinks.map((link) => link.title),
+    ...(entry.sourceLinks ?? []).map((link) => link.label),
   ].join(" ")
 }
 
@@ -814,6 +825,7 @@ function buildDiaryEntry(
 ) {
   const repoLabel = repoLabelFromSlug(snapshot.repoName)
   const relatedLinks = relatedLinksForSnapshot(snapshot, context)
+  const project = context?.projects.find((item) => item.repoName === snapshot.repoName)
   const commitSubjects = dedupe(
     (snapshot.commits ?? []).map((commit) =>
       humanizeCommitSubject(commit.subject, repoLabel),
@@ -822,6 +834,44 @@ function buildDiaryEntry(
   const touchedSurfaces = dedupe(snapshot.files.map(humanizeHighlight)).slice(0, 6)
   const highlights = touchedSurfaces.slice(0, 4)
   const notableChanges = dedupe([...commitSubjects, ...touchedSurfaces]).slice(0, 4)
+  const sourceLinks: DiarySourceLink[] = []
+
+  if (project?.repoUrl) {
+    sourceLinks.push({
+      label: `${repoLabel} on GitHub`,
+      href: project.repoUrl,
+      kind: "github",
+    })
+  }
+
+  if (
+    project?.repoUrl?.includes("github.com/") &&
+    snapshot.commits?.[0]?.hash
+  ) {
+    sourceLinks.push({
+      label: "Latest commit",
+      href: `${project.repoUrl}/commit/${snapshot.commits[0].hash}`,
+      kind: "commit",
+    })
+  }
+
+  if (project?.liveUrl) {
+    sourceLinks.push({
+      label: "Live site",
+      href: project.liveUrl,
+      kind: "live",
+    })
+  }
+
+  if (project?.proofUrl) {
+    sourceLinks.push({
+      label: "Proof trail",
+      href: project.proofUrl.startsWith("http")
+        ? project.proofUrl
+        : project.proofUrl,
+      kind: "proof",
+    })
+  }
 
   const entry = {
     id: `${snapshot.repoName}-${snapshot.day}`,
@@ -847,6 +897,7 @@ function buildDiaryEntry(
     notableChanges,
     relatedSlugs: relatedLinks.map((link) => link.slug),
     relatedLinks,
+    sourceLinks,
     searchText: "",
   } satisfies DiaryEntry
 
